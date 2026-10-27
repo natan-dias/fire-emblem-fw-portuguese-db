@@ -13,6 +13,10 @@ O principal objetivo deste projeto é ser um guia para os jogadores terem uma ex
 
 O site está disponível em: https://natan-dias.github.io/fire-emblem-fw-portuguese-db/
 
+## Como contribuir
+
+Quer ajudar? Veja o guia em [CONTRIBUTING.md](CONTRIBUTING.md) (português e inglês).
+
 ## Para desenvolvedores
 
 Detalhes técnicos em [TECH_STACK.md](TECH_STACK.md).
