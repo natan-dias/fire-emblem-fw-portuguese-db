@@ -17,6 +17,10 @@ O site está disponível em: https://natan-dias.github.io/fire-emblem-fw-portugu
 
 Quer ajudar? Veja o guia em [CONTRIBUTING.md](CONTRIBUTING.md) (português e inglês).
 
+## Segurança
+
+Encontrou uma vulnerabilidade? Veja [SECURITY.md](SECURITY.md) para saber como reportar.
+
 ## Para desenvolvedores
 
 Detalhes técnicos em [TECH_STACK.md](TECH_STACK.md).
