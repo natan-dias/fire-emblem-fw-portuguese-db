@@ -1,0 +1,590 @@
+{
+  "brio": {
+    "name": "Brio",
+    "description": "Grants Mov+1."
+  },
+  "flamekeeper": {
+    "name": "Flamekeeper",
+    "description": "Unit and allies are unaffected by Underworld Flames and take half damage from attacks while in Underworld Flames."
+  },
+  "murderous-intent": {
+    "name": "Murderous Intent",
+    "description": "If unit attacks first, grants Crit+5 during combat."
+  },
+  "bestial-impulse": {
+    "name": "Bestial Impulse",
+    "description": "After combat, grants Crit+2 until a unit makes a critical."
+  },
+  "royal-resolve": {
+    "name": "Royal Resolve",
+    "description": "Unit takes half damage when attacked. Trigger % = 30."
+  },
+  "unstoppable-force": {
+    "name": "Unstoppable Force",
+    "description": "Multiplies damage by 3 when attacking obstacles."
+  },
+  "direct-hit": {
+    "name": "Direct Hit",
+    "description": "Deals +10 damage when attacking with Blaze Arts. Trigger % = 30."
+  },
+  "blindside": {
+    "name": "Blindside",
+    "description": "If unit attacks first, cannot be countered during combat. Trigger % = 5."
+  },
+  "improviso": {
+    "name": "Improviso",
+    "description": "After using Blaze Arts during Overblaze, unit can attack."
+  },
+  "tactician-s-wit": {
+    "name": "Tactician’s Wit",
+    "description": "Grants Rng+1 to combat arts usable on allies."
+  },
+  "tactician-s-insight": {
+    "name": "Tactician’s Insight",
+    "description": "After combat, If unit attacked first, inflicts Avo-5 on foe throughout their next combat."
+  },
+  "tactician-s-insight-plus": {
+    "name": "Tactician’s Insight+",
+    "description": "After combat, If unit attacked first, inflicts Avo-10 on foe throughout their next combat."
+  },
+  "dark-calling": {
+    "name": "Dark Calling",
+    "description": "Inflicts Ddg-5 on adjacent foes."
+  },
+  "dark-secrets": {
+    "name": "Dark Secrets",
+    "description": "Extends range of Dark Calling to 2 spaces."
+  },
+  "dark-secrets-plus": {
+    "name": "Dark Secrets+",
+    "description": "Extends range of Dark Calling to 3 spaces."
+  },
+  "sage-advice": {
+    "name": "Sage Advice",
+    "description": "Grants Def+3 to adjacent allies."
+  },
+  "additional-intel": {
+    "name": "Additional Intel",
+    "description": "Grants Hit+10 to adjacent allies during their combats. Trigger % = 30."
+  },
+  "additional-intel-plus": {
+    "name": "Additional Intel+",
+    "description": "Grants Hit+20 to adjacent allies during their combats. Trigger % = 30."
+  },
+  "guardian-s-duty": {
+    "name": "Guardian’s Duty",
+    "description": "Reduces damage to 90% when attacked."
+  },
+  "retaliatory-blow": {
+    "name": "Retaliatory Blow",
+    "description": "If foe attacks first, multiples damage by 1.3 when attacking. Trigger % = 5."
+  },
+  "retaliatory-blow-plus": {
+    "name": "Retaliatory Blow+",
+    "description": "If foe attacks first, multiples damage by 1.3 when attacking. Trigger % = 10."
+  },
+  "steady-aim": {
+    "name": "Steady Aim",
+    "description": "Grants Rng+1 when attacking with a bow combat art."
+  },
+  "correct-for-drift": {
+    "name": "Correct for Drift",
+    "description": "If unit’s hit % ≥ 90, grants Hit+10 during combat."
+  },
+  "correct-for-drift-plus": {
+    "name": "Correct for Drift+",
+    "description": "If unit’s hit % ≥ 75, grants Hit+20 during combat."
+  },
+  "brawn": {
+    "name": "Brawn",
+    "description": "Reduces Wt of unit’s equipment to 80%."
+  },
+  "throwing-arm": {
+    "name": "Throwing Arm",
+    "description": "If throwing a spear, grants Hit+10, Atk+2 during combat."
+  },
+  "throwing-arm-plus": {
+    "name": "Throwing Arm+",
+    "description": "If throwing a spear, grants Hit+20, Atk+4 during combat."
+  },
+  "power-arts": {
+    "name": "Power Arts",
+    "description": "Grants Atk+3 when attacking with a combat art."
+  },
+  "all-out-attack": {
+    "name": "All-Out Attack",
+    "description": "Multiplies damage by 1.3 when attacking with a combat art. Trigger % = 30."
+  },
+  "all-out-attack-plus": {
+    "name": "All-Out Attack+",
+    "description": "Multiplies damage by 1.5 when attacking with a combat art. Trigger % = 30."
+  },
+  "goddess-s-favor": {
+    "name": "Goddess’s Favor",
+    "description": "After combat, restores 5 HP to unit."
+  },
+  "wind-s-caprice": {
+    "name": "Wind’s Caprice",
+    "description": "Grants one of Avo+1, Avo+5, or Avo+20 during combat."
+  },
+  "wind-s-caprice-plus": {
+    "name": "Wind’s Caprice+",
+    "description": "Grants one of Avo+1, Avo+5, Avo+20, or Avo+30 during combat."
+  },
+  "patch-up": {
+    "name": "Patch Up",
+    "description": "After an adjacent ally’s combat, restores a little HP to that ally."
+  },
+  "pray-for-safety": {
+    "name": "Pray for Safety",
+    "description": "Grants Ddg+10 to adjacent allies."
+  },
+  "pray-for-safety-plus": {
+    "name": "Pray for Safety+",
+    "description": "Grants Ddg+20 to adjacent allies."
+  },
+  "veteran-s-mettle": {
+    "name": "Veteran’s Mettle",
+    "description": "Grants Hit+10 during combat against an adjacent foe."
+  },
+  "redblade-s-will": {
+    "name": "Redblade’s Will",
+    "description": "Grants Atk+3 during combat against an adjacent foe."
+  },
+  "redblade-s-will-plus": {
+    "name": "Redblade’s Will+",
+    "description": "Grants Atk+3 during combat against an adjacent foe. Also grants Atk+3 when attacking an adjacent foe (trigger % =30)."
+  },
+  "racing-attack": {
+    "name": "Racing Attack",
+    "description": "If unit attacks first, grants Avo+15 during combat."
+  },
+  "accelerate": {
+    "name": "Accelerate",
+    "description": "After defeating a foe, grants Spd+1 until the end of the map. (Max +10)"
+  },
+  "accelerate-plus": {
+    "name": "Accelerate+",
+    "description": "After defeating a foe, grants Spd+2 until the end of the map. (Max +10)"
+  },
+  "competitive-zeal": {
+    "name": "Competitive Zeal",
+    "description": "When equipped with magic, grants Crit +10."
+  },
+  "ardent-nosferatu": {
+    "name": "Ardent Nosferatu",
+    "description": "When using Nosferatu, grants Atk+3, Crit+5 during combat."
+  },
+  "ardent-nosferatu-plus": {
+    "name": "Ardent Nosferatu+",
+    "description": "When using Nosferatu, grants Atk+5, Crit+10 during combat."
+  },
+  "safety-first": {
+    "name": "Safety First",
+    "description": "If foe cannot counter, grants Hit+10 to unit during combat."
+  },
+  "upper-hand": {
+    "name": "Upper Hand",
+    "description": "If unit’s hit % = 100, grants Atk +3 when attacking."
+  },
+  "upper-hand-plus": {
+    "name": "Upper Hand+",
+    "description": "If unit’s hit % = 100, grants Atk +5 when attacking."
+  },
+  "signs-of-growth": {
+    "name": "Signs of Growth",
+    "description": "When unit levels up, gains enhanced basic stat growth."
+  },
+  "warrior-s-blood": {
+    "name": "Warrior’s Blood",
+    "description": "Grants stat increase based on equipped weapon type."
+  },
+  "warrior-s-blood-plus": {
+    "name": "Warrior’s Blood+",
+    "description": "Grants a large stat increase based on equipped weapon type."
+  },
+  "brave-assist": {
+    "name": "Brave Assist",
+    "description": "Grants Def+3 to adjacent allies."
+  },
+  "flashing-fang": {
+    "name": "Flashing Fang",
+    "description": "Grants Atk+4, Hit+50 when attacking. Trigger % = 20."
+  },
+  "flashing-fang-plus": {
+    "name": "Flashing Fang+",
+    "description": "Grants Atk+7, Hit+100 when attacking. Trigger % = 20."
+  },
+  "management-skills": {
+    "name": "Management Skills",
+    "description": "Allows storage access to unit and allies within 2 spaces."
+  },
+  "seize-the-chance": {
+    "name": "Seize the Chance",
+    "description": "Multiplies damage by 1.3 when attacking. Trigger % = Lck ÷ 2."
+  },
+  "seize-the-chance-plus": {
+    "name": "Seize the Chance+",
+    "description": "Multiplies damage by 1.5 when attacking. Trigger % = Lck ÷ 2."
+  },
+  "caretaker": {
+    "name": "Caretaker",
+    "description": "Adjacent allies cannot suffer a follow-up during combat. Trigger % = 5."
+  },
+  "no-mercy": {
+    "name": "No Mercy",
+    "description": "Grants Hit/Crit+5 when making a follow-up."
+  },
+  "no-mercy-plus": {
+    "name": "No Mercy+",
+    "description": "Grants Hit/Crit+10 when making a follow-up."
+  },
+  "cooler-heads": {
+    "name": "Cooler Heads",
+    "description": "After using Draw Back, unit can use assist magic."
+  },
+  "watchfulness": {
+    "name": "Watchfulness",
+    "description": "Grants Spd+2 to adjacent allies."
+  },
+  "watchfulness-plus": {
+    "name": "Watchfulness+",
+    "description": "Grants Spd+4 to adjacent allies."
+  },
+  "stage-direction": {
+    "name": "Stage Direction",
+    "description": "Grants Ddg+10 to allies within 2 spaces during their combats. Trigger % = ally’s Cha ÷ 2."
+  },
+  "dramatic-effect": {
+    "name": "Dramatic Effect",
+    "description": "When Stage Direction triggers, grants Hit+10 to target allies."
+  },
+  "dramatic-effect-plus": {
+    "name": "Dramatic Effect+",
+    "description": "When Stage Direction triggers, grants Hit/Crit+10 to target allies."
+  },
+  "close-call": {
+    "name": "Close Call",
+    "description": "If unit’s HP ≥ 2 and damage would reduce it to 0, leaves unit with 1 HP. Trigger % = Lck."
+  },
+  "devil-s-luck": {
+    "name": "Devil’s Luck",
+    "description": "After defeating a foe, grants Lck+1 until the end of the map. (Max +10)"
+  },
+  "devil-s-luck-plus": {
+    "name": "Devil’s Luck+",
+    "description": "After defeating a foe, grants Lck+2 until the end of the map. (Max +10)"
+  },
+  "spirits-voice": {
+    "name": "Spirits’ Voice",
+    "description": "If foe uses magic, grants Hit/Avo+10 to unit during combat."
+  },
+  "spirits-guidance": {
+    "name": "Spirits’ Guidance",
+    "description": "Grants Spirits’ Voice to adjacent allies."
+  },
+  "spirits-guidance-plus": {
+    "name": "Spirits’ Guidance+",
+    "description": "Grants Spirits’ Voice to allies within 2 spaces."
+  },
+  "quick-draw": {
+    "name": "Quick Draw",
+    "description": "If unit attacks first, grants Atk+3 during combat. Trigger % = 50."
+  },
+  "never-stop": {
+    "name": "Never Stop",
+    "description": "Grants Atk+5 when attacking after Quick Draw. Trigger % = 30."
+  },
+  "never-stop-plus": {
+    "name": "Never Stop+",
+    "description": "Grants Atk+5 when attacking after Quick Draw. Trigger % = 50."
+  },
+  "heavyweight-class": {
+    "name": "Heavyweight Class",
+    "description": "Unit cannot change to cavalry or flying. Grants Bld+5."
+  },
+  "pin-down": {
+    "name": "Pin Down",
+    "description": "Inflicts Mov-3 on adjacent foes."
+  },
+  "pin-down-plus": {
+    "name": "Pin Down+",
+    "description": "Inflicts Mov-5 on adjacent foes."
+  },
+  "falcon": {
+    "name": "Falcon",
+    "description": "If unit attacks first, grants AS+3 during combat."
+  },
+  "perception": {
+    "name": "Perception",
+    "description": "If unit can make a follow-up, grants Avo+10 during combat."
+  },
+  "perception-plus": {
+    "name": "Perception+",
+    "description": "If unit can make a follow-up, grants Avo+20 during combat."
+  },
+  "ready-for-battle": {
+    "name": "Ready for Battle",
+    "description": "For the first combat in enemy’s phase, unit attacks first. Trigger % = 50."
+  },
+  "pass-judgement": {
+    "name": "Pass Judgement",
+    "description": "When Diadem of Balance triggers, grants Atk+4."
+  },
+  "pass-judgement-plus": {
+    "name": "Pass Judgement+",
+    "description": "When Diadem of Balance triggers, grants Atk+7."
+  },
+  "one-chance": {
+    "name": "One Chance",
+    "description": "If unit and foe cannot make a follow-up, grants Atk+5 to unit during combat."
+  },
+  "full-strength": {
+    "name": "Full Strength",
+    "description": "Multiplies damage by 1.3 when attacking. Trigger % = Str ÷ 2."
+  },
+  "full-strength-plus": {
+    "name": "Full Strength+",
+    "description": "Multiplies damage by 1.5 when attacking. Trigger % = Str ÷ 2."
+  },
+  "blink-of-an-eye": {
+    "name": "Blink of an Eye",
+    "description": "After using Swap, grants Def+3 until unit’s next phase."
+  },
+  "flickering-edge": {
+    "name": "Flickering Edge",
+    "description": "When unit evades an attack, grants Atk+3 during combat."
+  },
+  "flickering-edge-plus": {
+    "name": "Flickering Edge+",
+    "description": "When unit evades an attack, grants Atk+5 during combat."
+  },
+  "graceful-light": {
+    "name": "Graceful Light",
+    "description": "When healing an ally with magic, reduces magic cost to 0. Trigger % = Lck."
+  },
+  "gift-of-faith": {
+    "name": "Gift of Faith",
+    "description": "When healing an ally with magic, restores +20 HP. Trigger % = Lck."
+  },
+  "gift-of-faith-plus": {
+    "name": "Gift of Faith+",
+    "description": "When healing an ally with magic, restores +30 HP. Trigger % = Lck."
+  },
+  "steadfast": {
+    "name": "Steadfast",
+    "description": "If unit’s HP ≥ 50%, grants Avo+10 during combat."
+  },
+  "peak-form": {
+    "name": "Peak Form",
+    "description": "If unit’s HP = 100%, grants Atk+3 during combat."
+  },
+  "peak-form-plus": {
+    "name": "Peak Form+",
+    "description": "If unit’s HP = 100%, grants Atk+3, Avo+10 during combat."
+  },
+  "adaptability": {
+    "name": "Adaptability",
+    "description": "After combat, grants Hit+2 until the end of the map. (Max +30)"
+  },
+  "halt-advance": {
+    "name": "Halt Advance",
+    "description": "After combat, if unit attacked first, inflicts Spd-2 on foe throughout their next combat."
+  },
+  "halt-advance-plus": {
+    "name": "Halt Advance+",
+    "description": "After combat, if unit attacked first, inflicts Spd-3 on foe throughout their next combat."
+  },
+  "healing-knowledge": {
+    "name": "Healing Knowledge",
+    "description": "When healing an ally with magic, restores +10 HP."
+  },
+  "distant-healing": {
+    "name": "Distant Healing",
+    "description": "Grants Rng+1 to healing magic."
+  },
+  "distant-healing-plus": {
+    "name": "Distant Healing+",
+    "description": "Grants Rng+2 to healing magic."
+  },
+  "wheeled-warrior": {
+    "name": "Wheeled Warrior",
+    "description": "[Cavalry] If unit is a charioteer, grants Hit+20."
+  },
+  "chariot-stagger": {
+    "name": "Chariot Stagger",
+    "description": "If unit is charioteer, grants +1 uses to staggering blows."
+  },
+  "chariot-stagger-plus": {
+    "name": "Chariot Stagger+",
+    "description": "If unit is charioteer, grants +2 uses to staggering blows."
+  },
+  "silver-maiden": {
+    "name": "Silver Maiden",
+    "description": "Grants Hit/Avo+5 to unit for each adjacent ally."
+  },
+  "soar": {
+    "name": "Soar",
+    "description": "If unit is on inaccessible terrain, grants AS+3."
+  },
+  "soar-plus": {
+    "name": "Soar+",
+    "description": "If unit is on inaccessible terrain, grants AS+5."
+  },
+  "hatchet-man": {
+    "name": "Hatchet Man",
+    "description": "When equipped with an axe, grants Hit+10."
+  },
+  "vulgar-conduct": {
+    "name": "Vulgar Conduct",
+    "description": "If foe’s HP ≤ 50%, grants Hit+20 during combat."
+  },
+  "vulgar-conduct-plus": {
+    "name": "Vulgar Conduct+",
+    "description": "If foe’s HP ≤ 50%, grants Hit+20, Atk+3 during combat."
+  },
+  "tyranny": {
+    "name": "Tyranny",
+    "description": "If foe has a status effect, grants Atk+3, Crit+10 to unit during combat."
+  },
+  "menace": {
+    "name": "Menace",
+    "description": "Halves foe’s Ddg during combat. Trigger % = 10."
+  },
+  "menace-plus": {
+    "name": "Menace+",
+    "description": "Halves foe’s Ddg during combat. Trigger % = 20."
+  },
+  "expert-counter": {
+    "name": "Expert Counter",
+    "description": "If foe attacks first, grants Hit+20 to unit during combat."
+  },
+  "raging-counter": {
+    "name": "Raging Counter",
+    "description": "If foe attacks first, grants Atk+3 to unit during combat."
+  },
+  "raging-counter-plus": {
+    "name": "Raging Counter+",
+    "description": "If foe attacks first, grants Atk+3, Crit+10 to unit during combat."
+  },
+  "heavy-bow-user": {
+    "name": "Heavy-Bow User",
+    "description": "When equipped with a bow, grants Str +3."
+  },
+  "pierce": {
+    "name": "Pierce",
+    "description": "Grants Atk+2, Crit+5 when attacking with a bow combat art."
+  },
+  "pierce-plus": {
+    "name": "Pierce+",
+    "description": "Grants Atk+4, Crit+10 when attacking with a bow combat art."
+  },
+  "hunter-s-snare": {
+    "name": "Hunter’s Snare",
+    "description": "In enemy’s phase, if foe is damaged, unit attacks first during combat. Trigger % = 30."
+  },
+  "king-s-majesty": {
+    "name": "King’s Majesty",
+    "description": "If foe is damaged, grants Atk +2, Crit+5 during combat."
+  },
+  "king-s-majesty-plus": {
+    "name": "King’s Majesty+",
+    "description": "If foe is damaged, grants Atk +4, Crit+10 during combat."
+  },
+  "har-hali-wisdom": {
+    "name": "Har Hali Wisdom",
+    "description": "If unit is effective against foe, grants Atk+3 during combat."
+  },
+  "precision-strike": {
+    "name": "Precision Strike",
+    "description": "If unit is effective against foe, grants Hit+10 during combat."
+  },
+  "precision-strike-plus": {
+    "name": "Precision Strike+",
+    "description": "If unit is effective against foe, grants Hit+20 during combat."
+  },
+  "hot-headed": {
+    "name": "Hot-Headed",
+    "description": "Grants one of Hit+10, Avo+10 or Crit+10 during combat."
+  },
+  "top-form": {
+    "name": "Top Form",
+    "description": "Changes the effect of Hot-Headed to grant +15."
+  },
+  "top-form-plus": {
+    "name": "Top Form+",
+    "description": "Changes the effect of Hot-Headed to grant +20."
+  },
+  "barge-through": {
+    "name": "Barge Through",
+    "description": "[Cavalry] Can move through foe’s space. (Cannot move through large-scale foes.)"
+  },
+  "at-a-gallop": {
+    "name": "At a Gallop",
+    "description": "[Cavalry] Applies -1 to movement cost for terrain (cannot be reduced below 1)."
+  },
+  "at-a-gallop-plus": {
+    "name": "At a Gallop+",
+    "description": "[Cavalry] Applies -2 to movement cost for terrain (cannot be reduced below 1)."
+  },
+  "with-my-steed": {
+    "name": "With My Steed",
+    "description": "[Cavalry] If unit attacks first, grants Shld+3, Ddg+30 during combat."
+  },
+  "mounted-push": {
+    "name": "Mounted Push",
+    "description": "[Cavalry] If unit attacks first, grants Hit+10 during combat."
+  },
+  "mounted-push-plus": {
+    "name": "Mounted Push+",
+    "description": "[Cavalry] If unit attacks first, grants Hit+10, Atk+3 during combat."
+  },
+  "punishing-squall": {
+    "name": "Punishing Squall",
+    "description": "If AS ≥ foe’s AS+3, grants Hit+20 during combat."
+  },
+  "wind-my-friend": {
+    "name": "Wind My Friend",
+    "description": "If AS ≥ foe’s AS+5, grants Atk+3 during combat."
+  },
+  "wind-my-friend-plus": {
+    "name": "Wind My Friend+",
+    "description": "If AS ≥ foe’s AS+5, grants Atk+3, and if AS ≥ foe’s AS+8, grants Avo+20 during combat."
+  },
+  "warrior-s-clarity": {
+    "name": "Warrior’s Clarity",
+    "description": "After combat, grants Avo+3 until unit’s next phase."
+  },
+  "attuned": {
+    "name": "Attuned",
+    "description": "When Warrior’s Clarity triggers, grants Avo+10 until unit’s next phase. Trigger % = 10."
+  },
+  "attuned-plus": {
+    "name": "Attuned+",
+    "description": "When Warrior’s Clarity triggers, grants Avo+10 until unit’s next phase. Trigger % = 20."
+  },
+  "monkly-havoc": {
+    "name": "Monkly Havoc",
+    "description": "After defeating a foe, recovers HP equal to max HP. Trigger % = Lck ÷ 2."
+  },
+  "robust-health": {
+    "name": "Robust Health",
+    "description": "Grants Shld+3 when attacked. Trigger % = unit’s remaining HP."
+  },
+  "robust-health-plus": {
+    "name": "Robust Health+",
+    "description": "Grants Shld+5 when attacked. Trigger % = unit’s remaining HP."
+  },
+  "hellbent-axe": {
+    "name": "Hellbent Axe",
+    "description": "When equipped with an axe, grants Str+3."
+  },
+  "fear-nothing": {
+    "name": "Fear Nothing",
+    "description": "If unit attacks first, grants Atk+3 at cost of Avo-30 to unit during combat."
+  },
+  "fear-nothing-plus": {
+    "name": "Fear Nothing+",
+    "description": "If unit attacks first, grants Atk+6 at cost of Avo-30 to unit during combat."
+  }
+}

@@ -1,0 +1,1413 @@
+[
+  {
+    "id": "cai",
+    "name": "Cai",
+    "portrait": "cai.jpg",
+    "personalSkill": "brio",
+    "uniqueSkills": [
+      "flamekeeper"
+    ],
+    "recruitment": {
+      "cai": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "dietrich",
+    "name": "Dietrich",
+    "portrait": "dietrich.jpg",
+    "personalSkill": "murderous-intent",
+    "uniqueSkills": [
+      "bestial-impulse"
+    ],
+    "recruitment": {
+      "dietrich": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "theodora",
+    "name": "Theodora",
+    "portrait": "theodora.jpg",
+    "personalSkill": "royal-resolve",
+    "uniqueSkills": [
+      "unstoppable-force",
+      "direct-hit"
+    ],
+    "recruitment": {
+      "theodora": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "leda",
+    "name": "Leda",
+    "portrait": "leda.jpg",
+    "personalSkill": "blindside",
+    "uniqueSkills": [
+      "improviso"
+    ],
+    "recruitment": {
+      "leda": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "tialla",
+    "name": "Tialla",
+    "portrait": "tialla.jpg",
+    "personalSkill": "tactician-s-wit",
+    "uniqueSkills": [
+      "tactician-s-insight",
+      "tactician-s-insight-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "extra": "Starting unit"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 9,
+        "paralogue": "Cai",
+        "requirement": "3000G"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 10,
+        "paralogue": "Cai",
+        "requirement": "3000G"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 8,
+        "paralogue": "Cai",
+        "requirement": "3000G"
+      }
+    }
+  },
+  {
+    "id": "fabio",
+    "name": "Fabio",
+    "portrait": "fabio.jpg",
+    "personalSkill": "dark-calling",
+    "uniqueSkills": [
+      "dark-secrets",
+      "dark-secrets-plus"
+    ],
+    "recruitment": {
+      "dietrich": {
+        "extra": "Starting unit"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 9,
+        "paralogue": "Dietrich",
+        "requirement": "Dietrich's team has lost"
+      }
+    }
+  },
+  {
+    "id": "bonaventure",
+    "name": "Bonaventure",
+    "portrait": "bonaventure.jpg",
+    "personalSkill": "sage-advice",
+    "uniqueSkills": [
+      "additional-intel",
+      "additional-intel-plus"
+    ],
+    "recruitment": {
+      "theodora": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "buccar",
+    "name": "Buccar",
+    "portrait": "buccar.jpg",
+    "personalSkill": "guardian-s-duty",
+    "uniqueSkills": [
+      "retaliatory-blow",
+      "retaliatory-blow-plus"
+    ],
+    "recruitment": {
+      "dietrich": {
+        "support": 3,
+        "renown": 8,
+        "paralogue": "Leda"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 8,
+        "paralogue": "Leda"
+      },
+      "leda": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "peter",
+    "name": "Peter",
+    "portrait": "peter.jpg",
+    "personalSkill": "steady-aim",
+    "uniqueSkills": [
+      "correct-for-drift",
+      "correct-for-drift-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "extra": "Starting unit"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "Quest"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "Quest"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "Quest",
+        "negotiation": "Difficult"
+      }
+    }
+  },
+  {
+    "id": "esmeralda",
+    "name": "Esmeralda",
+    "portrait": "esmeralda.jpg",
+    "personalSkill": "brawn",
+    "uniqueSkills": [
+      "throwing-arm",
+      "throwing-arm-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 2,
+        "renown": 7,
+        "requirement": "Quest"
+      },
+      "dietrich": {
+        "extra": "Starting unit"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "Quest"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "Quest"
+      }
+    }
+  },
+  {
+    "id": "tobias",
+    "name": "Tobias",
+    "portrait": "tobias.jpg",
+    "personalSkill": "power-arts",
+    "uniqueSkills": [
+      "all-out-attack",
+      "all-out-attack-plus"
+    ],
+    "recruitment": {
+      "theodora": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "sirocco",
+    "name": "Sirocco",
+    "portrait": "sirocco.jpg",
+    "personalSkill": "goddess-s-favor",
+    "uniqueSkills": [
+      "wind-s-caprice",
+      "wind-s-caprice-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "Quest"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "Quest"
+      },
+      "theodora": {
+        "support": 1,
+        "renown": 5,
+        "requirement": "Quest"
+      },
+      "leda": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "ultand",
+    "name": "Ultand",
+    "portrait": "ultand.jpg",
+    "personalSkill": "patch-up",
+    "uniqueSkills": [
+      "pray-for-safety",
+      "pray-for-safety-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "extra": "Starting unit"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 5,
+        "requirement": "Quest"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "Quest"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "Quest",
+        "negotiation": "Difficult"
+      }
+    }
+  },
+  {
+    "id": "mikaela",
+    "name": "Mikaela",
+    "portrait": "mikaela.jpg",
+    "personalSkill": "veteran-s-mettle",
+    "uniqueSkills": [
+      "redblade-s-will",
+      "redblade-s-will-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 5,
+        "requirement": "3000G"
+      },
+      "dietrich": {
+        "extra": "Starting unit"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "3000G"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "3000G"
+      }
+    }
+  },
+  {
+    "id": "lysander",
+    "name": "Lysander",
+    "portrait": "lysander.jpg",
+    "personalSkill": "racing-attack",
+    "uniqueSkills": [
+      "accelerate",
+      "accelerate-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "5 Iron Spear"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "5 Iron Spear"
+      },
+      "theodora": {
+        "extra": "Starting unit"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "5 Iron Spear"
+      }
+    }
+  },
+  {
+    "id": "olympia",
+    "name": "Olympia",
+    "portrait": "olympia.jpg",
+    "personalSkill": "competitive-zeal",
+    "uniqueSkills": [
+      "ardent-nosferatu",
+      "ardent-nosferatu-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "3 Quests"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "3 Quests"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "3 Quests"
+      },
+      "leda": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "lilian",
+    "name": "Lilian",
+    "portrait": "lilian.jpg",
+    "personalSkill": "safety-first",
+    "uniqueSkills": [
+      "upper-hand",
+      "upper-hand-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 2,
+        "renown": 8,
+        "requirement": "5000G"
+      },
+      "dietrich": {
+        "support": 2,
+        "renown": 8,
+        "requirement": "5000G"
+      },
+      "theodora": {
+        "extra": "Starting unit"
+      },
+      "leda": {
+        "support": 2,
+        "renown": 7,
+        "requirement": "5000G"
+      }
+    }
+  },
+  {
+    "id": "mu",
+    "name": "Mu",
+    "portrait": "mu.jpg",
+    "personalSkill": "signs-of-growth",
+    "uniqueSkills": [
+      "warrior-s-blood",
+      "warrior-s-blood-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "3 Glirmosa"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "3 Glirmosa"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "3 Glirmosa"
+      },
+      "leda": {
+        "extra": "Starting unit"
+      }
+    }
+  },
+  {
+    "id": "gaitz",
+    "name": "Gaitz",
+    "portrait": "gaitz.jpg",
+    "personalSkill": "brave-assist",
+    "uniqueSkills": [
+      "flashing-fang",
+      "flashing-fang-plus"
+    ],
+    "recruitment": {
+      "dietrich": {
+        "support": 3,
+        "renown": 10,
+        "paralogue": "Bertrand",
+        "requirement": "Bertrand's team has lost"
+      }
+    }
+  },
+  {
+    "id": "ursula",
+    "name": "Ursula",
+    "portrait": "ursula.jpg",
+    "personalSkill": "management-skills",
+    "uniqueSkills": [
+      "seize-the-chance",
+      "seize-the-chance-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 10,
+        "paralogue": "Talimun",
+        "requirement": "Yes x3"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 7,
+        "paralogue": "Talimun",
+        "requirement": "Yes x3"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 9,
+        "paralogue": "Talimun",
+        "requirement": "Yes x3"
+      }
+    }
+  },
+  {
+    "id": "diego",
+    "name": "Diego",
+    "portrait": "diego.jpg",
+    "personalSkill": "caretaker",
+    "uniqueSkills": [
+      "no-mercy",
+      "no-mercy-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 10,
+        "paralogue": "Orchel"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 9,
+        "paralogue": "Orchel"
+      },
+      "theodora": {
+        "support": 2,
+        "renown": 8,
+        "paralogue": "Orchel"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 8,
+        "paralogue": "Orchel",
+        "extra": "Complete ???"
+      }
+    }
+  },
+  {
+    "id": "sha-lan",
+    "name": "Sha Lan",
+    "portrait": "sha-lan.jpg",
+    "personalSkill": "cooler-heads",
+    "uniqueSkills": [
+      "watchfulness",
+      "watchfulness-plus"
+    ],
+    "recruitment": {
+      "dietrich": {
+        "support": 3,
+        "renown": 10,
+        "paralogue": "Anatolia",
+        "requirement": "Answer: Saramis, Da Mina, Grounded Ship"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 8,
+        "paralogue": "Anatolia",
+        "requirement": "Answer: Saramis, Da Mina, Grounded Ship"
+      }
+    }
+  },
+  {
+    "id": "dante",
+    "name": "Dante",
+    "portrait": "dante.jpg",
+    "personalSkill": "stage-direction",
+    "uniqueSkills": [
+      "dramatic-effect",
+      "dramatic-effect-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "8000G"
+      },
+      "dietrich": {
+        "support": 2,
+        "renown": 8,
+        "requirement": "8000G"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "8000G"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "8000G"
+      }
+    }
+  },
+  {
+    "id": "simon",
+    "name": "Simon",
+    "portrait": "simon.jpg",
+    "personalSkill": "close-call",
+    "uniqueSkills": [
+      "devil-s-luck",
+      "devil-s-luck-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "500G, Answer: Tails"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "500G, Answer: Tails"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "500G, Answer: Tails"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "500G, Answer: Tails"
+      }
+    }
+  },
+  {
+    "id": "ninae",
+    "name": "Ninae",
+    "portrait": "ninae.jpg",
+    "personalSkill": "spirits-voice",
+    "uniqueSkills": [
+      "spirits-guidance",
+      "spirits-guidance-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "1 Paradise Fish"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "1 Paradise Fish"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "1 Paradise Fish"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "1 Paradise Fish",
+        "negotiation": "Difficult"
+      }
+    }
+  },
+  {
+    "id": "nezha",
+    "name": "Nezha",
+    "portrait": "nezha.jpg",
+    "personalSkill": "quick-draw",
+    "uniqueSkills": [
+      "never-stop",
+      "never-stop-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "3 Sandworm Meat"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "3 Sandworm Meat"
+      },
+      "theodora": {
+        "support": 2,
+        "renown": 6,
+        "requirement": "3 Sandworm Meat"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "3 Sandworm Meat"
+      }
+    }
+  },
+  {
+    "id": "goliath",
+    "name": "Goliath",
+    "portrait": "goliath.jpg",
+    "personalSkill": "heavyweight-class",
+    "uniqueSkills": [
+      "pin-down",
+      "pin-down-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "3 Giant's Meat"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "3 Giant's Meat"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "3 Giant's Meat"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "3 Giant's Meat"
+      }
+    }
+  },
+  {
+    "id": "ludia",
+    "name": "Ludia",
+    "portrait": "ludia.jpg",
+    "personalSkill": "falcon",
+    "uniqueSkills": [
+      "perception",
+      "perception-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "Quest"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "Quest"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "Quest"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "Quest"
+      }
+    }
+  },
+  {
+    "id": "seteth",
+    "name": "Seteth",
+    "portrait": "seteth.jpg",
+    "personalSkill": "ready-for-battle",
+    "uniqueSkills": [
+      "pass-judgement",
+      "pass-judgement-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "Quest",
+        "negotiation": "Difficult"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "Quest"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "Quest"
+      }
+    }
+  },
+  {
+    "id": "dadao",
+    "name": "Dadao",
+    "portrait": "dadao.jpg",
+    "personalSkill": "one-chance",
+    "uniqueSkills": [
+      "full-strength",
+      "full-strength-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "2 Kothar Gar"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "2 Kothar Gar"
+      },
+      "theodora": {
+        "support": 2,
+        "renown": 5,
+        "requirement": "2 Kothar Gar"
+      },
+      "leda": {
+        "support": 2,
+        "renown": 5,
+        "requirement": "2 Kothar Gar",
+        "negotiation": "Moderate"
+      }
+    }
+  },
+  {
+    "id": "jester",
+    "name": "Jester",
+    "portrait": "jester.jpg",
+    "personalSkill": "blink-of-an-eye",
+    "uniqueSkills": [
+      "flickering-edge",
+      "flickering-edge-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "Quest"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 6,
+        "requirement": "Quest"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "Quest"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "Quest"
+      }
+    }
+  },
+  {
+    "id": "fianna",
+    "name": "Fianna",
+    "portrait": "fianna.jpg",
+    "personalSkill": "graceful-light",
+    "uniqueSkills": [
+      "gift-of-faith",
+      "gift-of-faith-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "3000G"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "3000G"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "3000G"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 5,
+        "requirement": "3000G"
+      }
+    }
+  },
+  {
+    "id": "loretta",
+    "name": "Loretta",
+    "portrait": "loretta.jpg",
+    "personalSkill": "steadfast",
+    "uniqueSkills": [
+      "peak-form",
+      "peak-form-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "3 Iron Sword"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "3 Iron Sword"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 5,
+        "requirement": "3 Iron Sword"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 5,
+        "requirement": "3 Iron Sword",
+        "negotiation": "Moderate"
+      }
+    }
+  },
+  {
+    "id": "halvin",
+    "name": "Halvin",
+    "portrait": "halvin.jpg",
+    "personalSkill": "adaptability",
+    "uniqueSkills": [
+      "halt-advance",
+      "halt-advance-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 5,
+        "requirement": "10 Dates"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "10 Dates"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "10 Dates"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "10 Dates"
+      }
+    }
+  },
+  {
+    "id": "sofia",
+    "name": "Sofia",
+    "portrait": "sofia.jpg",
+    "personalSkill": "healing-knowledge",
+    "uniqueSkills": [
+      "distant-healing",
+      "distant-healing-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 9
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 9
+      },
+      "theodora": {
+        "renown": 2,
+        "support": 1
+      },
+      "leda": {
+        "support": 3,
+        "renown": 7
+      }
+    }
+  },
+  {
+    "id": "benditz",
+    "name": "Benditz",
+    "portrait": "benditz.jpg",
+    "personalSkill": "wheeled-warrior",
+    "uniqueSkills": [
+      "chariot-stagger",
+      "chariot-stagger-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 9
+      },
+      "dietrich": {
+        "support": 2,
+        "renown": 7
+      },
+      "theodora": {
+        "support": 1,
+        "renown": 8
+      },
+      "leda": {
+        "support": 3,
+        "renown": 7
+      }
+    }
+  },
+  {
+    "id": "alexandra",
+    "name": "Alexandra",
+    "portrait": "alexandra.jpg",
+    "personalSkill": "silver-maiden",
+    "uniqueSkills": [
+      "soar",
+      "soar-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 2,
+        "renown": 7
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 8
+      },
+      "theodora": {
+        "support": 1,
+        "renown": 6
+      },
+      "leda": {
+        "support": 3,
+        "renown": 10
+      }
+    }
+  },
+  {
+    "id": "zarcone",
+    "name": "Zarcone",
+    "portrait": "zarcone.jpg",
+    "personalSkill": "hatchet-man",
+    "uniqueSkills": [
+      "vulgar-conduct",
+      "vulgar-conduct-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "10G"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 7,
+        "requirement": "10G"
+      },
+      "theodora": {
+        "support": 1,
+        "renown": 4,
+        "requirement": "10G"
+      },
+      "leda": {
+        "support": 2,
+        "renown": 5,
+        "requirement": "10G"
+      }
+    }
+  },
+  {
+    "id": "kiroc",
+    "name": "Kiroc",
+    "portrait": "kiroc.jpg",
+    "personalSkill": "tyranny",
+    "uniqueSkills": [
+      "menace",
+      "menace-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "8 Pure Water"
+      },
+      "dietrich": {
+        "support": 1,
+        "renown": 4,
+        "requirement": "3 Pure Water"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "8 Pure Water"
+      },
+      "leda": {
+        "support": 1,
+        "renown": 4,
+        "requirement": "3 Pure Water"
+      }
+    }
+  },
+  {
+    "id": "jasmine",
+    "name": "Jasmine",
+    "portrait": "jasmine.jpg",
+    "personalSkill": "expert-counter",
+    "uniqueSkills": [
+      "raging-counter",
+      "raging-counter-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 1,
+        "renown": 8,
+        "requirement": "2000G"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "5000G"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "5000G"
+      },
+      "leda": {
+        "support": 2,
+        "renown": 4,
+        "requirement": "500G"
+      }
+    }
+  },
+  {
+    "id": "inyoni",
+    "name": "Inyoni",
+    "portrait": "inyoni.jpg",
+    "personalSkill": "heavy-bow-user",
+    "uniqueSkills": [
+      "pierce",
+      "pierce-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "6000G"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "6000G"
+      },
+      "theodora": {
+        "support": 1,
+        "renown": 9,
+        "requirement": "4000G"
+      },
+      "leda": {
+        "support": 1,
+        "renown": 7,
+        "requirement": "3000G"
+      }
+    }
+  },
+  {
+    "id": "peppe",
+    "name": "Peppe",
+    "portrait": "peppe.jpg",
+    "personalSkill": "hunter-s-snare",
+    "uniqueSkills": [
+      "king-s-majesty",
+      "king-s-majesty-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 1,
+        "renown": 9,
+        "paralogue": "Bertrand"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 8,
+        "paralogue": "Bertrand"
+      },
+      "theodora": {
+        "support": 2,
+        "renown": 7,
+        "paralogue": "Bertrand"
+      }
+    }
+  },
+  {
+    "id": "nuzzuo",
+    "name": "Nuzzuo",
+    "portrait": "nuzzuo.jpg",
+    "personalSkill": "har-hali-wisdom",
+    "uniqueSkills": [
+      "precision-strike",
+      "precision-strike-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 2,
+        "renown": 6,
+        "requirement": "3 Iron Bow"
+      },
+      "dietrich": {
+        "support": 1,
+        "renown": 9,
+        "requirement": "2 Iron Bow"
+      },
+      "theodora": {
+        "support": 1,
+        "renown": 6,
+        "requirement": "3 Iron Bow"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "3 Iron Bow"
+      }
+    }
+  },
+  {
+    "id": "guzran",
+    "name": "Guzran",
+    "portrait": "guzran.jpg",
+    "personalSkill": "hot-headed",
+    "uniqueSkills": [
+      "top-form",
+      "top-form-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "renown": 2,
+        "support": 1
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 8
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 8
+      },
+      "leda": {
+        "support": 1,
+        "renown": 3
+      }
+    }
+  },
+  {
+    "id": "nydine",
+    "name": "Nydine",
+    "portrait": "nydine.jpg",
+    "personalSkill": "barge-through",
+    "uniqueSkills": [
+      "at-a-gallop",
+      "at-a-gallop-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 1,
+        "renown": 6,
+        "requirement": "2 Bronze Axe"
+      },
+      "dietrich": {
+        "support": 2,
+        "renown": 5,
+        "requirement": "2 Bronze Axe",
+        "negotiation": "Moderate"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 5,
+        "requirement": "3 Iron Axe"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "3 Iron Axe"
+      }
+    }
+  },
+  {
+    "id": "io",
+    "name": "Io",
+    "portrait": "io.jpg",
+    "personalSkill": "with-my-steed",
+    "uniqueSkills": [
+      "mounted-push",
+      "mounted-push-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "4000G"
+      },
+      "dietrich": {
+        "support": 2,
+        "renown": 3,
+        "requirement": "800G"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 10,
+        "requirement": "4000G"
+      },
+      "leda": {
+        "support": 1,
+        "renown": 6,
+        "requirement": "1500G"
+      }
+    }
+  },
+  {
+    "id": "catania",
+    "name": "Catania",
+    "portrait": "catania.jpg",
+    "personalSkill": "punishing-squall",
+    "uniqueSkills": [
+      "wind-my-friend",
+      "wind-my-friend-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 3,
+        "renown": 10
+      },
+      "dietrich": {
+        "support": 1,
+        "renown": 8
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 7
+      },
+      "leda": {
+        "renown": 2,
+        "support": 1
+      }
+    }
+  },
+  {
+    "id": "noctula",
+    "name": "Noctula",
+    "portrait": "noctula.jpg",
+    "personalSkill": "warrior-s-clarity",
+    "uniqueSkills": [
+      "attuned",
+      "attuned-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 1,
+        "renown": 4
+      },
+      "dietrich": {
+        "support": 1,
+        "renown": 6
+      },
+      "theodora": {
+        "support": 1,
+        "renown": 3
+      },
+      "leda": {
+        "support": 3,
+        "renown": 8
+      }
+    }
+  },
+  {
+    "id": "yang-jie",
+    "name": "Yang Jie",
+    "portrait": "yang-jie.jpg",
+    "personalSkill": "monkly-havoc",
+    "uniqueSkills": [
+      "robust-health",
+      "robust-health-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 2,
+        "renown": 3,
+        "requirement": "Answer: Cheese, Moon, Potatoes",
+        "negotiation": "Easy"
+      },
+      "dietrich": {
+        "renown": 2,
+        "support": 1
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "Answer: Cheese, Moon, Potatoes"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "Answer: Cheese, Moon, Potatoes"
+      }
+    }
+  },
+  {
+    "id": "majide",
+    "name": "Majide",
+    "portrait": "majide.jpg",
+    "personalSkill": "hellbent-axe",
+    "uniqueSkills": [
+      "fear-nothing",
+      "fear-nothing-plus"
+    ],
+    "recruitment": {
+      "cai": {
+        "support": 2,
+        "renown": 5,
+        "requirement": "Ask him 3 times"
+      },
+      "dietrich": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "Ask him 3 times"
+      },
+      "theodora": {
+        "support": 3,
+        "renown": 8,
+        "requirement": "Ask him 3 times"
+      },
+      "leda": {
+        "support": 3,
+        "renown": 9,
+        "requirement": "Ask him 3 times",
+        "negotiation": "Easy"
+      }
+    }
+  }
+]
