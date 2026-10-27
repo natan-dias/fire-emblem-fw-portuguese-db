@@ -28,3 +28,11 @@ Detalhes técnicos em [TECH_STACK.md](TECH_STACK.md).
 ## Créditos
 
 Dados e imagens baseados no [Fortune Weaver](https://fefw-planner-server.vercel.app).
+
+## Aviso
+
+Este é um projeto de fãs, não oficial, e não é afiliado, patrocinado ou endossado pelos criadores de Fire Emblem: Fortune's Weave nem pelos detentores dos direitos da série Fire Emblem. Nomes, personagens, imagens e demais materiais do jogo pertencem aos seus respectivos donos.
+
+## Licença
+
+O código deste repositório está sob a [Licença MIT](LICENSE). A licença cobre apenas o código e os textos escritos para este projeto; ela não se aplica às imagens, nomes e dados do jogo.
