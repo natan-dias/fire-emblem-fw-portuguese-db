@@ -2,13 +2,25 @@ import type { Lang } from '../types'
 
 type Ui = {
   title: string
+  subtitle: string
   characters: string
   recruitment: string
+  spells: string
+  whiteMagic: string
+  blackMagic: string
+  spell: string
+  power: string
+  hit: string
+  range: string
+  weight: string
+  crit: string
+  avoid: string
+  uses: string
+  effect: string
   search: string
   language: string
   personal: string
-  level35: string
-  level35Plus: string
+  unique: string
   noSkill: string
   character: string
   support: string
@@ -23,14 +35,26 @@ type Ui = {
 }
 
 const ptBR: Ui = {
-  title: 'Fortune’s Weave — Base de Dados',
+  title: "Fire Emblem Fortune's Weave",
+  subtitle: 'Base de dados em português',
   characters: 'Personagens',
   recruitment: 'Recrutamento',
+  spells: 'Magias',
+  whiteMagic: 'White Magic Spells',
+  blackMagic: 'Black Magic Spells',
+  spell: 'Magia (Spell)',
+  power: 'Poder (Mt)',
+  hit: 'Acerto (Hit)',
+  range: 'Alcance (Rng)',
+  weight: 'Peso (Wt)',
+  crit: 'Crítico (Crit)',
+  avoid: 'Esquiva (Avo)',
+  uses: 'Usos (Uses)',
+  effect: 'Efeito (Effect)',
   search: 'Buscar personagem…',
   language: 'Idioma',
   personal: 'Habilidade pessoal',
-  level35: 'Habilidade de nível 35',
-  level35Plus: 'Habilidade de nível 35 (versão mais forte)',
+  unique: 'Habilidade Única',
   noSkill: '—',
   character: 'Personagem',
   support: 'Apoio',

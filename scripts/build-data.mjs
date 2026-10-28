@@ -39,6 +39,8 @@ for (const u of units) {
     portrait: file,
     personalSkill: addSkill(u.personalSkill),
     uniqueSkills: (u.uniqueSkills ?? []).map(addSkill),
+    whiteSpells: u.learnsets?.faith ?? {},
+    blackSpells: u.learnsets?.reason ?? {},
     recruitment: Object.fromEntries(
       LORD_ROUTES.filter((r) => u.recruitment[r]).map((r) => [r, u.recruitment[r]]),
     ),
@@ -47,4 +49,22 @@ for (const u of units) {
 
 await writeFile('src/data/characters.json', JSON.stringify(characters, null, 2) + '\n')
 await writeFile('src/data/skills.json', JSON.stringify(skills, null, 2) + '\n')
-console.log(`${characters.length} characters, ${Object.keys(skills).length} skills`)
+
+// Only Faith (white) and Reason (black) spells; `effect` is translated separately in src/i18n.
+const spells = {}
+for (const s of db.spells) {
+  spells[s.id] = {
+    name: s.name,
+    kind: s.proficiency === 'faith' ? 'white' : 'black',
+    power: s.power,
+    hit: s.hit,
+    range: s.range,
+    weight: s.weight,
+    crit: s.crit,
+    avo: s.avo,
+    uses: s.uses,
+    effect: s.effect,
+  }
+}
+await writeFile('src/data/spells.json', JSON.stringify(spells, null, 2) + '\n')
+console.log(`${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells`)
