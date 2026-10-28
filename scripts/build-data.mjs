@@ -1,6 +1,6 @@
 // One-off: pulls the reference site's data and writes src/data/*.json + public/portraits/*.
 // Usage: node scripts/build-data.mjs
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 
 const BASE = 'https://fefw-planner-server.vercel.app'
 const LORD_ROUTES = ['cai', 'dietrich', 'theodora', 'leda']
@@ -15,6 +15,8 @@ const slug = (s) =>
 
 const db = await (await fetch(`${BASE}/api/data`)).json()
 const units = db.units
+// Hand-maintained recruitment for characters the reference API has no data for.
+const recruitmentOverrides = JSON.parse(await readFile('src/data/recruitment-overrides.json', 'utf8'))
 
 const skills = {}
 const addSkill = (s) => {
@@ -42,9 +44,10 @@ for (const u of units) {
     uniqueSkills: (u.uniqueSkills ?? []).map(addSkill),
     whiteSpells: u.learnsets?.faith ?? {},
     blackSpells: u.learnsets?.reason ?? {},
-    recruitment: Object.fromEntries(
-      LORD_ROUTES.filter((r) => u.recruitment?.[r]).map((r) => [r, u.recruitment[r]]),
-    ),
+    recruitment: {
+      ...Object.fromEntries(LORD_ROUTES.filter((r) => u.recruitment?.[r]).map((r) => [r, u.recruitment[r]])),
+      ...recruitmentOverrides[slug(u.name)],
+    },
   })
 }
 

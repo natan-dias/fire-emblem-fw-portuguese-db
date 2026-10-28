@@ -16,7 +16,7 @@ export default function Recruitment() {
   const list = characters.filter((c) => c.name.toLowerCase().includes(q.trim().toLowerCase()))
 
   const describe = (c: Condition) => {
-    if (c.extra) return [c.extra === 'Starting unit' ? t.startingUnit : condition(c.extra)]
+    if (c.extra) return c.extra === 'Starting unit' ? [t.startingUnit] : condition(c.extra).split('\n')
     const lines: string[] = []
     if (c.support != null) lines.push(`${t.support} ${c.support}`)
     if (c.renown != null) lines.push(`${t.renown} ${c.renown}`)
