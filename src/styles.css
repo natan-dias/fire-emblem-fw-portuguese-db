@@ -4,9 +4,14 @@ body { margin:0; background:var(--bg); color:var(--text); font:15px/1.5 system-u
 a { color:var(--gold); }
 .header { display:flex; flex-wrap:wrap; gap:12px 24px; align-items:center; padding:12px 16px; border-bottom:1px solid var(--line); }
 .header h1 { margin:0; font-size:18px; color:var(--gold); }
+.header .subtitle { margin:0; font-size:12px; color:var(--muted); }
 .header nav { display:flex; gap:16px; flex:1; }
 .header nav a { color:var(--muted); text-decoration:none; }
 .header nav a.active { color:var(--gold); }
+.subnav { display:flex; gap:16px; margin-bottom:16px; }
+.subnav a { color:var(--muted); text-decoration:none; }
+.subnav a.active { color:var(--gold); }
+.spell-details { margin-top:32px; }
 .controls { display:flex; gap:12px; align-items:center; }
 select, input[type=search] { background:var(--card); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:6px 8px; }
 main { max-width:1200px; margin:0 auto; padding:16px; }

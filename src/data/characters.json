@@ -7,6 +7,37 @@
     "uniqueSkills": [
       "flamekeeper"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_seraphim"
+      ],
+      "A": [
+        "spell_faith_recover"
+      ],
+      "S": [
+        "spell_faith_warp"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "extra": "Starting unit"
@@ -21,6 +52,34 @@
     "uniqueSkills": [
       "bestial-impulse"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_silence"
+      ],
+      "A": [
+        "spell_faith_berserk"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_blizzard"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_ice_blade"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "dietrich": {
         "extra": "Starting unit"
@@ -36,6 +95,37 @@
       "unstoppable-force",
       "direct-hit"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_seraphim"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_barrier"
+      ],
+      "S": [
+        "spell_faith_aura"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "theodora": {
         "extra": "Starting unit"
@@ -50,6 +140,37 @@
     "uniqueSkills": [
       "improviso"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_seraphim"
+      ],
+      "A": [
+        "spell_faith_recover"
+      ],
+      "S": [
+        "spell_faith_fortify"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "leda": {
         "extra": "Starting unit"
@@ -65,6 +186,40 @@
       "tactician-s-insight",
       "tactician-s-insight-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_physic"
+      ],
+      "B": [
+        "spell_faith_recover"
+      ],
+      "A": [
+        "spell_faith_seraphim"
+      ],
+      "S": [
+        "spell_faith_aura"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_wind"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_cutting_gale"
+      ],
+      "S": [
+        "spell_excalibur"
+      ]
+    },
     "recruitment": {
       "cai": {
         "extra": "Starting unit"
@@ -98,6 +253,37 @@
       "dark-secrets",
       "dark-secrets-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_recover"
+      ],
+      "A": [
+        "spell_faith_ward"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_miasma"
+      ],
+      "C": [
+        "spell_mire_b"
+      ],
+      "B": [
+        "spell_death"
+      ],
+      "A": [
+        "spell_luna"
+      ],
+      "S": [
+        "spell_dark_spikes_t"
+      ]
+    },
     "recruitment": {
       "dietrich": {
         "extra": "Starting unit"
@@ -119,6 +305,37 @@
       "additional-intel",
       "additional-intel-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_torch"
+      ],
+      "B": [
+        "spell_faith_recover"
+      ],
+      "A": [
+        "spell_faith_silence"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ],
+      "S": [
+        "spell_sagittae"
+      ]
+    },
     "recruitment": {
       "theodora": {
         "extra": "Starting unit"
@@ -134,6 +351,34 @@
       "retaliatory-blow",
       "retaliatory-blow-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_torch"
+      ],
+      "B": [
+        "spell_faith_emergis"
+      ],
+      "A": [
+        "spell_faith_rescue"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "dietrich": {
         "support": 3,
@@ -159,6 +404,34 @@
       "correct-for-drift",
       "correct-for-drift-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_freeze"
+      ],
+      "A": [
+        "spell_faith_physic"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "extra": "Starting unit"
@@ -190,6 +463,34 @@
       "throwing-arm",
       "throwing-arm-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_seraphim"
+      ],
+      "A": [
+        "spell_faith_barrier"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 2,
@@ -220,6 +521,34 @@
       "all-out-attack",
       "all-out-attack-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_resquia"
+      ],
+      "A": [
+        "spell_faith_regenera"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "theodora": {
         "extra": "Starting unit"
@@ -235,6 +564,40 @@
       "wind-s-caprice",
       "wind-s-caprice-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_recover"
+      ],
+      "A": [
+        "spell_faith_fortify"
+      ],
+      "S": [
+        "spell_faith_warp"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_thoron"
+      ],
+      "S": [
+        "spell_excalibur"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -265,6 +628,37 @@
       "pray-for-safety",
       "pray-for-safety-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_seraphim"
+      ],
+      "B": [
+        "spell_faith_emergis"
+      ],
+      "A": [
+        "spell_faith_ward"
+      ],
+      "S": [
+        "spell_faith_aura"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_wind"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_cutting_gale"
+      ]
+    },
     "recruitment": {
       "cai": {
         "extra": "Starting unit"
@@ -296,6 +690,34 @@
       "redblade-s-will",
       "redblade-s-will-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_torch"
+      ],
+      "B": [
+        "spell_faith_resquia"
+      ],
+      "A": [
+        "spell_faith_fortify"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_fire"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_bolganone"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -326,6 +748,34 @@
       "accelerate",
       "accelerate-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_laia"
+      ],
+      "B": [
+        "spell_faith_emergis"
+      ],
+      "A": [
+        "spell_faith_rescue"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_wind"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_cutting_gale"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -356,6 +806,41 @@
       "ardent-nosferatu",
       "ardent-nosferatu-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal",
+        "spell_faith_nosferatu"
+      ],
+      "C": [
+        "spell_faith_emergis"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_silence"
+      ],
+      "S": [
+        "spell_faith_berserk"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ],
+      "S": [
+        "spell_bolting"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -386,6 +871,34 @@
       "upper-hand",
       "upper-hand-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_ward"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 2,
@@ -416,6 +929,37 @@
       "warrior-s-blood",
       "warrior-s-blood-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_regenera"
+      ],
+      "A": [
+        "spell_faith_warp"
+      ],
+      "S": [
+        "spell_faith_aura"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_fire"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_bolganone"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -446,6 +990,34 @@
       "flashing-fang",
       "flashing-fang-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_seraphim"
+      ],
+      "A": [
+        "spell_faith_rescue"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "dietrich": {
         "support": 3,
@@ -464,6 +1036,34 @@
       "seize-the-chance",
       "seize-the-chance-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_ward"
+      ],
+      "A": [
+        "spell_faith_fortify"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_cutting_gale"
+      ],
+      "B": [
+        "spell_blizzard"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -494,6 +1094,34 @@
       "no-mercy",
       "no-mercy-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_silence"
+      ],
+      "A": [
+        "spell_faith_berserk"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -527,6 +1155,38 @@
       "watchfulness",
       "watchfulness-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_recover"
+      ],
+      "A": [
+        "spell_faith_rescue"
+      ],
+      "S": [
+        "spell_faith_fortify"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind",
+        "spell_wandering_wall"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "dietrich": {
         "support": 3,
@@ -551,6 +1211,37 @@
       "dramatic-effect",
       "dramatic-effect-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_recover"
+      ],
+      "A": [
+        "spell_faith_freeze"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_thoron"
+      ],
+      "S": [
+        "spell_bolting"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -583,6 +1274,34 @@
       "devil-s-luck",
       "devil-s-luck-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_torch"
+      ],
+      "B": [
+        "spell_faith_emergis"
+      ],
+      "A": [
+        "spell_faith_barrier"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -615,6 +1334,37 @@
       "spirits-guidance",
       "spirits-guidance-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_ward"
+      ],
+      "S": [
+        "spell_faith_aura"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -648,6 +1398,35 @@
       "never-stop",
       "never-stop-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_torch"
+      ],
+      "A": [
+        "spell_faith_barrier"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire",
+        "spell_wandering_wall"
+      ],
+      "C": [
+        "spell_wind"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_cutting_gale"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -680,6 +1459,34 @@
       "pin-down",
       "pin-down-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_regenera"
+      ],
+      "A": [
+        "spell_faith_barrier"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -712,6 +1519,34 @@
       "perception",
       "perception-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_seraphim"
+      ],
+      "A": [
+        "spell_faith_berserk"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -744,6 +1579,34 @@
       "pass-judgement",
       "pass-judgement-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_resquia"
+      ],
+      "B": [
+        "spell_faith_regenera"
+      ],
+      "A": [
+        "spell_faith_warp"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_fire"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_bolganone"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -772,6 +1635,35 @@
       "full-strength",
       "full-strength-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_freeze"
+      ],
+      "A": [
+        "spell_faith_regenera"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder",
+        "spell_wandering_wall"
+      ],
+      "C": [
+        "spell_fire"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_bolganone"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -805,6 +1697,34 @@
       "flickering-edge",
       "flickering-edge-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_freeze"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -837,6 +1757,37 @@
       "gift-of-faith",
       "gift-of-faith-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_seraphim"
+      ],
+      "B": [
+        "spell_faith_recover"
+      ],
+      "A": [
+        "spell_faith_regenera"
+      ],
+      "S": [
+        "spell_faith_rescue"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -869,6 +1820,37 @@
       "peak-form",
       "peak-form-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_seraphim"
+      ],
+      "A": [
+        "spell_faith_recover"
+      ],
+      "S": [
+        "spell_faith_rescue"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -902,6 +1884,34 @@
       "halt-advance",
       "halt-advance-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_resquia"
+      ],
+      "A": [
+        "spell_faith_berserk"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -934,6 +1944,37 @@
       "distant-healing",
       "distant-healing-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_recover"
+      ],
+      "S": [
+        "spell_faith_aura"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -962,6 +2003,34 @@
       "chariot-stagger",
       "chariot-stagger-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_barrier"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -990,6 +2059,34 @@
       "soar",
       "soar-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_seraphim"
+      ],
+      "B": [
+        "spell_faith_ward"
+      ],
+      "A": [
+        "spell_faith_recover"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_fire"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_bolganone"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 2,
@@ -1018,6 +2115,34 @@
       "vulgar-conduct",
       "vulgar-conduct-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_torch"
+      ],
+      "A": [
+        "spell_faith_fortify"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1050,6 +2175,34 @@
       "menace",
       "menace-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_torch"
+      ],
+      "A": [
+        "spell_faith_berserk"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1082,6 +2235,34 @@
       "raging-counter",
       "raging-counter-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_resquia"
+      ],
+      "B": [
+        "spell_faith_regenera"
+      ],
+      "A": [
+        "spell_faith_rescue"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_wind"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_cutting_gale"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 1,
@@ -1114,6 +2295,34 @@
       "pierce",
       "pierce-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_berserk"
+      ],
+      "A": [
+        "spell_faith_ward"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_blizzard"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_ice_blade"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1146,6 +2355,34 @@
       "king-s-majesty",
       "king-s-majesty-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_torch"
+      ],
+      "B": [
+        "spell_faith_seraphim"
+      ],
+      "A": [
+        "spell_faith_berserk"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 1,
@@ -1173,6 +2410,34 @@
       "precision-strike",
       "precision-strike-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_silence"
+      ],
+      "A": [
+        "spell_faith_berserk"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_wind"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_cutting_gale"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 2,
@@ -1205,6 +2470,34 @@
       "top-form",
       "top-form-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_emergis"
+      ],
+      "A": [
+        "spell_faith_recover"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "renown": 2,
@@ -1233,6 +2526,34 @@
       "at-a-gallop",
       "at-a-gallop-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_emergis"
+      ],
+      "B": [
+        "spell_faith_resquia"
+      ],
+      "A": [
+        "spell_faith_rescue"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_wind"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_cutting_gale"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 1,
@@ -1266,6 +2587,34 @@
       "mounted-push",
       "mounted-push-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_restore"
+      ],
+      "B": [
+        "spell_faith_seraphim"
+      ],
+      "A": [
+        "spell_faith_regenera"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1298,6 +2647,37 @@
       "wind-my-friend",
       "wind-my-friend-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_seraphim"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_warp"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_thoron"
+      ],
+      "S": [
+        "spell_excalibur"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1326,6 +2706,34 @@
       "attuned",
       "attuned-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_freeze"
+      ],
+      "A": [
+        "spell_faith_silence"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_thunder"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_thoron"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 1,
@@ -1354,6 +2762,37 @@
       "robust-health",
       "robust-health-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_recover"
+      ],
+      "S": [
+        "spell_faith_aura"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 2,
@@ -1386,6 +2825,34 @@
       "fear-nothing",
       "fear-nothing-plus"
     ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_freeze"
+      ],
+      "A": [
+        "spell_faith_warp"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
     "recruitment": {
       "cai": {
         "support": 2,

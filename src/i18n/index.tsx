@@ -4,10 +4,18 @@ import { ui, type Ui } from './ui'
 import skillsEn from '../data/skills.json'
 import skillsBR from './skills.pt-BR.json'
 import skillsPT from './skills.pt-PT.json'
+import spellsEn from '../data/spells.json'
+import spellsBR from './spells.pt-BR.json'
+import spellsPT from './spells.pt-PT.json'
 
 const skillText: Record<Lang, Record<string, string>> = {
   'pt-BR': skillsBR,
   'pt-PT': { ...skillsBR, ...skillsPT }, // pt-PT only needs overrides
+}
+
+const spellText: Record<Lang, Record<string, string>> = {
+  'pt-BR': spellsBR,
+  'pt-PT': { ...spellsBR, ...spellsPT },
 }
 
 type Ctx = {
@@ -15,6 +23,7 @@ type Ctx = {
   setLang: (l: Lang) => void
   t: Ui
   skill: (id: string) => { name: string; description: string }
+  spell: (id: string) => { name: string; effect: string }
   condition: (value: string) => string
 }
 
@@ -63,6 +72,10 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     skill: (id) => ({
       name: skillsEn[id as keyof typeof skillsEn].name,
       description: skillText[lang][id],
+    }),
+    spell: (id) => ({
+      name: spellsEn[id as keyof typeof spellsEn].name,
+      effect: spellText[lang][id] ?? '',
     }),
     condition: (v) =>
       v
