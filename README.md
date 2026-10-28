@@ -8,9 +8,12 @@ O principal objetivo deste projeto é ser um guia para os jogadores terem uma ex
 
 ## O que já existe
 
+- **Início:** página inicial com uma visão geral do site e o aviso de projeto não oficial.
 - **Personagens:** todos os personagens, com suas habilidades pessoais e as habilidades únicas, base e "+" juntas (nomes originais em inglês, descrições em português).
 - **Recrutamento:** uma tabela mostrando como recrutar cada personagem em cada rota.
 - **Magias:** *White Magic Spells* (Faith) e *Black Magic Spells* (Reason), com as magias que cada personagem aprende por rank (D–S), busca por personagem e uma tabela com a descrição completa de cada magia.
+
+Gostou do projeto? Siga o canal no YouTube: https://www.youtube.com/@velhotejogador
 
 O site está disponível em: https://natan-dias.github.io/fire-emblem-fw-portuguese-db/
 

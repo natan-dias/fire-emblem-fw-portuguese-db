@@ -1,5 +1,6 @@
 import { Navigate, NavLink, Route, Routes } from 'react-router-dom'
 import { useI18n } from './i18n'
+import Home from './pages/Home'
 import Characters from './pages/Characters'
 import Recruitment from './pages/Recruitment'
 import Spells from './pages/Spells'
@@ -31,7 +32,8 @@ export default function App() {
           <p className="subtitle">{t.subtitle}</p>
         </div>
         <nav>
-          <NavLink to="/" end>{t.characters}</NavLink>
+          <NavLink to="/" end>{t.home}</NavLink>
+          <NavLink to="/personagens">{t.characters}</NavLink>
           <NavLink to="/recrutamento">{t.recruitment}</NavLink>
           <NavLink to="/magias">{t.spells}</NavLink>
         </nav>
@@ -44,7 +46,8 @@ export default function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<Characters />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/personagens" element={<Characters />} />
           <Route path="/recrutamento" element={<Recruitment />} />
           <Route path="/magias" element={<Navigate to="/magias/white-magic" replace />} />
           <Route path="/magias/*" element={<SpellsTabs />} />
@@ -53,6 +56,10 @@ export default function App() {
       <footer className="footer">
         {t.credit}{' '}
         <a href="https://fefw-planner-server.vercel.app" target="_blank" rel="noreferrer">Fortune Weaver</a>
+        <div>
+          {t.followMe}{' '}
+          <a href="https://www.youtube.com/@velhotejogador" target="_blank" rel="noreferrer">YouTube @velhotejogador</a>
+        </div>
       </footer>
     </>
   )

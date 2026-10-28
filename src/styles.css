@@ -31,3 +31,10 @@ th, td { border:1px solid var(--line); padding:8px; text-align:left; vertical-al
 thead th { background:var(--card); color:var(--gold); position:sticky; top:0; }
 tbody th { color:var(--gold); white-space:nowrap; }
 .footer { text-align:center; padding:24px 16px; color:var(--muted); font-size:13px; }
+
+.home { max-width:720px; margin:0 auto; }
+.home img { display:block; width:100%; height:auto; margin:16px auto; border-radius:8px; }
+.home h2 { color:var(--gold); font-size:18px; }
+.home a { color:var(--gold); }
+.disclaimer { border:1px solid var(--line); border-radius:8px; padding:10px 14px; color:var(--muted); font-size:13px; }
+.footer a { color:var(--gold); }
