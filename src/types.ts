@@ -1,6 +1,6 @@
 export type Lang = 'pt-BR' | 'pt-PT'
 
-export type Rank = 'D' | 'C' | 'B' | 'A' | 'S'
+export type Rank = 'D' | 'D+' | 'C' | 'C+' | 'B' | 'B+' | 'A' | 'A+' | 'S'
 
 export type Condition = {
   support?: number
@@ -15,7 +15,7 @@ export type Character = {
   id: string
   name: string
   portrait: string
-  personalSkill: string
+  personalSkill: string | null
   uniqueSkills: string[]
   whiteSpells: Partial<Record<Rank, string[]>>
   blackSpells: Partial<Record<Rank, string[]>>

@@ -4,7 +4,7 @@ import { useI18n } from '../i18n'
 import spellData from '../data/spells.json'
 import type { Rank } from '../types'
 
-const ranks: Rank[] = ['D', 'C', 'B', 'A', 'S']
+const ranks: Rank[] = ['D', 'D+', 'C', 'C+', 'B', 'B+', 'A', 'A+', 'S']
 
 export default function Spells({ kind }: { kind: 'white' | 'black' }) {
   const { t, spell } = useI18n()

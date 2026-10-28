@@ -982,6 +982,177 @@
     }
   },
   {
+    "id": "bertrand",
+    "name": "Bertrand",
+    "portrait": "bertrand.jpg",
+    "personalSkill": "requiem-style",
+    "uniqueSkills": [
+      "go-no-sen",
+      "sen-no-sen"
+    ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_regenera"
+      ],
+      "A": [
+        "spell_faith_berserk"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "talimun",
+    "name": "Talimun",
+    "portrait": "talimun.jpg",
+    "personalSkill": "swashbuckler-s-luck",
+    "uniqueSkills": [
+      "cannoning-flair",
+      "swashbuckler-s-luck-plus"
+    ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_seraphim"
+      ],
+      "B": [
+        "spell_faith_recover"
+      ],
+      "A": [
+        "spell_faith_physic"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ],
+      "S": [
+        "spell_excalibur"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "orchel",
+    "name": "Orchel",
+    "portrait": "orchel.jpg",
+    "personalSkill": "solid-and-sturdy",
+    "uniqueSkills": [
+      "predictive-sense"
+    ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_recover"
+      ],
+      "B": [
+        "spell_faith_seraphim",
+        "spell_faith_starlight"
+      ],
+      "A": [
+        "spell_faith_aura"
+      ],
+      "S": [
+        "spell_faith_fortify"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_wind"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_cutting_gale"
+      ],
+      "S": [
+        "spell_sagittae"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "anatolia",
+    "name": "Anatolia",
+    "portrait": "anatolia.jpg",
+    "personalSkill": "celestial-flow",
+    "uniqueSkills": [
+      "continuum",
+      "continuum-plus"
+    ],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_silence"
+      ],
+      "B": [
+        "spell_faith_ward"
+      ],
+      "A": [
+        "spell_faith_warp"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder",
+        "spell_sword_of_judgment",
+        "spell_earth_s_jaws",
+        "spell_wandering_wall"
+      ],
+      "B": [
+        "spell_glass_wheel"
+      ],
+      "B+": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
     "id": "gaitz",
     "name": "Gaitz",
     "portrait": "gaitz.jpg",
@@ -2876,5 +3047,322 @@
         "negotiation": "Easy"
       }
     }
+  },
+  {
+    "id": "hong-hua",
+    "name": "Hong Hua",
+    "portrait": "hong-hua.jpg",
+    "personalSkill": "crimson-magic",
+    "uniqueSkills": [],
+    "whiteSpells": {
+      "C+": [
+        "spell_faith_heal"
+      ],
+      "B": [
+        "spell_faith_rescue"
+      ],
+      "A": [
+        "spell_faith_ward"
+      ],
+      "S": [
+        "spell_faith_warp"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_bolganone"
+      ],
+      "C": [
+        "spell_wandering_wall"
+      ],
+      "B": [
+        "spell_glass_wheel"
+      ],
+      "A+": [
+        "spell_thoron"
+      ],
+      "S": [
+        "spell_bolting"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "troy",
+    "name": "Troy",
+    "portrait": "troy.jpg",
+    "personalSkill": null,
+    "uniqueSkills": [],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "A+": [
+        "spell_faith_physic",
+        "spell_faith_restore"
+      ],
+      "S": [
+        "spell_faith_recover",
+        "spell_faith_barrier"
+      ]
+    },
+    "blackSpells": {
+      "C": [
+        "spell_thunder"
+      ],
+      "C+": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_ice_blade"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "eshmel",
+    "name": "Eshmel",
+    "portrait": "eshmel.jpg",
+    "personalSkill": null,
+    "uniqueSkills": [],
+    "whiteSpells": {
+      "D+": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_seraphim"
+      ],
+      "B": [
+        "spell_faith_recover"
+      ],
+      "A": [
+        "spell_faith_fortify"
+      ],
+      "S": [
+        "spell_faith_aura"
+      ]
+    },
+    "blackSpells": {
+      "D+": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ],
+      "S": [
+        "spell_sagittae"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "aswan",
+    "name": "Aswan",
+    "portrait": "aswan.png",
+    "personalSkill": "princess-of-arrows",
+    "uniqueSkills": [],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_seraphim"
+      ],
+      "A": [
+        "spell_faith_warp"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "centurio",
+    "name": "Centurio",
+    "portrait": "centurio.jpg",
+    "personalSkill": "sturdy-corundum",
+    "uniqueSkills": [],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_rescue"
+      ],
+      "B": [
+        "spell_faith_barrier"
+      ],
+      "A": [
+        "spell_faith_regenera"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "nathan",
+    "name": "Nathan",
+    "portrait": "nathan.jpg",
+    "personalSkill": "headlong-rush",
+    "uniqueSkills": [],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_restore"
+      ],
+      "A": [
+        "spell_faith_warp"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ],
+      "B": [
+        "spell_bolganone"
+      ],
+      "A": [
+        "spell_thoron"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "creek",
+    "name": "Creek",
+    "portrait": "creek.jpg",
+    "personalSkill": "steady-hands",
+    "uniqueSkills": [],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_heal"
+      ],
+      "C": [
+        "spell_faith_nosferatu"
+      ],
+      "B": [
+        "spell_faith_physic"
+      ],
+      "A": [
+        "spell_faith_emergis"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_wind"
+      ],
+      "C": [
+        "spell_blizzard"
+      ],
+      "B": [
+        "spell_cutting_gale"
+      ],
+      "A": [
+        "spell_ice_blade"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "tahonia",
+    "name": "Tahonia",
+    "portrait": "tahonia.png",
+    "personalSkill": "python-technique",
+    "uniqueSkills": [],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_resquia"
+      ],
+      "B": [
+        "spell_faith_restore"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_thunder"
+      ]
+    },
+    "recruitment": {}
+  },
+  {
+    "id": "klapka",
+    "name": "Klapka",
+    "portrait": "klapka.png",
+    "personalSkill": "spirit-of-silver",
+    "uniqueSkills": [],
+    "whiteSpells": {
+      "D": [
+        "spell_faith_laia"
+      ],
+      "C": [
+        "spell_faith_torch"
+      ],
+      "B": [
+        "spell_faith_resquia"
+      ],
+      "A": [
+        "spell_faith_seraphim"
+      ]
+    },
+    "blackSpells": {
+      "D": [
+        "spell_fire"
+      ],
+      "C": [
+        "spell_wind"
+      ]
+    },
+    "recruitment": {}
   }
 ]

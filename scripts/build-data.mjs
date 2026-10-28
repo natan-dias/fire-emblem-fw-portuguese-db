@@ -14,10 +14,11 @@ const slug = (s) =>
     .replace(/^-|-$/g, '')
 
 const db = await (await fetch(`${BASE}/api/data`)).json()
-const units = db.units.filter((u) => Object.keys(u.recruitment ?? {}).length)
+const units = db.units
 
 const skills = {}
 const addSkill = (s) => {
+  if (!s.name) return null
   const id = slug(s.name)
   skills[id] = { name: s.name, description: s.description }
   return id
@@ -28,7 +29,7 @@ await mkdir('src/data', { recursive: true })
 
 const characters = []
 for (const u of units) {
-  const file = `${slug(u.name)}.jpg`
+  const file = `${slug(u.name)}${u.portrait.slice(u.portrait.lastIndexOf('.'))}`
   const res = await fetch(BASE + u.portrait)
   if (!res.ok) throw new Error(`portrait failed for ${u.name}`)
   await writeFile(`public/portraits/${file}`, Buffer.from(await res.arrayBuffer()))
@@ -42,7 +43,7 @@ for (const u of units) {
     whiteSpells: u.learnsets?.faith ?? {},
     blackSpells: u.learnsets?.reason ?? {},
     recruitment: Object.fromEntries(
-      LORD_ROUTES.filter((r) => u.recruitment[r]).map((r) => [r, u.recruitment[r]]),
+      LORD_ROUTES.filter((r) => u.recruitment?.[r]).map((r) => [r, u.recruitment[r]]),
     ),
   })
 }

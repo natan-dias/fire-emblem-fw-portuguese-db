@@ -203,6 +203,50 @@
     "name": "Warrior’s Blood+",
     "description": "Grants a large stat increase based on equipped weapon type."
   },
+  "requiem-style": {
+    "name": "Requiem Style",
+    "description": "Unit makes a follow-up regardless of AS during combat. Trigger % = 5."
+  },
+  "go-no-sen": {
+    "name": "Go No Sen",
+    "description": "In enemy’s phase, unit attacks first during combat. Trigger % = 25."
+  },
+  "sen-no-sen": {
+    "name": "Sen No Sen",
+    "description": "If unit attacks first, unit’s follow-up occurs before foe’s counter during combat. Trigger % = 25."
+  },
+  "swashbuckler-s-luck": {
+    "name": "Swashbuckler’s Luck",
+    "description": "Grants Lck+3."
+  },
+  "cannoning-flair": {
+    "name": "Cannoning Flair",
+    "description": "When using artillery, grants Hit+30 during combat."
+  },
+  "swashbuckler-s-luck-plus": {
+    "name": "Swashbuckler’s Luck+",
+    "description": "Grants Lck+5 to unit and all allies."
+  },
+  "solid-and-sturdy": {
+    "name": "Solid and Sturdy",
+    "description": "Grants Def+5. Unit is armored. Cannot change class to cavalry or flying."
+  },
+  "predictive-sense": {
+    "name": "Predictive Sense",
+    "description": "If unit attacks first, grants Hit+20 to magic during combat."
+  },
+  "celestial-flow": {
+    "name": "Celestial Flow",
+    "description": "Grants Avo+3."
+  },
+  "continuum": {
+    "name": "Continuum",
+    "description": "When unit avoids an attack, restores 5 HP to unit."
+  },
+  "continuum-plus": {
+    "name": "Continuum+",
+    "description": "When unit avoids an attack, restores 10 HP to unit."
+  },
   "brave-assist": {
     "name": "Brave Assist",
     "description": "Grants Def+3 to adjacent allies."
@@ -586,5 +630,33 @@
   "fear-nothing-plus": {
     "name": "Fear Nothing+",
     "description": "If unit attacks first, grants Atk+6 at cost of Avo-30 to unit during combat."
+  },
+  "crimson-magic": {
+    "name": "Crimson Magic",
+    "description": "Increase Hit for magic attacks"
+  },
+  "princess-of-arrows": {
+    "name": "Princess of Arrows",
+    "description": "When equipped with a bow, grants Hit+20"
+  },
+  "sturdy-corundum": {
+    "name": "Sturdy Corundum",
+    "description": "For the first combat in the enemy's phase, unit takes half damage "
+  },
+  "headlong-rush": {
+    "name": "Headlong Rush",
+    "description": "If unit attacks first, grants AS+3 Hit+10 during combat"
+  },
+  "steady-hands": {
+    "name": "Steady Hands",
+    "description": "If foe attacks first, grants AS+3, Avo+10 to unit during combat"
+  },
+  "python-technique": {
+    "name": "Python Technique",
+    "description": "When using a gauntlet combat art, unit makes a follow-up regardless of AS during combat. Trigger % = 15"
+  },
+  "spirit-of-silver": {
+    "name": "Spirit of Silver",
+    "description": "After combat, grants Def+1 to unit until the end of the map. (Max +10) Trigger % = Def"
   }
 }
