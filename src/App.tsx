@@ -9,12 +9,13 @@ function SpellsTabs() {
   return (
     <>
       <nav className="subnav">
-        <NavLink to="/magias/brancas">{t.whiteMagic}</NavLink>
-        <NavLink to="/magias/negras">{t.blackMagic}</NavLink>
+        <NavLink to="/magias/white-magic">{t.whiteMagic}</NavLink>
+        <NavLink to="/magias/black-magic">{t.blackMagic}</NavLink>
       </nav>
+      <p className="hint">{t.spellsHint}</p>
       <Routes>
-        <Route path="brancas" element={<Spells kind="white" />} />
-        <Route path="negras" element={<Spells kind="black" />} />
+        <Route path="white-magic" element={<Spells kind="white" />} />
+        <Route path="black-magic" element={<Spells kind="black" />} />
       </Routes>
     </>
   )
@@ -45,7 +46,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Characters />} />
           <Route path="/recrutamento" element={<Recruitment />} />
-          <Route path="/magias" element={<Navigate to="/magias/brancas" replace />} />
+          <Route path="/magias" element={<Navigate to="/magias/white-magic" replace />} />
           <Route path="/magias/*" element={<SpellsTabs />} />
         </Routes>
       </main>

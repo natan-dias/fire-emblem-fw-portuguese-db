@@ -8,6 +8,7 @@ type Ui = {
   spells: string
   whiteMagic: string
   blackMagic: string
+  spellsHint: string
   spell: string
   power: string
   hit: string
@@ -42,6 +43,7 @@ const ptBR: Ui = {
   spells: 'Magias',
   whiteMagic: 'White Magic Spells',
   blackMagic: 'Black Magic Spells',
+  spellsHint: 'Descrição completa das magias abaixo na página',
   spell: 'Magia (Spell)',
   power: 'Poder (Mt)',
   hit: 'Acerto (Hit)',

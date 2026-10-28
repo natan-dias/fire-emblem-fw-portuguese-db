@@ -11,6 +11,7 @@ a { color:var(--gold); }
 .subnav { display:flex; gap:16px; margin-bottom:16px; }
 .subnav a { color:var(--muted); text-decoration:none; }
 .subnav a.active { color:var(--gold); }
+.hint { margin:-8px 0 16px; font-size:12px; color:var(--muted); }
 .spell-details { margin-top:32px; }
 .controls { display:flex; gap:12px; align-items:center; }
 select, input[type=search] { background:var(--card); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:6px 8px; }
