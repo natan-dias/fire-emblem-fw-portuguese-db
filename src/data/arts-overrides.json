@@ -1,0 +1,6 @@
+{
+  "art_sword_swordfaire": { "hit": 10 },
+  "art_lance_spearfaire": { "hit": 10 },
+  "art_axe_axefaire": { "hit": 10 },
+  "art_brawl_fistfaire": { "hit": 10 }
+}

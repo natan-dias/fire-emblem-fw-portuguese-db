@@ -125,5 +125,9 @@
   "art_bow_twin_shot_flow": "Ataca 2 vezes com 70% do dano.",
   "art_bow_vital_shot": "Sem efeito adicional.",
   "art_bow_warning_shot": "Concede Avo+10 durante o combate.",
-  "art_bow_ward_arrow": "Se o ataque da unidade acertar, inflige Silêncio no inimigo."
+  "art_bow_ward_arrow": "Se o ataque da unidade acertar, inflige Silêncio no inimigo.",
+  "art_sword_swordfaire": "Aumenta Atk +3 e Avo +10 quando equipado com espada.",
+  "art_lance_spearfaire": "Aumenta Atk +3 e Avo +10 quando equipado com lança.",
+  "art_axe_axefaire": "Aumenta Atk +3 e Avo +10 quando equipado com machado.",
+  "art_brawl_fistfaire": "Aumenta Atk +3 e Avo +10 quando equipado com manoplas."
 }
