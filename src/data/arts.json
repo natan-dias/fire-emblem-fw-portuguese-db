@@ -255,7 +255,7 @@
       "prof": "lance",
       "cost": null,
       "might": null,
-      "hit": null,
+      "hit": 10,
       "crit": null,
       "range": "",
       "effect": ""
@@ -565,7 +565,7 @@
       "prof": "sword",
       "cost": null,
       "might": null,
-      "hit": null,
+      "hit": 10,
       "crit": null,
       "range": "",
       "effect": ""
@@ -845,7 +845,7 @@
       "prof": "axe",
       "cost": null,
       "might": null,
-      "hit": null,
+      "hit": 10,
       "crit": null,
       "range": "",
       "effect": ""
@@ -1125,7 +1125,7 @@
       "prof": "brawl",
       "cost": null,
       "might": null,
-      "hit": null,
+      "hit": 10,
       "crit": null,
       "range": "",
       "effect": ""

@@ -75,10 +75,13 @@ for (const s of db.spells) {
 await writeFile('src/data/spells.json', JSON.stringify(spells, null, 2) + '\n')
 // Combat arts (weapon proficiencies) with stats; `effect` is translated separately in src/i18n.
 // Authority/Infantry/Riding/Armor/Flying learn skills instead, so only their names are kept.
+// Hand-maintained stats for arts the reference API has no data for.
+const artOverrides = JSON.parse(await readFile('src/data/arts-overrides.json', 'utf8'))
 const arts = {}
 for (const a of db.combatArts) {
   arts[a.id] = {
     name: a.name, prof: a.proficiency, cost: a.cost, might: a.might, hit: a.hit, crit: a.crit, range: a.range, effect: a.effect,
+    ...artOverrides[a.id],
   }
 }
 const skillNames = {}
