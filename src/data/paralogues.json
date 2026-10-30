@@ -1,0 +1,206 @@
+[
+  {
+    "id": "para_leda",
+    "name": "Leda",
+    "windows": {
+      "dietrich": [
+        {
+          "start": "9/2",
+          "end": "9/8"
+        }
+      ],
+      "theodora": [
+        {
+          "start": "9/2",
+          "end": "9/8"
+        }
+      ]
+    }
+  },
+  {
+    "id": "para_theodora",
+    "name": "Theodora",
+    "windows": {
+      "dietrich": [
+        {
+          "start": "9/3",
+          "end": "9/15"
+        }
+      ]
+    }
+  },
+  {
+    "id": "para_talimun",
+    "name": "Talimun",
+    "windows": {
+      "cai": [
+        {
+          "start": "9/17",
+          "end": "9/22"
+        },
+        {
+          "start": "10/1",
+          "end": "10/12"
+        }
+      ],
+      "dietrich": [
+        {
+          "start": "9/17",
+          "end": "9/19"
+        },
+        {
+          "start": "10/1",
+          "end": "10/12"
+        }
+      ],
+      "theodora": [
+        {
+          "start": "9/17",
+          "end": "9/22"
+        },
+        {
+          "start": "10/1",
+          "end": "10/12"
+        }
+      ]
+    }
+  },
+  {
+    "id": "para_bertrand",
+    "name": "Bertrand",
+    "windows": {
+      "cai": [
+        {
+          "start": "9/17",
+          "end": "9/25"
+        }
+      ],
+      "dietrich": [
+        {
+          "start": "9/17",
+          "end": "9/17"
+        }
+      ],
+      "theodora": [
+        {
+          "start": "9/17",
+          "end": "9/25"
+        }
+      ]
+    }
+  },
+  {
+    "id": "para_anna",
+    "name": "Anna",
+    "windows": {
+      "cai": [
+        {
+          "start": "9/24",
+          "end": "10/5"
+        }
+      ],
+      "dietrich": [
+        {
+          "start": "9/29",
+          "end": "10/5"
+        }
+      ],
+      "theodora": [
+        {
+          "start": "9/24",
+          "end": "10/5"
+        }
+      ]
+    }
+  },
+  {
+    "id": "para_anatolia",
+    "name": "Anatolia",
+    "windows": {
+      "dietrich": [
+        {
+          "start": "10/5",
+          "end": "10/17"
+        }
+      ],
+      "leda": [
+        {
+          "start": "10/5",
+          "end": "10/17"
+        }
+      ]
+    }
+  },
+  {
+    "id": "para_dietrich",
+    "name": "Dietrich",
+    "windows": {
+      "theodora": [
+        {
+          "start": "10/16",
+          "end": "10/24"
+        }
+      ],
+      "leda": [
+        {
+          "start": "10/16",
+          "end": "11/1"
+        }
+      ]
+    }
+  },
+  {
+    "id": "para_cai",
+    "name": "Cai",
+    "windows": {
+      "dietrich": [
+        {
+          "start": "10/16",
+          "end": "10/22"
+        }
+      ],
+      "theodora": [
+        {
+          "start": "10/16",
+          "end": "10/22"
+        }
+      ],
+      "leda": [
+        {
+          "start": "10/16",
+          "end": "10/22"
+        }
+      ]
+    }
+  },
+  {
+    "id": "para_orchel",
+    "name": "Orchel",
+    "windows": {
+      "cai": [
+        {
+          "start": "10/18",
+          "end": "10/21"
+        }
+      ],
+      "dietrich": [
+        {
+          "start": "10/18",
+          "end": "10/27"
+        }
+      ],
+      "theodora": [
+        {
+          "start": "10/18",
+          "end": "10/24"
+        }
+      ],
+      "leda": [
+        {
+          "start": "10/18",
+          "end": "10/27"
+        }
+      ]
+    }
+  }
+]

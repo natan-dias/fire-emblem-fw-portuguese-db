@@ -38,6 +38,145 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_skysplit"
+        ],
+        "A": [
+          "art_sword_windsweep"
+        ],
+        "S+": [
+          "art_sword_swordfaire"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_holy_spear"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_magic_throw"
+        ],
+        "B": [
+          "art_axe_guard_spike"
+        ],
+        "A": [
+          "art_axe_triple_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_breakaway_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_fading_blow"
+        ],
+        "B": [
+          "art_brawl_spirit_fist"
+        ],
+        "A": [
+          "art_brawl_spirit_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_attack_formation"
+        ],
+        "C": [
+          "skill_authority_distraction"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_counter_cavalry"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_dodge"
+        ],
+        "C": [
+          "skill_infantry_close_quarters"
+        ],
+        "B": [
+          "skill_infantry_dodge+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ],
+        "S": [
+          "skill_riding_vanguard+"
+        ],
+        "S+": [
+          "skill_riding_cavalry_move+"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_defense_stance"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_move+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_counterflurry"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "extra": "Starting unit"
@@ -79,6 +218,151 @@
       "A": [
         "spell_thoron"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_grounder"
+        ],
+        "C": [
+          "art_sword_crosswise_cut"
+        ],
+        "B": [
+          "art_sword_flash_blow"
+        ],
+        "A": [
+          "art_sword_furious_strike"
+        ],
+        "S+": [
+          "art_sword_swordfaire"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_stinger"
+        ],
+        "B": [
+          "art_lance_graceful_blow"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_riot"
+        ],
+        "A": [
+          "art_axe_killer_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_shadow_arrow"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ],
+        "A": [
+          "art_bow_haphazard"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_one_on_one"
+        ],
+        "B": [
+          "art_brawl_razor_fist"
+        ],
+        "A": [
+          "art_brawl_assassin_s_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_lend_strength"
+        ],
+        "B": [
+          "skill_authority_threaten+"
+        ],
+        "A": [
+          "skill_authority_lend_strength+"
+        ],
+        "S": [
+          "skill_authority_lend_strength++"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_pass"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_combat"
+        ],
+        "B": [
+          "skill_armor_armored_combat+"
+        ],
+        "A": [
+          "skill_armor_dexterity_fend"
+        ],
+        "S": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ],
+        "A": [
+          "skill_flying_airfighter"
+        ]
+      }
     },
     "recruitment": {
       "dietrich": {
@@ -126,6 +410,160 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_ripple_slash"
+        ],
+        "A": [
+          "art_sword_blade_slam"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_brilliant_strike"
+        ],
+        "S+": [
+          "art_lance_spearfaire"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_helm_splitter"
+        ],
+        "B": [
+          "art_axe_guard_spike"
+        ],
+        "A": [
+          "art_axe_focused_strike"
+        ],
+        "S+": [
+          "art_axe_axefaire"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_lead_arrow"
+        ],
+        "B": [
+          "art_bow_arrowcrack"
+        ],
+        "A": [
+          "art_bow_spirit_bow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_crush_armor"
+        ],
+        "B": [
+          "art_brawl_spirit_fist"
+        ],
+        "A": [
+          "art_brawl_one_two_punch"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_rein"
+        ],
+        "C": [
+          "skill_authority_attack_formation"
+        ],
+        "B": [
+          "skill_authority_rein+"
+        ],
+        "A": [
+          "skill_authority_attack_formation+"
+        ],
+        "S": [
+          "skill_authority_frontline_gambit"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_avoid_fatality+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_close_quarters+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_armored_combat"
+        ],
+        "C": [
+          "skill_armor_heavy_break"
+        ],
+        "B": [
+          "skill_armor_heavy_break+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_counterflurry"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
+    },
     "recruitment": {
       "theodora": {
         "extra": "Starting unit"
@@ -170,6 +608,157 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_destreza"
+        ],
+        "B": [
+          "art_sword_gale_blow"
+        ],
+        "A": [
+          "art_sword_heat_haze"
+        ],
+        "S+": [
+          "art_sword_swordfaire"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_protective_spear"
+        ],
+        "B": [
+          "art_lance_sword_breaker"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_wild_abandon"
+        ],
+        "B": [
+          "art_axe_riot"
+        ],
+        "A": [
+          "art_axe_double_swing"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_shadow_arrow"
+        ],
+        "A": [
+          "art_bow_calm_call"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_feint"
+        ],
+        "C": [
+          "art_brawl_beatdown"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_assassin_s_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_swap"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_counter_mages"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_dodge"
+        ],
+        "B": [
+          "skill_infantry_dodge+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_pass"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "B": [
+          "skill_armor_armored_leap+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_bowblock+"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ],
+        "A": [
+          "skill_flying_airfighter"
+        ]
+      }
     },
     "recruitment": {
       "leda": {
@@ -219,6 +808,139 @@
       "S": [
         "spell_excalibur"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_finesse_blade"
+        ],
+        "B": [
+          "art_sword_hexblade"
+        ],
+        "A": [
+          "art_sword_greater_hexblade"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_protective_spear"
+        ],
+        "B": [
+          "art_lance_sword_breaker"
+        ],
+        "A": [
+          "art_lance_frozen_spear_slice"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_careful_attack"
+        ],
+        "B": [
+          "art_axe_spear_buster"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_snipe"
+        ],
+        "B": [
+          "art_bow_magic_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_lend_strength"
+        ],
+        "D+": [
+          "skill_authority_lend_defense"
+        ],
+        "C": [
+          "skill_authority_lend_magic"
+        ],
+        "B": [
+          "skill_authority_lend_strength+"
+        ],
+        "B+": [
+          "skill_authority_lend_defense+"
+        ],
+        "A": [
+          "skill_authority_lend_magic+"
+        ],
+        "S": [
+          "skill_authority_lend_magic++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_sniper_evasion+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_resistant_armor+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_magic_fend"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -284,6 +1006,141 @@
         "spell_dark_spikes_t"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_shadow_gambit"
+        ],
+        "B": [
+          "art_sword_ripple_slash"
+        ],
+        "A": [
+          "art_sword_dark_ray"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_protective_spear"
+        ],
+        "B": [
+          "art_lance_holy_spear"
+        ],
+        "A": [
+          "art_lance_frozen_spear_slice"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_magic_throw"
+        ],
+        "B": [
+          "art_axe_devilwind_flurry"
+        ],
+        "A": [
+          "art_axe_magic_breaker"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_snipe"
+        ],
+        "B": [
+          "art_bow_ward_arrow"
+        ],
+        "A": [
+          "art_bow_calm_call"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ],
+        "B": [
+          "art_brawl_mind_s_eye_blow"
+        ],
+        "A": [
+          "art_brawl_magic_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_draw_back"
+        ],
+        "C": [
+          "skill_authority_lend_magic"
+        ],
+        "B": [
+          "skill_authority_counter_mages"
+        ],
+        "A": [
+          "skill_authority_lend_magic+"
+        ],
+        "S": [
+          "skill_authority_lend_magic++",
+          "skill_authority_counter_mages+"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_sniper_evasion+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_resistant_armor+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_magic_fend"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {
       "dietrich": {
         "extra": "Starting unit"
@@ -336,6 +1193,104 @@
         "spell_sagittae"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_hexblade"
+        ],
+        "B": [
+          "art_sword_vicious_flash"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_spear_buster"
+        ],
+        "B": [
+          "art_axe_devilwind_flurry"
+        ]
+      },
+      "bow": {
+        "C": [
+          "art_bow_leg_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_curtail_magic"
+        ],
+        "C": [
+          "art_brawl_beatdown"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_lend_strength"
+        ],
+        "C": [
+          "skill_authority_lend_dexterity"
+        ],
+        "B": [
+          "skill_authority_lend_strength+"
+        ],
+        "A": [
+          "skill_authority_lend_strength++",
+          "skill_authority_lend_dexterity++"
+        ],
+        "S": [
+          "skill_authority_frontline_gambit"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_surprise_attack"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_resist_stance"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "B": [
+          "skill_armor_armored_leap+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {
       "theodora": {
         "extra": "Starting unit"
@@ -378,6 +1333,151 @@
       "A": [
         "spell_thoron"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_tiger_slash"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_blade_slam"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_discerning_blow"
+        ],
+        "B": [
+          "art_axe_guard_spike"
+        ],
+        "A": [
+          "art_axe_power_throw"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_leg_shot"
+        ],
+        "B": [
+          "art_bow_arrowcrack"
+        ],
+        "A": [
+          "art_bow_leaden_draw"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_battle_blow"
+        ],
+        "B": [
+          "art_brawl_knockout"
+        ],
+        "A": [
+          "art_brawl_power_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_defense_formation"
+        ],
+        "C": [
+          "skill_authority_rein"
+        ],
+        "B": [
+          "skill_authority_rein+"
+        ],
+        "A": [
+          "skill_authority_defense_formation+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_avoid_fatality+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_armored_move"
+        ],
+        "C": [
+          "skill_armor_bowblock"
+        ],
+        "B": [
+          "skill_armor_armored_move+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_defense_fend"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
     },
     "recruitment": {
       "dietrich": {
@@ -431,6 +1531,125 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_rend_armor"
+        ],
+        "B": [
+          "art_sword_flash_blow"
+        ],
+        "A": [
+          "art_sword_single_sunder"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ],
+        "B": [
+          "art_lance_double_throw"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_double_attack"
+        ],
+        "A": [
+          "art_axe_power_throw"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot",
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ],
+        "A": [
+          "art_bow_leaden_draw"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_fading_blow"
+        ],
+        "B": [
+          "art_brawl_jack_hit"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_swap"
+        ],
+        "B": [
+          "skill_authority_counter_snipers"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_positioning+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_combat"
+        ],
+        "B": [
+          "skill_armor_armored_combat+"
+        ],
+        "S": [
+          "skill_armor_dexterity_fend"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -491,6 +1710,145 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_blade_slam"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_focused_throw"
+        ],
+        "B": [
+          "art_lance_double_throw"
+        ],
+        "A": [
+          "art_lance_yawning_throw"
+        ],
+        "S+": [
+          "art_lance_spearfaire"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_wild_abandon"
+        ],
+        "B": [
+          "art_axe_guard_spike"
+        ],
+        "A": [
+          "art_axe_reflecting_dance"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_lead_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_crush_armor"
+        ],
+        "B": [
+          "art_brawl_knockout"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_shove"
+        ],
+        "B": [
+          "skill_authority_lend_defense"
+        ],
+        "A": [
+          "skill_authority_lend_defense+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_close_call_evasion"
+        ]
+      },
+      "riding": {
+        "C+": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_defense_stance"
+        ],
+        "C": [
+          "skill_armor_bowblock"
+        ],
+        "B": [
+          "skill_armor_heavy_break"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_bowblock+"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ],
+        "A": [
+          "skill_flying_airfighter"
+        ],
+        "S": [
+          "skill_flying_flitting_flier+"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 2,
@@ -549,6 +1907,131 @@
         "spell_ice_blade"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_tiger_slash"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_furious_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ],
+        "A": [
+          "art_lance_yawning_throw"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike",
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_battleblade_strike"
+        ],
+        "A": [
+          "art_axe_triple_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_lead_arrow"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ],
+        "A": [
+          "art_bow_haphazard"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_battle_blow"
+        ],
+        "B": [
+          "art_brawl_knockout"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_shove"
+        ],
+        "B": [
+          "skill_authority_threaten+"
+        ],
+        "A": [
+          "skill_authority_power_arts_order"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_defense_stance"
+        ],
+        "C": [
+          "skill_armor_absolute_defense"
+        ],
+        "B": [
+          "skill_armor_absolute_defense+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_pursuit_defense"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {
       "theodora": {
         "extra": "Starting unit"
@@ -597,6 +2080,142 @@
       "S": [
         "spell_excalibur"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_grounder"
+        ],
+        "B": [
+          "art_sword_mist_reaper"
+        ],
+        "A": [
+          "art_sword_twin_blades"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_stinger"
+        ],
+        "B": [
+          "art_lance_khamsin"
+        ],
+        "A": [
+          "art_lance_brilliant_strike"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_magic_throw"
+        ],
+        "B": [
+          "art_axe_devilwind_flurry"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_sneaky_shot"
+        ],
+        "A": [
+          "art_bow_calm_call"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_curtail_magic"
+        ],
+        "B": [
+          "art_brawl_spirit_fist"
+        ],
+        "A": [
+          "art_brawl_one_two_punch"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_lend_dexterity"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_lend_dexterity+"
+        ],
+        "S": [
+          "skill_authority_lend_dexterity++"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_dodge"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_dodge+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_infantry_canto"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_resist_stance"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "B": [
+          "skill_armor_armored_leap+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_luck_fend"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -659,6 +2278,139 @@
         "spell_cutting_gale"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_grounder"
+        ],
+        "B": [
+          "art_sword_ripple_slash"
+        ],
+        "A": [
+          "art_sword_furious_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ],
+        "A": [
+          "art_lance_brilliant_strike"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_discerning_blow"
+        ],
+        "B": [
+          "art_axe_devilwind_flurry"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_leg_shot"
+        ],
+        "B": [
+          "art_bow_magic_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_rein"
+        ],
+        "C": [
+          "skill_authority_defense_formation"
+        ],
+        "B": [
+          "skill_authority_rein+"
+        ],
+        "A": [
+          "skill_authority_defense_formation+"
+        ],
+        "S": [
+          "skill_authority_patch_up_stance"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "C": [
+          "skill_infantry_dodge"
+        ],
+        "B": [
+          "skill_infantry_dodge+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_infantry_canto"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_bowblock"
+        ],
+        "B": [
+          "skill_armor_spearblock"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_luck_fend"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ],
+        "A": [
+          "skill_flying_airfighter"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "extra": "Starting unit"
@@ -718,6 +2470,139 @@
         "spell_bolganone"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_tiger_slash"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_single_sunder"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_crash"
+        ],
+        "A": [
+          "art_axe_bloodbath"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_mighty_shot"
+        ],
+        "A": [
+          "art_bow_leaden_draw"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_crush_armor"
+        ],
+        "B": [
+          "art_brawl_knockout"
+        ],
+        "A": [
+          "art_brawl_power_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_rein"
+        ],
+        "C": [
+          "skill_authority_distraction"
+        ],
+        "B": [
+          "skill_authority_rein+"
+        ],
+        "A": [
+          "skill_authority_distraction+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_evasion+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ],
+        "C": [
+          "skill_armor_absolute_defense"
+        ],
+        "B": [
+          "skill_armor_armored_move"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_absolute_defense+"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -775,6 +2660,124 @@
       "A": [
         "spell_cutting_gale"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_haze_slice"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_jab"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_careful_attack"
+        ],
+        "B": [
+          "art_axe_riot"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_breakaway_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_power_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_lend_speed"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_lend_speed+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_dodge"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_armored_leap+"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ],
+        "A": [
+          "skill_flying_airfighter"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -841,6 +2844,145 @@
         "spell_bolting"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_hexblade"
+        ],
+        "A": [
+          "art_sword_greater_hexblade"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_jab"
+        ],
+        "B": [
+          "art_lance_frozen_spear_slice"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_wild_abandon"
+        ],
+        "B": [
+          "art_axe_lightning_axe"
+        ],
+        "A": [
+          "art_axe_triple_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_magic_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_one_on_one"
+        ],
+        "B": [
+          "art_brawl_mystic_blow"
+        ],
+        "A": [
+          "art_brawl_magic_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_attack_formation"
+        ],
+        "C": [
+          "skill_authority_threaten"
+        ],
+        "B": [
+          "skill_authority_threaten+"
+        ],
+        "A": [
+          "skill_authority_attack_formation+"
+        ],
+        "S": [
+          "skill_authority_propel"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_combat_advantage"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_armored_combat"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_magic_fend"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_healing_armor"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -898,6 +3040,135 @@
       "A": [
         "spell_thoron"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_haze_slice"
+        ],
+        "C": [
+          "art_sword_rend_armor"
+        ],
+        "B": [
+          "art_sword_ripple_slash"
+        ],
+        "A": [
+          "art_sword_windsweep"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_stinger"
+        ],
+        "B": [
+          "art_lance_sword_breaker"
+        ],
+        "A": [
+          "art_lance_khamsin"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_spear_buster"
+        ],
+        "A": [
+          "art_axe_double_swing"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_sneaky_shot"
+        ],
+        "A": [
+          "art_bow_calm_call"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_fading_blow"
+        ],
+        "B": [
+          "art_brawl_jack_hit"
+        ],
+        "A": [
+          "art_brawl_assassin_s_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_draw_back"
+        ],
+        "C": [
+          "skill_authority_safety_first_order"
+        ],
+        "B": [
+          "skill_authority_defense_formation"
+        ],
+        "A": [
+          "skill_authority_defense_formation+"
+        ],
+        "S": [
+          "skill_authority_frontline_gambit"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_combat_advantage"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_move+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {
       "cai": {
@@ -960,6 +3231,142 @@
         "spell_bolganone"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_shadow_gambit"
+        ],
+        "B": [
+          "art_sword_gale_blow"
+        ],
+        "A": [
+          "art_sword_twin_blades"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ],
+        "B": [
+          "art_lance_graceful_blow"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_riot"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_leg_shot"
+        ],
+        "A": [
+          "art_bow_twin_shot_flow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_saving_fist"
+        ],
+        "S+": [
+          "art_brawl_fistfaire"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_draw_back"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_counter_snipers"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_dodge"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_surprise_attack"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_dodge+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_heavy_break"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_counterflurry"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1018,6 +3425,137 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_tiger_slash"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_lunging_gale"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_yawning_throw"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_riot"
+        ],
+        "A": [
+          "art_axe_instant_strike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_snipe"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ],
+        "A": [
+          "art_bow_twin_shot_flow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_one_on_one"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_revival"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_attack_formation"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_attack_formation+"
+        ],
+        "S": [
+          "skill_authority_teach_requiem"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_close_call_evasion"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_close_quarters+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_move+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_strength_fend"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {}
   },
   {
@@ -1059,6 +3597,128 @@
       "S": [
         "spell_excalibur"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_grounder"
+        ],
+        "B": [
+          "art_sword_hexblade"
+        ],
+        "A": [
+          "art_sword_fateful_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_focused_throw"
+        ],
+        "B": [
+          "art_lance_graceful_blow"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_magic_throw"
+        ],
+        "B": [
+          "art_axe_lightning_axe"
+        ],
+        "A": [
+          "art_axe_double_swing"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_leg_shot"
+        ],
+        "B": [
+          "art_bow_sneaky_shot"
+        ],
+        "A": [
+          "art_bow_calm_call"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ],
+        "B": [
+          "art_brawl_jack_hit"
+        ],
+        "A": [
+          "art_brawl_spirit_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_lend_luck"
+        ],
+        "C": [
+          "skill_authority_attack_formation"
+        ],
+        "B": [
+          "skill_authority_lend_luck+"
+        ],
+        "A": [
+          "skill_authority_attack_formation+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_positioning+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_defense_stance"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_armored_move"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_luck_fend"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {}
   },
@@ -1105,6 +3765,140 @@
         "spell_sagittae"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_blade_slam"
+        ],
+        "A": [
+          "art_sword_greater_hexblade"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_holy_spear"
+        ],
+        "A": [
+          "art_lance_brilliant_strike"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_wild_abandon"
+        ],
+        "B": [
+          "art_axe_lightning_axe"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_lead_arrow"
+        ],
+        "B": [
+          "art_bow_mighty_shot"
+        ],
+        "A": [
+          "art_bow_magic_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_one_on_one"
+        ],
+        "B": [
+          "art_brawl_spirit_fist"
+        ],
+        "A": [
+          "art_brawl_spirit_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_defense_formation"
+        ],
+        "C": [
+          "skill_authority_lend_magic"
+        ],
+        "B": [
+          "skill_authority_defense_formation+"
+        ],
+        "A": [
+          "skill_authority_lend_magic+"
+        ],
+        "S": [
+          "skill_authority_lend_magic++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_combat_advantage"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ],
+        "C": [
+          "skill_armor_armored_combat"
+        ],
+        "B": [
+          "skill_armor_resistant_armor"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_magic_fend"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {}
   },
   {
@@ -1150,6 +3944,145 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_haze_slice"
+        ],
+        "C": [
+          "art_sword_shadow_gambit"
+        ],
+        "B": [
+          "art_sword_mist_reaper"
+        ],
+        "A": [
+          "art_sword_heat_haze"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ],
+        "B": [
+          "art_lance_sword_breaker"
+        ],
+        "A": [
+          "art_lance_knightkneel"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_riot"
+        ],
+        "A": [
+          "art_axe_triple_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_breakaway_shot"
+        ],
+        "B": [
+          "art_bow_shadow_arrow"
+        ],
+        "A": [
+          "art_bow_calm_call"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_one_two_punch"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_lend_speed"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_lend_speed+"
+        ],
+        "S": [
+          "skill_authority_lend_speed++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_dodge"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_dodge+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_pass"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "B": [
+          "skill_armor_armored_leap+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_bowblock+"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {}
   },
   {
@@ -1188,6 +4121,141 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_finesse_blade"
+        ],
+        "B": [
+          "art_sword_vicious_flash"
+        ],
+        "A": [
+          "art_sword_twin_blades"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_focused_throw"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_knightkneel"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_careful_attack"
+        ],
+        "B": [
+          "art_axe_crash"
+        ],
+        "A": [
+          "art_axe_power_throw"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_breakaway_shot"
+        ],
+        "B": [
+          "art_bow_shadow_arrow"
+        ],
+        "A": [
+          "art_bow_twin_shot_flow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_fading_blow"
+        ],
+        "B": [
+          "art_brawl_jack_hit"
+        ],
+        "A": [
+          "art_brawl_spirit_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_distraction+"
+        ],
+        "B": [
+          "skill_authority_counter_cavalry"
+        ],
+        "A": [
+          "skill_authority_brave_assist_stance"
+        ],
+        "S": [
+          "skill_authority_counter_cavalry+"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_evasion+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_bowblock"
+        ],
+        "C": [
+          "skill_armor_spearblock"
+        ],
+        "B": [
+          "skill_armor_armored_move"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_defense_fend"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {
       "dietrich": {
@@ -1234,6 +4302,145 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_shadow_gambit"
+        ],
+        "B": [
+          "art_sword_flash_blow"
+        ],
+        "A": [
+          "art_sword_twin_blades"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_stinger"
+        ],
+        "B": [
+          "art_lance_double_throw"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_helm_splitter"
+        ],
+        "B": [
+          "art_axe_double_attack"
+        ],
+        "A": [
+          "art_axe_triple_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_breakaway_shot"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ],
+        "A": [
+          "art_bow_twin_shot_flow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ],
+        "B": [
+          "art_brawl_razor_fist"
+        ],
+        "A": [
+          "art_brawl_assassin_s_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_swap"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_counter_snipers"
+        ],
+        "S": [
+          "skill_authority_counter_snipers+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_dodge"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_pass"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_dodge+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_move+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_counterflurry"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -1292,6 +4499,134 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_destreza"
+        ],
+        "B": [
+          "art_sword_skysplit"
+        ],
+        "A": [
+          "art_sword_heat_haze"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ],
+        "B": [
+          "art_lance_graceful_blow"
+        ],
+        "A": [
+          "art_lance_knightkneel"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_battleblade_strike"
+        ],
+        "A": [
+          "art_axe_killer_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_twin_shot_flow"
+        ],
+        "A": [
+          "art_bow_spirit_bow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_beatdown"
+        ],
+        "B": [
+          "art_brawl_fading_assault"
+        ],
+        "A": [
+          "art_brawl_assassin_s_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_rein"
+        ],
+        "C": [
+          "skill_authority_rein+"
+        ],
+        "B": [
+          "skill_authority_counter_fliers"
+        ],
+        "A": [
+          "skill_authority_caretaker_stance"
+        ],
+        "S": [
+          "skill_authority_counter_fliers+"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_dodge"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_surprise_attack"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_positioning+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_combat"
+        ],
+        "B": [
+          "skill_armor_armored_combat+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_dexterity_fend"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {
       "cai": {
@@ -1358,6 +4693,140 @@
         "spell_ice_blade"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_subdue"
+        ],
+        "C": [
+          "art_sword_shadow_gambit"
+        ],
+        "B": [
+          "art_sword_ripple_slash"
+        ],
+        "A": [
+          "art_sword_greater_hexblade"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_protective_spear"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_brilliant_strike"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_magic_throw"
+        ],
+        "B": [
+          "art_axe_lightning_axe"
+        ],
+        "A": [
+          "art_axe_reflecting_dance"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_magic_arrow"
+        ],
+        "A": [
+          "art_bow_twin_shot_flow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_curtail_magic"
+        ],
+        "C": [
+          "art_brawl_fading_blow"
+        ],
+        "B": [
+          "art_brawl_mystic_blow"
+        ],
+        "A": [
+          "art_brawl_magic_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_defense_formation"
+        ],
+        "C": [
+          "skill_authority_draw_back",
+          "skill_authority_lend_defense"
+        ],
+        "B": [
+          "skill_authority_lend_defense+"
+        ],
+        "A": [
+          "skill_authority_defense_formation+"
+        ],
+        "S": [
+          "skill_authority_lend_defense++"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_avoid_fatality+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_sniper_evasion+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_resist_stance"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_resistant_armor+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_magic_fend"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {
       "dietrich": {
         "support": 3,
@@ -1412,6 +4881,148 @@
       "S": [
         "spell_bolting"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_finesse_blade"
+        ],
+        "B": [
+          "art_sword_hexblade"
+        ],
+        "A": [
+          "art_sword_windsweep"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_jab"
+        ],
+        "B": [
+          "art_lance_frozen_spear"
+        ],
+        "A": [
+          "art_lance_frozen_spear_slice"
+        ],
+        "S+": [
+          "art_lance_spearfaire"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_magic_throw"
+        ],
+        "B": [
+          "art_axe_devilwind_flurry"
+        ],
+        "A": [
+          "art_axe_magic_breaker"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_magic_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ],
+        "B": [
+          "art_brawl_mystic_blow"
+        ],
+        "A": [
+          "art_brawl_magic_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_lend_strength"
+        ],
+        "C": [
+          "skill_authority_lend_defense"
+        ],
+        "B": [
+          "skill_authority_lend_strength+"
+        ],
+        "A": [
+          "skill_authority_lend_defense+",
+          "skill_authority_lend_strength++"
+        ],
+        "S": [
+          "skill_authority_lend_defense++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_sniper_evasion+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_resist_stance"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_move+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_healing_armor"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -1472,6 +5083,124 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_destreza"
+        ],
+        "B": [
+          "art_sword_vicious_flash"
+        ],
+        "A": [
+          "art_sword_fateful_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_jab"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_battleblade_strike"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_lead_arrow"
+        ],
+        "B": [
+          "art_bow_arrowcrack"
+        ],
+        "A": [
+          "art_bow_leaden_draw"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_battle_blow"
+        ],
+        "B": [
+          "art_brawl_knockout"
+        ],
+        "A": [
+          "art_brawl_power_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_lend_strength"
+        ],
+        "B": [
+          "skill_authority_threaten+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_close_call_evasion"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_bowblock"
+        ],
+        "B": [
+          "skill_armor_armored_move"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -1536,6 +5265,154 @@
         "spell_ice_blade"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_finesse_blade"
+        ],
+        "B": [
+          "art_sword_mist_reaper"
+        ],
+        "A": [
+          "art_sword_dark_ray"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_holy_spear"
+        ],
+        "A": [
+          "art_lance_brilliant_strike"
+        ],
+        "S+": [
+          "art_lance_spearfaire"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_guard_spike"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_spirit_bow"
+        ],
+        "A": [
+          "art_bow_ward_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_curtail_magic"
+        ],
+        "B": [
+          "art_brawl_spirit_fist"
+        ],
+        "A": [
+          "art_brawl_fading_assault"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_lend_strength"
+        ],
+        "B": [
+          "skill_authority_threaten+"
+        ],
+        "A": [
+          "skill_authority_lend_strength+"
+        ],
+        "S": [
+          "skill_authority_lend_resistance"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_close_call_evasion"
+        ],
+        "S": [
+          "skill_infantry_infantry_canto"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_armored_move"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_resistant_armor+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_bowblock+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ],
+        "A": [
+          "skill_flying_airfighter"
+        ],
+        "S": [
+          "skill_flying_flitting_flier+"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1598,6 +5475,135 @@
         "spell_cutting_gale"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_crosswise_cut"
+        ],
+        "B": [
+          "art_sword_gale_blow"
+        ],
+        "A": [
+          "art_sword_lunging_gale"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_jab"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_wild_abandon"
+        ],
+        "B": [
+          "art_axe_guard_spike"
+        ],
+        "A": [
+          "art_axe_instant_strike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ],
+        "A": [
+          "art_bow_bowbreaker_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_one_on_one"
+        ],
+        "B": [
+          "art_brawl_jack_hit"
+        ],
+        "A": [
+          "art_brawl_revival"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_attack_formation"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_attack_formation+"
+        ],
+        "S": [
+          "skill_authority_quick_draw_order"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_close_call_evasion"
+        ],
+        "B": [
+          "skill_infantry_dodge"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_dodge+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "B": [
+          "skill_armor_armored_move"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_armored_move+"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1657,6 +5663,128 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_furious_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_wild_abandon"
+        ],
+        "B": [
+          "art_axe_guard_spike"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_lead_arrow"
+        ],
+        "B": [
+          "art_bow_mighty_shot"
+        ],
+        "A": [
+          "art_bow_leaden_draw"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_battle_blow"
+        ],
+        "B": [
+          "art_brawl_fading_assault"
+        ],
+        "A": [
+          "art_brawl_mind_s_eye_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_defense_formation"
+        ],
+        "B": [
+          "skill_authority_threaten+"
+        ],
+        "A": [
+          "skill_authority_defense_formation+"
+        ],
+        "S": [
+          "skill_authority_propel"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ],
+        "C": [
+          "skill_armor_absolute_defense"
+        ],
+        "B": [
+          "skill_armor_absolute_defense+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_pursuit_defense"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {
       "cai": {
@@ -1718,6 +5846,130 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_haze_slice"
+        ],
+        "B": [
+          "art_sword_gale_blow"
+        ],
+        "A": [
+          "art_sword_lunging_gale"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ],
+        "B": [
+          "art_lance_graceful_blow"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_riot"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_shadow_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_beatdown"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_saving_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_rein"
+        ],
+        "C": [
+          "skill_authority_lend_speed"
+        ],
+        "B": [
+          "skill_authority_rein+"
+        ],
+        "A": [
+          "skill_authority_lend_speed+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_pass"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "B": [
+          "skill_armor_armored_combat"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1778,6 +6030,133 @@
         "spell_bolganone"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_subdue"
+        ],
+        "C": [
+          "art_sword_grounder"
+        ],
+        "B": [
+          "art_sword_vicious_flash"
+        ],
+        "A": [
+          "art_sword_furious_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_protective_spear"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_yawning_throw"
+        ],
+        "S+": [
+          "art_lance_spearfaire"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_spear_buster"
+        ],
+        "B": [
+          "art_axe_giant_breaker"
+        ],
+        "A": [
+          "art_axe_focused_strike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_breakaway_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_battle_blow"
+        ],
+        "B": [
+          "art_brawl_mind_s_eye_blow"
+        ],
+        "A": [
+          "art_brawl_spirit_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_draw_back"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_counter_cavalry"
+        ],
+        "S": [
+          "skill_authority_counter_cavalry+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ],
+        "C": [
+          "skill_armor_spearblock"
+        ],
+        "B": [
+          "skill_armor_armored_move"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ],
+        "A": [
+          "skill_flying_airfighter"
+        ],
+        "S": [
+          "skill_flying_flitting_flier+"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -1834,6 +6213,128 @@
       "A": [
         "spell_bolganone"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_chop"
+        ],
+        "C": [
+          "art_sword_tiger_slash"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_single_sunder"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_wild_abandon"
+        ],
+        "B": [
+          "art_axe_crash"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_lead_arrow"
+        ],
+        "B": [
+          "art_bow_arrowcrack"
+        ],
+        "A": [
+          "art_bow_haphazard"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_knockout"
+        ],
+        "B": [
+          "art_brawl_crush_armor"
+        ],
+        "A": [
+          "art_brawl_power_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_shove"
+        ],
+        "C": [
+          "skill_authority_lend_strength"
+        ],
+        "B": [
+          "skill_authority_lend_strength+"
+        ],
+        "A": [
+          "skill_authority_teach_one_chance"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_defense_stance"
+        ],
+        "C": [
+          "skill_armor_heavy_break"
+        ],
+        "B": [
+          "skill_armor_heavy_break+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_strength_fend"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {
       "cai": {
@@ -1895,6 +6396,137 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_haze_slice"
+        ],
+        "C": [
+          "art_sword_destreza"
+        ],
+        "B": [
+          "art_sword_mist_reaper"
+        ],
+        "A": [
+          "art_sword_heat_haze"
+        ],
+        "S+": [
+          "art_sword_swordfaire"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ],
+        "B": [
+          "art_lance_sword_breaker"
+        ],
+        "A": [
+          "art_lance_pivot_strike"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_battleblade_strike"
+        ],
+        "A": [
+          "art_axe_triple_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_leg_shot"
+        ],
+        "B": [
+          "art_bow_shadow_arrow"
+        ],
+        "A": [
+          "art_bow_calm_call"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_beatdown"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_one_two_punch"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_lend_speed"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_lend_speed+"
+        ],
+        "S": [
+          "skill_authority_lend_speed++"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_dodge"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_dodge+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "B": [
+          "skill_armor_bowblock"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_armored_leap+"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {
       "cai": {
@@ -1959,6 +6591,139 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_haze_slice"
+        ],
+        "C": [
+          "art_sword_finesse_blade"
+        ],
+        "B": [
+          "art_sword_hexblade"
+        ],
+        "A": [
+          "art_sword_greater_hexblade"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_focused_throw"
+        ],
+        "B": [
+          "art_lance_frozen_spear"
+        ],
+        "A": [
+          "art_lance_brilliant_strike"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_magic_throw"
+        ],
+        "B": [
+          "art_axe_lightning_axe"
+        ],
+        "A": [
+          "art_axe_reflecting_dance"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_ward_arrow"
+        ],
+        "A": [
+          "art_bow_spirit_bow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_curtail_magic"
+        ],
+        "B": [
+          "art_brawl_spirit_fist"
+        ],
+        "A": [
+          "art_brawl_magic_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_lend_magic"
+        ],
+        "C": [
+          "skill_authority_draw_back"
+        ],
+        "B": [
+          "skill_authority_lend_magic+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_avoid_fatality+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_resist_stance"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_magic_fend"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_healing_armor"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -2022,6 +6787,139 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_haze_slice"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_gale_blow"
+        ],
+        "A": [
+          "art_sword_heat_haze"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ],
+        "B": [
+          "art_lance_khamsin"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_half_spike"
+        ],
+        "B": [
+          "art_axe_riot"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_snipe"
+        ],
+        "B": [
+          "art_bow_arrowcrack"
+        ],
+        "A": [
+          "art_bow_haphazard"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_beatdown"
+        ],
+        "C": [
+          "art_brawl_fading_blow"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_spirit_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_shove"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_counter_snipers"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_dodge"
+        ],
+        "B": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_sniper_evasion+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "B": [
+          "skill_armor_armored_move"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_armored_leap+"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -2082,6 +6980,148 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_rend_armor"
+        ],
+        "B": [
+          "art_sword_skysplit"
+        ],
+        "A": [
+          "art_sword_windsweep"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_stinger"
+        ],
+        "B": [
+          "art_lance_double_throw"
+        ],
+        "A": [
+          "art_lance_knightkneel"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_double_attack"
+        ],
+        "A": [
+          "art_axe_triple_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_leg_shot"
+        ],
+        "B": [
+          "art_bow_mighty_shot"
+        ],
+        "A": [
+          "art_bow_twin_shot_flow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ],
+        "B": [
+          "art_brawl_fading_assault"
+        ],
+        "A": [
+          "art_brawl_power_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_swap"
+        ],
+        "B": [
+          "skill_authority_lend_dexterity"
+        ],
+        "A": [
+          "skill_authority_lend_dexterity+"
+        ],
+        "S": [
+          "skill_authority_lend_dexterity++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_positioning+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_bowblock"
+        ],
+        "B": [
+          "skill_armor_armored_combat"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_bowblock+"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -2146,6 +7186,126 @@
         "spell_ice_blade"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_finesse_blade"
+        ],
+        "B": [
+          "art_sword_hexblade"
+        ],
+        "A": [
+          "art_sword_windsweep"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_jab"
+        ],
+        "B": [
+          "art_lance_frozen_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_wild_abandon"
+        ],
+        "B": [
+          "art_axe_devilwind_flurry"
+        ],
+        "A": [
+          "art_axe_power_throw"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_magic_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_crush_armor"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_draw_back"
+        ],
+        "C": [
+          "skill_authority_lend_magic"
+        ],
+        "B": [
+          "skill_authority_healing_order"
+        ],
+        "A": [
+          "skill_authority_lend_magic+"
+        ],
+        "S": [
+          "skill_authority_lend_magic++"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_evasion+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_sniper_evasion+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_resist_stance"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_resistant_armor+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -2201,6 +7361,95 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_rend_armor"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_discerning_blow"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ],
+        "A": [
+          "art_bow_haphazard"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_lend_dexterity"
+        ],
+        "C": [
+          "skill_authority_lend_defense"
+        ],
+        "B": [
+          "skill_authority_lend_dexterity+"
+        ],
+        "A": [
+          "skill_authority_lend_defense+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ],
+        "C": [
+          "skill_armor_bowblock"
+        ],
+        "B": [
+          "skill_armor_absolute_defense"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {
       "cai": {
@@ -2258,6 +7507,151 @@
         "spell_bolganone"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_haze_slice"
+        ],
+        "C": [
+          "art_sword_rend_armor"
+        ],
+        "B": [
+          "art_sword_gale_blow"
+        ],
+        "A": [
+          "art_sword_lunging_gale"
+        ],
+        "S+": [
+          "art_sword_swordfaire"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_flowing_spear"
+        ],
+        "B": [
+          "art_lance_brilliant_strike"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ],
+        "S+": [
+          "art_lance_spearfaire"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_spear_buster"
+        ],
+        "A": [
+          "art_axe_focused_strike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_snipe"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_curtail_magic"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_lend_speed"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_lend_speed+"
+        ],
+        "S": [
+          "skill_authority_lend_speed++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_close_call_evasion"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_resistant_armor+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_luck_fend"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ],
+        "A": [
+          "skill_flying_airfighter"
+        ],
+        "S": [
+          "skill_flying_flitting_flier+"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 2,
@@ -2313,6 +7707,112 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_destreza"
+        ],
+        "B": [
+          "art_sword_flash_blow"
+        ],
+        "A": [
+          "art_sword_dark_ray"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_jab"
+        ],
+        "B": [
+          "art_lance_sword_breaker"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_spear_buster"
+        ],
+        "A": [
+          "art_axe_killer_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_leg_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_one_on_one"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_lend_dexterity"
+        ],
+        "B": [
+          "skill_authority_threaten+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_surprise_attack"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_combat"
+        ],
+        "B": [
+          "skill_armor_armored_combat+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -2374,6 +7874,123 @@
         "spell_ice_blade"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_flash_blow"
+        ],
+        "A": [
+          "art_sword_furious_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_focused_throw"
+        ],
+        "B": [
+          "art_lance_double_throw"
+        ],
+        "A": [
+          "art_lance_yawning_throw"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_power_throw"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_breakaway_shot"
+        ],
+        "B": [
+          "art_bow_sneaky_shot"
+        ],
+        "A": [
+          "art_bow_haphazard"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_one_on_one"
+        ],
+        "B": [
+          "art_brawl_knockout"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_lend_dexterity"
+        ],
+        "B": [
+          "skill_authority_threaten+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_combat_advantage"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_spearblock"
+        ],
+        "B": [
+          "skill_armor_heavy_break"
+        ],
+        "A": [
+          "skill_armor_build"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -2433,6 +8050,115 @@
       "A": [
         "spell_cutting_gale"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_grounder"
+        ],
+        "B": [
+          "art_sword_ripple_slash"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_yawning_throw"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_discerning_blow"
+        ],
+        "B": [
+          "art_axe_guard_spike"
+        ],
+        "A": [
+          "art_axe_reflecting_dance"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_snipe"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_battle_blow"
+        ],
+        "B": [
+          "art_brawl_spirit_fist"
+        ],
+        "A": [
+          "art_brawl_revival"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_defense_formation"
+        ],
+        "C": [
+          "skill_authority_counter_cavalry"
+        ],
+        "B": [
+          "skill_authority_counter_order"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_positioning"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_armored_combat"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_pursuit_defense"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_counterflurry"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -2494,6 +8220,136 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_destreza"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_furious_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_double_throw"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_helm_splitter"
+        ],
+        "B": [
+          "art_axe_battleblade_strike"
+        ],
+        "A": [
+          "art_axe_double_swing"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_arrowcrack"
+        ],
+        "A": [
+          "art_bow_leaden_draw"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_fading_blow"
+        ],
+        "B": [
+          "art_brawl_jack_hit"
+        ],
+        "A": [
+          "art_brawl_power_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_attack_formation"
+        ],
+        "C": [
+          "skill_authority_shove"
+        ],
+        "B": [
+          "skill_authority_counter_fliers"
+        ],
+        "A": [
+          "skill_authority_attack_formation+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_close_call_evasion"
+        ],
+        "B": [
+          "skill_infantry_steady_shot+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_combat_advantage"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_heavy_break"
+        ],
+        "B": [
+          "skill_armor_heavy_break+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_strength_fend"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -2554,6 +8410,101 @@
         "spell_ice_blade"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_sunder"
+        ],
+        "C": [
+          "art_sword_destreza"
+        ],
+        "B": [
+          "art_sword_flash_blow"
+        ],
+        "A": [
+          "art_sword_single_sunder"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_focused_throw"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_double_attack"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_spirit_bow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_beatdown"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_lend_dexterity"
+        ],
+        "C": [
+          "skill_authority_swap"
+        ],
+        "B": [
+          "skill_authority_lend_dexterity+"
+        ],
+        "A": [
+          "skill_authority_hunter_s_order"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_evasion+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_pass"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_combat"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {
       "cai": {
         "support": 1,
@@ -2608,6 +8559,118 @@
       "A": [
         "spell_cutting_gale"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_grounder"
+        ],
+        "C": [
+          "art_sword_destreza"
+        ],
+        "B": [
+          "art_sword_flash_blow"
+        ],
+        "A": [
+          "art_sword_twin_blades"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ],
+        "B": [
+          "art_lance_graceful_blow"
+        ],
+        "A": [
+          "art_lance_knightkneel"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_discerning_blow"
+        ],
+        "B": [
+          "art_axe_battleblade_strike"
+        ],
+        "A": [
+          "art_axe_killer_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_sneaky_shot"
+        ],
+        "A": [
+          "art_bow_spiral_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ],
+        "C": [
+          "art_brawl_fading_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_rein"
+        ],
+        "C": [
+          "skill_authority_lend_strength"
+        ],
+        "B": [
+          "skill_authority_rein+"
+        ],
+        "A": [
+          "skill_authority_lend_strength+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_positioning+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ],
+        "C": [
+          "skill_armor_bowblock"
+        ],
+        "B": [
+          "skill_armor_armored_combat"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -2669,6 +8732,151 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_grounder"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_twin_blades"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_jab"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_riot"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_breakaway_shot"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_beatdown"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_spirit_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_lend_strength"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_lend_strength+"
+        ],
+        "S": [
+          "skill_authority_lend_strength++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_evasion+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_move+"
+        ],
+        "S": [
+          "skill_armor_luck_fend"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "renown": 2,
@@ -2724,6 +8932,127 @@
       "A": [
         "spell_cutting_gale"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_tiger_slash"
+        ],
+        "B": [
+          "art_sword_flash_blow"
+        ],
+        "A": [
+          "art_sword_furious_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_battleblade_strike"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_sneaky_shot"
+        ],
+        "A": [
+          "art_bow_twin_shot_flow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_crush_armor"
+        ],
+        "B": [
+          "art_brawl_fading_assault"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_defense_formation"
+        ],
+        "C": [
+          "skill_authority_counter_cavalry"
+        ],
+        "B": [
+          "skill_authority_barging_order"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_positioning+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_move+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -2785,6 +9114,136 @@
       "A": [
         "spell_thoron"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_crosswise_cut"
+        ],
+        "B": [
+          "art_sword_vicious_flash"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_guard_spike"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_surprise_shot"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ],
+        "A": [
+          "art_bow_leaden_draw"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_deal_death"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_attack_formation"
+        ],
+        "B": [
+          "skill_authority_counter_cavalry"
+        ],
+        "A": [
+          "skill_authority_attack_formation+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "B": [
+          "skill_infantry_avoid_fatality+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ],
+        "S": [
+          "skill_riding_vanguard+"
+        ],
+        "S+": [
+          "skill_riding_cavalry_move+"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_spearblock"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_move+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_pursuit_defense"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -2849,6 +9308,151 @@
         "spell_excalibur"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_haze_slice"
+        ],
+        "C": [
+          "art_sword_crosswise_cut"
+        ],
+        "B": [
+          "art_sword_gale_blow"
+        ],
+        "A": [
+          "art_sword_windsweep"
+        ],
+        "S+": [
+          "art_sword_swordfaire"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_quick_thrust"
+        ],
+        "B": [
+          "art_lance_khamsin"
+        ],
+        "A": [
+          "art_lance_flying_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_hurl"
+        ],
+        "B": [
+          "art_axe_spear_buster"
+        ],
+        "A": [
+          "art_axe_instant_strike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_beatdown"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_threaten"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_threaten+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_positioning"
+        ],
+        "C": [
+          "skill_infantry_surprise_attack"
+        ],
+        "B": [
+          "skill_infantry_positioning+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_combat_advantage"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_leap"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_armored_leap+"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ],
+        "A": [
+          "skill_flying_airfighter"
+        ],
+        "S": [
+          "skill_flying_flitting_flier+"
+        ],
+        "S+": [
+          "skill_flying_airfighter+"
+        ]
+      }
+    },
     "recruitment": {
       "cai": {
         "support": 3,
@@ -2904,6 +9508,124 @@
       "A": [
         "spell_ice_blade"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_shadow_gambit"
+        ],
+        "B": [
+          "art_sword_heat_haze"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_jab"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ],
+        "A": [
+          "art_lance_knightkneel"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ],
+        "B": [
+          "art_axe_crash"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_lead_arrow"
+        ],
+        "B": [
+          "art_bow_mighty_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_fading_blow"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ],
+        "A": [
+          "art_brawl_spirit_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "C": [
+          "skill_authority_rein"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "A": [
+          "skill_authority_rein+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_dodge"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_dodge+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "C+": [
+          "skill_riding_vanguard"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -2964,6 +9686,117 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_finesse_blade"
+        ],
+        "B": [
+          "art_sword_vicious_flash"
+        ],
+        "A": [
+          "art_sword_greater_hexblade"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_gale_spear"
+        ],
+        "C": [
+          "art_lance_protective_spear"
+        ],
+        "B": [
+          "art_lance_holy_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_discerning_blow"
+        ],
+        "B": [
+          "art_axe_lightning_axe"
+        ],
+        "A": [
+          "art_axe_magic_breaker"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_curtail_magic"
+        ],
+        "B": [
+          "art_brawl_spirit_fist"
+        ],
+        "A": [
+          "art_brawl_saving_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_swap"
+        ],
+        "C": [
+          "skill_authority_lend_magic"
+        ],
+        "B": [
+          "skill_authority_lend_magic+"
+        ],
+        "A": [
+          "skill_authority_teach_monkly_havoc"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_resist_stance"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_heavy_break"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_healing_armor"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {
       "cai": {
         "support": 2,
@@ -3023,6 +9856,133 @@
       "A": [
         "spell_thoron"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_furious_strike"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_wild_abandon"
+        ],
+        "B": [
+          "art_axe_crash"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_lead_arrow"
+        ],
+        "B": [
+          "art_bow_mighty_shot"
+        ],
+        "A": [
+          "art_bow_leaden_draw"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_crush_armor"
+        ],
+        "B": [
+          "art_brawl_knockout"
+        ],
+        "A": [
+          "art_brawl_power_combo"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_threaten"
+        ],
+        "C": [
+          "skill_authority_rein"
+        ],
+        "B": [
+          "skill_authority_threaten+"
+        ],
+        "A": [
+          "skill_authority_rein+"
+        ],
+        "S": [
+          "skill_authority_propel"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_positioning+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_heavy_break"
+        ],
+        "B": [
+          "skill_armor_heavy_break+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
     },
     "recruitment": {
       "cai": {
@@ -3085,6 +10045,137 @@
         "spell_bolting"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_ripple_slash"
+        ],
+        "B": [
+          "art_sword_hexblade"
+        ],
+        "A": [
+          "art_sword_greater_hexblade"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_frozen_spear"
+        ],
+        "B": [
+          "art_lance_holy_spear"
+        ],
+        "A": [
+          "art_lance_frozen_spear_slice"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_magic_throw"
+        ],
+        "B": [
+          "art_axe_devilwind_flurry"
+        ],
+        "A": [
+          "art_axe_killer_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_vital_shot"
+        ],
+        "C": [
+          "art_bow_encloser"
+        ],
+        "B": [
+          "art_bow_sneaky_shot"
+        ],
+        "A": [
+          "art_bow_ward_arrow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_cautious_blow"
+        ],
+        "C": [
+          "art_brawl_curtail_magic"
+        ],
+        "B": [
+          "art_brawl_mystic_blow"
+        ],
+        "A": [
+          "art_brawl_mind_s_eye_blow"
+        ]
+      },
+      "authority": {
+        "C": [
+          "skill_authority_lend_magic"
+        ],
+        "B": [
+          "skill_authority_lend_defense"
+        ],
+        "B+": [
+          "skill_authority_lend_magic+"
+        ],
+        "A": [
+          "skill_authority_lend_defense+"
+        ],
+        "S": [
+          "skill_authority_lend_magic++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "C": [
+          "skill_infantry_steady_shot"
+        ],
+        "B": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B+": [
+          "skill_infantry_pass"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_infantry_canto"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_resist_stance"
+        ],
+        "C": [
+          "skill_armor_resistant_armor"
+        ],
+        "B": [
+          "skill_armor_resistant_armor+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_magic_fend"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {}
   },
   {
@@ -3119,6 +10210,120 @@
       "A": [
         "spell_thoron"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_haze_slice"
+        ],
+        "C": [
+          "art_sword_shadow_gambit"
+        ],
+        "B": [
+          "art_sword_gale_blow"
+        ],
+        "A": [
+          "art_sword_skysplit"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_sword_breaker"
+        ],
+        "A": [
+          "art_lance_pivot_strike"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_double_attack"
+        ],
+        "B": [
+          "art_axe_battleblade_strike"
+        ],
+        "A": [
+          "art_axe_double_swing"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_snipe"
+        ],
+        "B": [
+          "art_bow_shadow_arrow"
+        ],
+        "A": [
+          "art_bow_bowbreaker_arrow"
+        ]
+      },
+      "brawl": {
+        "A+": [
+          "art_brawl_battle_rush",
+          "art_brawl_beatdown"
+        ],
+        "S": [
+          "art_brawl_assassin_s_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_distraction"
+        ],
+        "B": [
+          "skill_authority_distraction+"
+        ],
+        "B+": [
+          "skill_authority_counter_fliers"
+        ],
+        "A": [
+          "skill_authority_counter_fliers+"
+        ]
+      },
+      "infantry": {
+        "C": [
+          "skill_infantry_steady_shot"
+        ],
+        "B+": [
+          "skill_infantry_surprise_attack"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_dodge+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ],
+        "C": [
+          "skill_armor_armored_leap"
+        ],
+        "B": [
+          "skill_armor_armored_combat"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_armored_leap+"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {}
   },
@@ -3162,6 +10367,129 @@
         "spell_sagittae"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_flash_blow"
+        ],
+        "B": [
+          "art_sword_windsweep"
+        ],
+        "A": [
+          "art_sword_twin_blades"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "A+": [
+          "art_lance_graceful_blow",
+          "art_lance_frozen_spear"
+        ],
+        "S": [
+          "art_lance_raging_tempest",
+          "art_lance_brilliant_strike"
+        ],
+        "S+": [
+          "art_lance_spearfaire"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_guard_spike"
+        ],
+        "B": [
+          "art_axe_focused_strike"
+        ],
+        "A": [
+          "art_axe_power_spike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_spiral_shot"
+        ],
+        "B": [
+          "art_bow_spirit_bow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_attack_formation"
+        ],
+        "C": [
+          "skill_authority_defense_formation"
+        ],
+        "B": [
+          "skill_authority_attack_formation+"
+        ],
+        "A": [
+          "skill_authority_defense_formation+"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_avoid_fatality"
+        ],
+        "C": [
+          "skill_infantry_sniper_evasion"
+        ],
+        "B": [
+          "skill_infantry_close_call_evasion"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_armored_move"
+        ],
+        "C": [
+          "skill_armor_armored_move+"
+        ],
+        "B": [
+          "skill_armor_healing_armor"
+        ],
+        "A": [
+          "skill_armor_bowblock+"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
+    },
     "recruitment": {}
   },
   {
@@ -3197,6 +10525,145 @@
       "A": [
         "spell_thoron"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_grounder"
+        ],
+        "B": [
+          "art_sword_flash_blow"
+        ],
+        "A": [
+          "art_sword_twin_blades"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_protective_spear"
+        ],
+        "B": [
+          "art_lance_graceful_blow"
+        ],
+        "A": [
+          "art_lance_yawning_throw"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_crash"
+        ],
+        "B": [
+          "art_axe_power_throw"
+        ],
+        "A": [
+          "art_axe_double_swing"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ],
+        "C": [
+          "art_bow_spirit_bow"
+        ],
+        "B": [
+          "art_bow_spiral_shot"
+        ],
+        "A": [
+          "art_bow_twin_shot_flow"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_battle_blow"
+        ],
+        "B": [
+          "art_brawl_razor_fist"
+        ],
+        "A": [
+          "art_brawl_spirit_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_lend_dexterity"
+        ],
+        "C": [
+          "skill_authority_attack_formation"
+        ],
+        "B": [
+          "skill_authority_lend_dexterity+"
+        ],
+        "A": [
+          "skill_authority_attack_formation+"
+        ],
+        "S": [
+          "skill_authority_lend_dexterity++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_steady_shot"
+        ],
+        "C": [
+          "skill_infantry_evasion"
+        ],
+        "B": [
+          "skill_infantry_evasion+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_infantry_canto"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_resist_stance"
+        ],
+        "C": [
+          "skill_armor_bowblock"
+        ],
+        "B": [
+          "skill_armor_spearblock"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_dexterity_fend"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ]
+      }
     },
     "recruitment": {}
   },
@@ -3234,6 +10701,83 @@
         "spell_thoron"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_tiger_slash"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_defending_spear"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_crash"
+        ],
+        "B": [
+          "art_axe_helm_splitter"
+        ],
+        "A": [
+          "art_axe_reflecting_dance"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_curved_shot"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_defense_formation"
+        ],
+        "C": [
+          "skill_authority_lend_defense"
+        ],
+        "B": [
+          "skill_authority_lend_defense+"
+        ],
+        "A": [
+          "skill_authority_defense_formation+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_absolute_defense"
+        ],
+        "C": [
+          "skill_armor_heavy_break"
+        ],
+        "B": [
+          "skill_armor_heavy_break+"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {}
   },
   {
@@ -3269,6 +10813,114 @@
       "A": [
         "spell_thoron"
       ]
+    },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_chop"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_vanguard_spear"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ],
+        "C": [
+          "art_axe_enrage"
+        ]
+      },
+      "bow": {},
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_attack_formation"
+        ],
+        "C": [
+          "skill_authority_lend_strength"
+        ],
+        "B": [
+          "skill_authority_lend_strength+"
+        ],
+        "A": [
+          "skill_authority_lend_strength++"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_close_call_evasion"
+        ],
+        "B": [
+          "skill_infantry_evasion+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_infantry_canto"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ],
+        "A": [
+          "skill_riding_cavalry_move"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_narrow_defense"
+        ],
+        "C": [
+          "skill_armor_spearblock"
+        ],
+        "B": [
+          "skill_armor_strength_fend"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_counterflurry"
+        ],
+        "S+": [
+          "skill_armor_build+"
+        ]
+      },
+      "flying": {
+        "D": [
+          "skill_flying_read_the_winds"
+        ],
+        "C+": [
+          "skill_flying_flitting_flier"
+        ]
+      }
     },
     "recruitment": {
       "dietrich": {
@@ -3313,6 +10965,123 @@
         "spell_ice_blade"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_haze_slice"
+        ],
+        "C": [
+          "art_sword_crosswise_cut"
+        ],
+        "B": [
+          "art_sword_skysplit"
+        ],
+        "A": [
+          "art_sword_lunging_gale"
+        ]
+      },
+      "lance": {
+        "D": [
+          "art_lance_flowing_spear"
+        ],
+        "C": [
+          "art_lance_stinger"
+        ],
+        "B": [
+          "art_lance_graceful_blow"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_half_spike"
+        ],
+        "C": [
+          "art_axe_spear_buster"
+        ],
+        "B": [
+          "art_axe_riot"
+        ],
+        "A": [
+          "art_axe_focused_strike"
+        ]
+      },
+      "bow": {
+        "D": [
+          "art_bow_warning_shot"
+        ],
+        "C": [
+          "art_bow_snipe"
+        ]
+      },
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_feint"
+        ],
+        "B": [
+          "art_brawl_battle_rush"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_rein"
+        ],
+        "C": [
+          "skill_authority_lend_defense"
+        ],
+        "B": [
+          "skill_authority_rein+"
+        ],
+        "A": [
+          "skill_authority_lend_defense+"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_evasion"
+        ],
+        "C": [
+          "skill_infantry_positioning"
+        ],
+        "B": [
+          "skill_infantry_surprise_attack"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_evasion+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {
+        "D": [
+          "skill_riding_knightly_senses"
+        ]
+      },
+      "armor": {
+        "D": [
+          "skill_armor_armored_leap"
+        ],
+        "C": [
+          "skill_armor_armored_move"
+        ],
+        "B": [
+          "skill_armor_armored_leap+"
+        ],
+        "A": [
+          "skill_armor_build"
+        ],
+        "S": [
+          "skill_armor_armored_move+"
+        ]
+      },
+      "flying": {}
+    },
     "recruitment": {
       "dietrich": {
         "extra": "Na parte 1, mês 10 fazer a subquest \"My Late Sister's Accessory\".\nNa parte 2, no capítulo 2, derrotar o Creek com qualquer unidade sem falar com ele."
@@ -3347,6 +11116,96 @@
         "spell_thunder"
       ]
     },
+    "arts": {
+      "sword": {
+        "D": [
+          "art_sword_wrath_strike"
+        ],
+        "C": [
+          "art_sword_chop"
+        ],
+        "B": [
+          "art_sword_blaze_blow"
+        ],
+        "A": [
+          "art_sword_blade_slam"
+        ]
+      },
+      "lance": {},
+      "axe": {
+        "D": [
+          "art_axe_smash"
+        ],
+        "C": [
+          "art_axe_careful_attack"
+        ],
+        "B": [
+          "art_axe_crash"
+        ],
+        "A": [
+          "art_axe_bloodbath"
+        ]
+      },
+      "bow": {},
+      "brawl": {
+        "D": [
+          "art_brawl_mighty_fist"
+        ],
+        "C": [
+          "art_brawl_deal_death"
+        ],
+        "B": [
+          "art_brawl_cautious_blow"
+        ],
+        "A": [
+          "art_brawl_jack_hit",
+          "art_brawl_saving_fist"
+        ],
+        "S": [
+          "art_brawl_mind_s_eye_blow"
+        ]
+      },
+      "authority": {
+        "D": [
+          "skill_authority_attack_formation"
+        ],
+        "C": [
+          "skill_authority_swap"
+        ],
+        "B": [
+          "skill_authority_draw_back"
+        ],
+        "A": [
+          "skill_authority_attack_formation+"
+        ],
+        "S": [
+          "skill_authority_propel"
+        ],
+        "S+": [
+          "skill_authority_gambit_mastery"
+        ]
+      },
+      "infantry": {
+        "D": [
+          "skill_infantry_close_quarters"
+        ],
+        "C": [
+          "skill_infantry_dodge"
+        ],
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_dodge+"
+        ]
+      },
+      "riding": {},
+      "armor": {},
+      "flying": {}
+    },
     "recruitment": {}
   },
   {
@@ -3376,6 +11235,65 @@
       "C": [
         "spell_wind"
       ]
+    },
+    "arts": {
+      "sword": {},
+      "lance": {
+        "D": [
+          "art_lance_tempest_spear"
+        ],
+        "C": [
+          "art_lance_armored_blow"
+        ],
+        "B": [
+          "art_lance_protective_storm"
+        ],
+        "A": [
+          "art_lance_raging_tempest"
+        ]
+      },
+      "axe": {
+        "D": [
+          "art_axe_spike"
+        ]
+      },
+      "bow": {},
+      "brawl": {},
+      "authority": {
+        "D": [
+          "skill_authority_lend_defense"
+        ],
+        "C": [
+          "skill_authority_defense_formation"
+        ],
+        "B": [
+          "skill_authority_lend_defense+"
+        ],
+        "A": [
+          "skill_authority_defense_formation+"
+        ]
+      },
+      "infantry": {
+        "B": [
+          "skill_infantry_close_quarters+"
+        ],
+        "A": [
+          "skill_infantry_infantry_move"
+        ],
+        "S": [
+          "skill_infantry_avoid_fatality+"
+        ],
+        "S+": [
+          "skill_infantry_infantry_move+"
+        ]
+      },
+      "riding": {},
+      "armor": {
+        "D": [
+          "skill_armor_crit_defense"
+        ]
+      },
+      "flying": {}
     },
     "recruitment": {}
   }
