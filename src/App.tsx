@@ -3,7 +3,9 @@ import { useI18n } from './i18n'
 import Home from './pages/Home'
 import Characters from './pages/Characters'
 import Recruitment from './pages/Recruitment'
+import Paralogues from './pages/Paralogues'
 import Spells from './pages/Spells'
+import CombatArts, { artProfs, weaponProfs } from './pages/CombatArts'
 
 function SpellsTabs() {
   const { t } = useI18n()
@@ -22,6 +24,24 @@ function SpellsTabs() {
   )
 }
 
+function ArtsTabs() {
+  const { t } = useI18n()
+  return (
+    <>
+      <nav className="subnav">
+        {artProfs.map((p) => (
+          <NavLink key={p} to={`/artes/${p}`}>{t.profs[p]}</NavLink>
+        ))}
+      </nav>
+      <Routes>
+        {artProfs.map((p) => (
+          <Route key={p} path={p} element={<>{weaponProfs.includes(p) && <p className="hint">{t.artsHint}</p>}<CombatArts prof={p} /></>} />
+        ))}
+      </Routes>
+    </>
+  )
+}
+
 export default function App() {
   const { t, lang, setLang } = useI18n()
   return (
@@ -35,7 +55,9 @@ export default function App() {
           <NavLink to="/" end>{t.home}</NavLink>
           <NavLink to="/personagens">{t.characters}</NavLink>
           <NavLink to="/recrutamento">{t.recruitment}</NavLink>
+          <NavLink to="/paralogues">{t.paralogues}</NavLink>
           <NavLink to="/magias">{t.spells}</NavLink>
+          <NavLink to="/artes">{t.combatArts}</NavLink>
         </nav>
         <div className="controls">
           <select aria-label={t.language} value={lang} onChange={(e) => setLang(e.target.value as typeof lang)}>
@@ -49,8 +71,11 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/personagens" element={<Characters />} />
           <Route path="/recrutamento" element={<Recruitment />} />
+          <Route path="/paralogues" element={<Paralogues />} />
           <Route path="/magias" element={<Navigate to="/magias/white-magic" replace />} />
           <Route path="/magias/*" element={<SpellsTabs />} />
+          <Route path="/artes" element={<Navigate to="/artes/sword" replace />} />
+          <Route path="/artes/*" element={<ArtsTabs />} />
         </Routes>
       </main>
       <footer className="footer">

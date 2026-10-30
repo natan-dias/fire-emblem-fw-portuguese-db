@@ -11,7 +11,9 @@ O principal objetivo deste projeto é ser um guia para os jogadores terem uma ex
 - **Início:** página inicial com uma visão geral do site.
 - **Personagens:** todos os personagens, com suas habilidades pessoais e as habilidades únicas, base e "+" juntas (nomes originais em inglês, descrições em português).
 - **Recrutamento:** uma tabela mostrando como recrutar cada personagem em cada rota.
+- **Paralogues:** uma tabela com as datas em que cada paralogue fica disponível em cada rota (mês/dia do calendário do jogo).
 - **Magias:** *White Magic Spells* e *Black Magic Spells* , com as magias que cada personagem aprende por rank (D–S), busca por personagem e uma tabela com a descrição completa de cada magia.
+- **Artes de Combate:** sub-menus *Sword*, *Lance*, *Axe*, *Bow*, *Brawl*, *Authority*, *Infantry*, *Riding*, *Armor* e *Flying*, com o que cada personagem aprende por rank, busca por personagem e, nas cinco armas, uma tabela com a descrição completa de cada arte de combate. As tabelas de descrição de Authority, Infantry, Riding, Armor e Flying ainda serão adicionadas.
 
 Gostou do projeto? Siga o canal no YouTube: https://www.youtube.com/@velhotejogador
 

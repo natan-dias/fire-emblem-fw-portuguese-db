@@ -3,6 +3,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 
 const BASE = 'https://fefw-planner-server.vercel.app'
+const ART_PROFS = ['sword', 'lance', 'axe', 'bow', 'brawl', 'authority', 'infantry', 'riding', 'armor', 'flying']
 const LORD_ROUTES = ['cai', 'dietrich', 'theodora', 'leda']
 
 const slug = (s) =>
@@ -44,6 +45,7 @@ for (const u of units) {
     uniqueSkills: (u.uniqueSkills ?? []).map(addSkill),
     whiteSpells: u.learnsets?.faith ?? {},
     blackSpells: u.learnsets?.reason ?? {},
+    arts: Object.fromEntries(ART_PROFS.map((p) => [p, u.learnsets?.[p] ?? {}])),
     recruitment: {
       ...Object.fromEntries(LORD_ROUTES.filter((r) => u.recruitment?.[r]).map((r) => [r, u.recruitment[r]])),
       ...recruitmentOverrides[slug(u.name)],
@@ -71,4 +73,25 @@ for (const s of db.spells) {
   }
 }
 await writeFile('src/data/spells.json', JSON.stringify(spells, null, 2) + '\n')
-console.log(`${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells`)
+// Combat arts (weapon proficiencies) with stats; `effect` is translated separately in src/i18n.
+// Authority/Infantry/Riding/Armor/Flying learn skills instead, so only their names are kept.
+const arts = {}
+for (const a of db.combatArts) {
+  arts[a.id] = {
+    name: a.name, prof: a.proficiency, cost: a.cost, might: a.might, hit: a.hit, crit: a.crit, range: a.range, effect: a.effect,
+  }
+}
+const skillNames = {}
+for (const s of db.skills) {
+  if (!ART_PROFS.includes(s.type.toLowerCase())) continue
+  skillNames[s.id] = s.name
+  if (s.plus?.name) skillNames[`${s.id}+`] = s.plus.name
+  if (s.plusPlus?.name) skillNames[`${s.id}++`] = s.plusPlus.name
+}
+await writeFile('src/data/arts.json', JSON.stringify({ arts, skillNames }, null, 2) + '\n')
+// Paralogue availability windows per route ("month/day" in the in-game calendar).
+const paralogues = db.paralogues.map((p) => ({ id: p.id, name: p.name, windows: p.windows }))
+await writeFile('src/data/paralogues.json', JSON.stringify(paralogues, null, 2) + '\n')
+console.log(
+  `${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells, ${paralogues.length} paralogues`,
+)

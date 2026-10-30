@@ -2,6 +2,8 @@ export type Lang = 'pt-BR' | 'pt-PT'
 
 export type Rank = 'D' | 'D+' | 'C' | 'C+' | 'B' | 'B+' | 'A' | 'A+' | 'S'
 
+export type ArtProf = 'sword' | 'lance' | 'axe' | 'bow' | 'brawl' | 'authority' | 'infantry' | 'riding' | 'armor' | 'flying'
+
 export type Condition = {
   support?: number
   renown?: number
@@ -9,6 +11,12 @@ export type Condition = {
   requirement?: string
   negotiation?: string
   extra?: string
+}
+
+export type Paralogue = {
+  id: string
+  name: string
+  windows: Partial<Record<'cai' | 'dietrich' | 'theodora' | 'leda', { start: string; end: string }[]>>
 }
 
 export type Character = {
@@ -19,5 +27,6 @@ export type Character = {
   uniqueSkills: string[]
   whiteSpells: Partial<Record<Rank, string[]>>
   blackSpells: Partial<Record<Rank, string[]>>
+  arts: Record<ArtProf, Partial<Record<string, string[]>>>
   recruitment: Partial<Record<'cai' | 'dietrich' | 'theodora' | 'leda', Condition>>
 }

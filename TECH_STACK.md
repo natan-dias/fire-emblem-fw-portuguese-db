@@ -14,8 +14,10 @@ scripts/build-data.mjs     Pulls data and portraits from the reference site
 public/portraits/          Character portraits
 src/data/characters.json   Characters, skill ids and recruitment conditions
 src/data/skills.json       Skills (original English name and description)
+src/data/paralogues.json   Paralogue availability windows per route
+src/data/arts.json          Combat arts (stats, English effect) and skill names for non-weapon proficiencies
 src/i18n/                  UI strings and skill translations
-src/pages/                 Pages: Characters and Recruitment
+src/pages/                 Pages: Characters, Recruitment and Paralogues
 ```
 
 ## Languages
