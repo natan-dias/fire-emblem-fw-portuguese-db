@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { Navigate, NavLink, Route, Routes } from 'react-router-dom'
 import { useI18n } from './i18n'
 import Home from './pages/Home'
@@ -44,6 +45,13 @@ function ArtsTabs() {
 
 export default function App() {
   const { t, lang, setLang } = useI18n()
+  const [menuOpen, setMenuOpen] = useState(false)
+  useEffect(() => {
+    if (!menuOpen) return
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setMenuOpen(false)
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [menuOpen])
   return (
     <>
       <header className="header">
@@ -51,7 +59,17 @@ export default function App() {
           <h1>{t.title}</h1>
           <p className="subtitle">{t.subtitle}</p>
         </div>
-        <nav>
+        <button
+          type="button"
+          className="menu-toggle"
+          aria-label={t.menu}
+          aria-expanded={menuOpen}
+          aria-controls="main-nav"
+          onClick={() => setMenuOpen((o) => !o)}
+        >
+          {menuOpen ? '✕' : '☰'}
+        </button>
+        <nav id="main-nav" className={menuOpen ? 'open' : ''} onClick={() => setMenuOpen(false)}>
           <NavLink to="/" end>{t.home}</NavLink>
           <NavLink to="/personagens">{t.characters}</NavLink>
           <NavLink to="/recrutamento">{t.recruitment}</NavLink>
