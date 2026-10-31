@@ -42,3 +42,20 @@ export type ClassGrowth = {
   growths: Growths
   tiers?: { level: number; growths: Growths }[]
 }
+
+export type ClassAbility = { name: string; description: string }
+
+export type ClassInfo = {
+  id: string
+  name: string
+  tier: string
+  portrait: string
+  movement: string
+  mount: string | null
+  proficiencies: string[]
+  skills: { type: string; grade: string }[]
+  bonusExp: string[]
+  growths: Growths
+  abilities: ClassAbility[]
+  mastered: ClassAbility | null
+}

@@ -107,6 +107,31 @@ const growthClasses = db.classes
     ...(c.growthTiers?.length && { tiers: c.growthTiers.map((t) => ({ level: t.level, growths: t.growths })) }),
   }))
 await writeFile('src/data/growths.json', JSON.stringify({ units: growthUnits, classes: growthClasses }, null, 2) + '\n')
+// Classes: full info + portraits. Ability descriptions are translated in src/i18n (keyed by the English text).
+await mkdir('public/portraits/classes', { recursive: true })
+const ability = (a) => (a?.name ? { name: a.name, description: a.description ?? '' } : null)
+const classes = []
+for (const c of db.classes) {
+  const file = `${slug(c.name)}${c.portrait.slice(c.portrait.lastIndexOf('.'))}`
+  const res = await fetch(BASE + c.portrait)
+  if (!res.ok) throw new Error(`portrait failed for class ${c.name}`)
+  await writeFile(`public/portraits/classes/${file}`, Buffer.from(await res.arrayBuffer()))
+  classes.push({
+    id: c.id,
+    name: c.name,
+    tier: c.tier,
+    portrait: file,
+    movement: c.movementType,
+    mount: c.mountType ?? null,
+    proficiencies: c.proficiencies ?? [],
+    skills: [...(c.primarySkills ?? []), ...(c.secondarySkills ?? [])].map((s) => ({ type: s.skillTypeId, grade: s.grade })),
+    bonusExp: c.bonusExp ?? [],
+    growths: c.growthMods ?? {},
+    abilities: (c.classAbilities ?? []).map(ability).filter(Boolean),
+    mastered: ability(c.masteredAbility),
+  })
+}
+await writeFile('src/data/classes.json', JSON.stringify(classes, null, 2) + '\n')
 console.log(
-  `${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells, ${paralogues.length} paralogues, ${growthClasses.length} classes with growths`,
+  `${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells, ${paralogues.length} paralogues, ${growthClasses.length} classes with growths, ${classes.length} classes`,
 )

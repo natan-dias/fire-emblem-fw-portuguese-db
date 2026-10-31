@@ -19,6 +19,7 @@ export default function Home() {
         <li><Link to="/magias">{t.spells}</Link>: {t.homeSpells}</li>
         <li><Link to="/artes">{t.combatArts}</Link>: {t.homeArts}</li>
         <li><Link to="/crescimento">{t.growth}</Link>: {t.homeGrowth}</li>
+        <li><Link to="/classes">{t.classes}</Link>: {t.homeClasses}</li>
       </ul>
     </div>
   )

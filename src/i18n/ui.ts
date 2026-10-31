@@ -18,6 +18,16 @@ type Ui = {
   might: string
   profs: Record<string, string>
   growth: string
+  classes: string
+  homeClasses: string
+  movement: string
+  moves: Record<string, string>
+  mount: string
+  proficiencies: string
+  skillGrades: string
+  bonusExp: string
+  classAbilities: string
+  masterAbility: string
   growthUnits: string
   growthClasses: string
   searchClass: string
@@ -86,6 +96,17 @@ const ptBR: Ui = {
     authority: 'Authority', infantry: 'Infantry', riding: 'Riding', armor: 'Armor', flying: 'Flying',
   },
   growth: 'Crescimento',
+  classes: 'Classes',
+  homeClasses:
+    'Um submenu por tier (Base, Beginner, Specialty, Advanced, Master e Divine), com uma caixa por classe: movimento, proficiências, crescimento, Class Abilities e Master Ability, com busca por nome.',
+  movement: 'Movimento',
+  moves: { infantry: 'Infantaria', cavalry: 'Cavalaria', flying: 'Voador', armored: 'Blindado' },
+  mount: 'Montaria',
+  proficiencies: 'Proficiências',
+  skillGrades: 'Rank inicial',
+  bonusExp: 'EXP bônus',
+  classAbilities: 'Class Abilities',
+  masterAbility: 'Master Ability',
   growthUnits: 'Unidades',
   growthClasses: 'Classes',
   searchClass: 'Buscar classe…',
