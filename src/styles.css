@@ -8,6 +8,14 @@ a { color:var(--gold); }
 .header nav { display:flex; gap:16px; flex:1; }
 .header nav a { color:var(--muted); text-decoration:none; }
 .header nav a.active { color:var(--gold); }
+.menu-toggle { display:none; background:none; border:1px solid var(--line); border-radius:6px; color:var(--gold); font-size:20px; line-height:1; padding:6px 10px; cursor:pointer; }
+@media (max-width: 700px) {
+  .header > div:first-child { flex:1; min-width:0; }
+  .menu-toggle { display:block; }
+  .header nav { display:none; flex-direction:column; gap:0; flex-basis:100%; order:3; }
+  .header nav.open { display:flex; }
+  .header nav a { padding:10px 4px; border-top:1px solid var(--line); }
+}
 .subnav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom:16px; }
 .subnav a { color:var(--muted); text-decoration:none; }
 .subnav a.active { color:var(--gold); }

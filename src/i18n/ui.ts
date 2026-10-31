@@ -28,6 +28,7 @@ type Ui = {
   effect: string
   search: string
   language: string
+  menu: string
   personal: string
   unique: string
   noSkill: string
@@ -86,6 +87,7 @@ const ptBR: Ui = {
   effect: 'Efeito (Effect)',
   search: 'Buscar personagem…',
   language: 'Idioma',
+  menu: 'Menu',
   personal: 'Habilidade pessoal',
   unique: 'Habilidade Única',
   noSkill: '—',
