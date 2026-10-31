@@ -6,6 +6,7 @@ import Characters from './pages/Characters'
 import Recruitment from './pages/Recruitment'
 import Paralogues from './pages/Paralogues'
 import Spells from './pages/Spells'
+import Growths from './pages/Growths'
 import CombatArts, { artProfs, weaponProfs } from './pages/CombatArts'
 
 function SpellsTabs() {
@@ -38,6 +39,22 @@ function ArtsTabs() {
         {artProfs.map((p) => (
           <Route key={p} path={p} element={<>{weaponProfs.includes(p) && <p className="hint">{t.artsHint}</p>}<CombatArts prof={p} /></>} />
         ))}
+      </Routes>
+    </>
+  )
+}
+
+function GrowthTabs() {
+  const { t } = useI18n()
+  return (
+    <>
+      <nav className="subnav">
+        <NavLink to="/crescimento/unidades">{t.growthUnits}</NavLink>
+        <NavLink to="/crescimento/classes">{t.growthClasses}</NavLink>
+      </nav>
+      <Routes>
+        <Route path="unidades" element={<Growths kind="units" />} />
+        <Route path="classes" element={<Growths kind="classes" />} />
       </Routes>
     </>
   )
@@ -76,6 +93,7 @@ export default function App() {
           <NavLink to="/paralogues">{t.paralogues}</NavLink>
           <NavLink to="/magias">{t.spells}</NavLink>
           <NavLink to="/artes">{t.combatArts}</NavLink>
+          <NavLink to="/crescimento">{t.growth}</NavLink>
         </nav>
         <div className="controls">
           <select aria-label={t.language} value={lang} onChange={(e) => setLang(e.target.value as typeof lang)}>
@@ -94,6 +112,8 @@ export default function App() {
           <Route path="/magias/*" element={<SpellsTabs />} />
           <Route path="/artes" element={<Navigate to="/artes/sword" replace />} />
           <Route path="/artes/*" element={<ArtsTabs />} />
+          <Route path="/crescimento" element={<Navigate to="/crescimento/unidades" replace />} />
+          <Route path="/crescimento/*" element={<GrowthTabs />} />
         </Routes>
       </main>
       <footer className="footer">

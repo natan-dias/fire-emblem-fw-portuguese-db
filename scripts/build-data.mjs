@@ -95,6 +95,18 @@ await writeFile('src/data/arts.json', JSON.stringify({ arts, skillNames }, null,
 // Paralogue availability windows per route ("month/day" in the in-game calendar).
 const paralogues = db.paralogues.map((p) => ({ id: p.id, name: p.name, windows: p.windows }))
 await writeFile('src/data/paralogues.json', JSON.stringify(paralogues, null, 2) + '\n')
+// Growth rates: units have absolute percentages, classes have signed modifiers (+ optional level tiers).
+const growthUnits = units.map((u) => ({ id: slug(u.name), growths: u.growths }))
+const growthClasses = db.classes
+  .filter((c) => c.growthMods || c.growthTiers)
+  .map((c) => ({
+    id: c.id,
+    name: c.name,
+    tier: c.tier,
+    growths: c.growthMods ?? {},
+    ...(c.growthTiers?.length && { tiers: c.growthTiers.map((t) => ({ level: t.level, growths: t.growths })) }),
+  }))
+await writeFile('src/data/growths.json', JSON.stringify({ units: growthUnits, classes: growthClasses }, null, 2) + '\n')
 console.log(
-  `${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells, ${paralogues.length} paralogues`,
+  `${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells, ${paralogues.length} paralogues, ${growthClasses.length} classes with growths`,
 )

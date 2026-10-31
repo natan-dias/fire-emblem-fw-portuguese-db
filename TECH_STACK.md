@@ -16,6 +16,7 @@ src/data/characters.json   Characters, skill ids and recruitment conditions
 src/data/skills.json       Skills (original English name and description)
 src/data/paralogues.json   Paralogue availability windows per route
 src/data/arts.json          Combat arts (stats, English effect) and skill names for non-weapon proficiencies
+src/data/growths.json      Unit growth rates and class growth modifiers (with level tiers)
 src/i18n/                  UI strings and skill translations
 src/pages/                 Pages: Characters, Recruitment and Paralogues
 ```

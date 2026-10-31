@@ -30,3 +30,15 @@ export type Character = {
   arts: Record<ArtProf, Partial<Record<string, string[]>>>
   recruitment: Partial<Record<'cai' | 'dietrich' | 'theodora' | 'leda', Condition>>
 }
+
+export type StatKey = 'hp' | 'str' | 'mag' | 'spd' | 'dex' | 'def' | 'res' | 'lck' | 'cha'
+
+export type Growths = Partial<Record<StatKey, number>>
+
+export type ClassGrowth = {
+  id: string
+  name: string
+  tier: string
+  growths: Growths
+  tiers?: { level: number; growths: Growths }[]
+}

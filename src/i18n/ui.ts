@@ -17,6 +17,14 @@ type Ui = {
   cost: string
   might: string
   profs: Record<string, string>
+  growth: string
+  growthUnits: string
+  growthClasses: string
+  searchClass: string
+  class: string
+  tier: string
+  total: string
+  stats: Record<string, string>
   spell: string
   power: string
   hit: string
@@ -49,6 +57,7 @@ type Ui = {
   homeParalogues: string
   homeSpells: string
   homeArts: string
+  homeGrowth: string
   disclaimerTitle: string
   disclaimer: string
   followMe: string
@@ -75,6 +84,16 @@ const ptBR: Ui = {
   profs: {
     sword: 'Sword', lance: 'Lance', axe: 'Axe', bow: 'Bow', brawl: 'Brawl',
     authority: 'Authority', infantry: 'Infantry', riding: 'Riding', armor: 'Armor', flying: 'Flying',
+  },
+  growth: 'Crescimento',
+  growthUnits: 'Unidades',
+  growthClasses: 'Classes',
+  searchClass: 'Buscar classe…',
+  class: 'Classe (Class)',
+  tier: 'Tier',
+  total: 'Total',
+  stats: {
+    hp: 'HP', str: 'Str', mag: 'Mag', spd: 'Spd', dex: 'Dex', def: 'Def', res: 'Res', lck: 'Lck', cha: 'Cha',
   },
   spell: 'Magia (Spell)',
   power: 'Poder (Mt)',
@@ -113,6 +132,8 @@ const ptBR: Ui = {
     'White Magic Spells (Faith) e Black Magic Spells (Reason), com as magias que cada personagem aprende por rank (D–S), busca por personagem e uma tabela com a descrição completa de cada magia.',
   homeArts:
     'Sword, Lance, Axe, Bow, Brawl, Authority, Infantry, Riding, Armor e Flying, com o que cada personagem aprende por rank, busca por personagem e, nas armas, uma tabela com a descrição completa de cada arte de combate.',
+  homeGrowth:
+    'Unidades e Classes, com as taxas de crescimento (%) de cada personagem e os modificadores de crescimento de cada classe, com busca por nome.',
   disclaimerTitle: 'Aviso',
   disclaimer:
     "Este é um projeto de fãs, não oficial, e não é afiliado, patrocinado ou endossado pelos criadores de Fire Emblem: Fortune's Weave nem pelos detentores dos direitos da série Fire Emblem. Nomes, personagens, imagens e demais materiais do jogo pertencem aos seus respectivos donos.",
@@ -124,6 +145,7 @@ const ptBR: Ui = {
 const ptPT: Ui = {
   ...ptBR,
   search: 'Procurar personagem…',
+  searchClass: 'Procurar classe…',
   credit: 'Dados e imagens baseados em',
   negotiationLevels: { Easy: 'Fácil', Moderate: 'Moderada', Difficult: 'Difícil' },
 }
