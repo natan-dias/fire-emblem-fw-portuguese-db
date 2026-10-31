@@ -7,6 +7,7 @@ import Recruitment from './pages/Recruitment'
 import Paralogues from './pages/Paralogues'
 import Spells from './pages/Spells'
 import Growths from './pages/Growths'
+import Classes, { classTiers } from './pages/Classes'
 import CombatArts, { artProfs, weaponProfs } from './pages/CombatArts'
 
 function SpellsTabs() {
@@ -60,6 +61,23 @@ function GrowthTabs() {
   )
 }
 
+function ClassTabs() {
+  return (
+    <>
+      <nav className="subnav">
+        {classTiers.map((x) => (
+          <NavLink key={x} to={`/classes/${x.toLowerCase()}`}>{x}</NavLink>
+        ))}
+      </nav>
+      <Routes>
+        {classTiers.map((x) => (
+          <Route key={x} path={x.toLowerCase()} element={<Classes tier={x} />} />
+        ))}
+      </Routes>
+    </>
+  )
+}
+
 export default function App() {
   const { t, lang, setLang } = useI18n()
   const [menuOpen, setMenuOpen] = useState(false)
@@ -94,6 +112,7 @@ export default function App() {
           <NavLink to="/magias">{t.spells}</NavLink>
           <NavLink to="/artes">{t.combatArts}</NavLink>
           <NavLink to="/crescimento">{t.growth}</NavLink>
+          <NavLink to="/classes">{t.classes}</NavLink>
         </nav>
         <div className="controls">
           <select aria-label={t.language} value={lang} onChange={(e) => setLang(e.target.value as typeof lang)}>
@@ -114,6 +133,8 @@ export default function App() {
           <Route path="/artes/*" element={<ArtsTabs />} />
           <Route path="/crescimento" element={<Navigate to="/crescimento/unidades" replace />} />
           <Route path="/crescimento/*" element={<GrowthTabs />} />
+          <Route path="/classes" element={<Navigate to="/classes/base" replace />} />
+          <Route path="/classes/*" element={<ClassTabs />} />
         </Routes>
       </main>
       <footer className="footer">

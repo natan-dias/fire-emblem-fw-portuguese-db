@@ -10,6 +10,8 @@ import spellsPT from './spells.pt-PT.json'
 import artsData from '../data/arts.json'
 import artsBR from './arts.pt-BR.json'
 import artsPT from './arts.pt-PT.json'
+import abilitiesBR from './class-abilities.pt-BR.json'
+import abilitiesPT from './class-abilities.pt-PT.json'
 
 const skillText: Record<Lang, Record<string, string>> = {
   'pt-BR': skillsBR,
@@ -26,6 +28,11 @@ const artText: Record<Lang, Record<string, string>> = {
   'pt-PT': { ...artsBR, ...artsPT },
 }
 
+const abilityText: Record<Lang, Record<string, string>> = {
+  'pt-BR': abilitiesBR,
+  'pt-PT': { ...abilitiesBR, ...abilitiesPT },
+}
+
 type Ctx = {
   lang: Lang
   setLang: (l: Lang) => void
@@ -34,6 +41,7 @@ type Ctx = {
   spell: (id: string) => { name: string; effect: string }
   art: (id: string) => { name: string; effect: string }
   skillName: (id: string) => string
+  ability: (description: string) => string
   condition: (value: string) => string
 }
 
@@ -92,6 +100,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
       effect: artText[lang][id] ?? '',
     }),
     skillName: (id) => artsData.skillNames[id as keyof typeof artsData.skillNames] ?? id,
+    ability: (d) => abilityText[lang][d] ?? d,
     condition: (v) =>
       v
         .split(', ')
