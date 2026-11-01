@@ -107,6 +107,11 @@ const growthClasses = db.classes
     ...(c.growthTiers?.length && { tiers: c.growthTiers.map((t) => ({ level: t.level, growths: t.growths })) }),
   }))
 await writeFile('src/data/growths.json', JSON.stringify({ units: growthUnits, classes: growthClasses }, null, 2) + '\n')
+// Mounts and battalions: kept as in the reference (effects/locations are translated in src/i18n).
+const mounts = db.mounts.map((m) => ({ id: m.id, type: m.type, name: m.name, stats: m.stats, growths: m.growths, abilities: m.abilities, location: m.location }))
+await writeFile('src/data/mounts.json', JSON.stringify(mounts, null, 2) + '\n')
+const battalions = db.battalions.map((b) => ({ id: b.id, name: b.name, category: b.category, rank: b.rank, gatherLimit: b.gatherLimit, ability: b.ability, stats: b.stats, location: b.location }))
+await writeFile('src/data/battalions.json', JSON.stringify(battalions, null, 2) + '\n')
 // Classes: full info + portraits. Ability descriptions are translated in src/i18n (keyed by the English text).
 await mkdir('public/portraits/classes', { recursive: true })
 const ability = (a) => (a?.name ? { name: a.name, description: a.description ?? '' } : null)
@@ -133,5 +138,5 @@ for (const c of db.classes) {
 }
 await writeFile('src/data/classes.json', JSON.stringify(classes, null, 2) + '\n')
 console.log(
-  `${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells, ${paralogues.length} paralogues, ${growthClasses.length} classes with growths, ${classes.length} classes`,
+  `${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells, ${paralogues.length} paralogues, ${growthClasses.length} classes with growths, ${classes.length} classes, ${mounts.length} mounts, ${battalions.length} battalions`,
 )

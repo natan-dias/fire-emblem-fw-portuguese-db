@@ -12,6 +12,8 @@ import artsBR from './arts.pt-BR.json'
 import artsPT from './arts.pt-PT.json'
 import abilitiesBR from './class-abilities.pt-BR.json'
 import abilitiesPT from './class-abilities.pt-PT.json'
+import mountEffectsBR from './mount-effects.pt-BR.json'
+import mountEffectsPT from './mount-effects.pt-PT.json'
 
 const skillText: Record<Lang, Record<string, string>> = {
   'pt-BR': skillsBR,
@@ -33,6 +35,19 @@ const abilityText: Record<Lang, Record<string, string>> = {
   'pt-PT': { ...abilitiesBR, ...abilitiesPT },
 }
 
+const mountEffectText: Record<Lang, Record<string, string>> = {
+  'pt-BR': mountEffectsBR,
+  'pt-PT': { ...mountEffectsBR, ...mountEffectsPT },
+}
+
+// Place names stay in English; only the surrounding phrases are translated.
+const locationRules: [RegExp, string][] = [
+  [/^Unique Mount: Comes with (.+) \(No wild spawn\)$/, 'Montaria única: vem com $1 (não aparece na natureza)'],
+  [/^Quest in Part 3$/, 'Missão na Parte 3'],
+  [/\(Part III exclusive\)/, '(exclusivo da Parte III)'],
+  [/\(Rare\)/, '(Raro)'],
+]
+
 type Ctx = {
   lang: Lang
   setLang: (l: Lang) => void
@@ -42,6 +57,8 @@ type Ctx = {
   art: (id: string) => { name: string; effect: string }
   skillName: (id: string) => string
   ability: (description: string) => string
+  mountEffect: (effect: string) => string
+  mountLocation: (location: string) => string
   condition: (value: string) => string
 }
 
@@ -101,6 +118,8 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     }),
     skillName: (id) => artsData.skillNames[id as keyof typeof artsData.skillNames] ?? id,
     ability: (d) => abilityText[lang][d] ?? d,
+    mountEffect: (e) => mountEffectText[lang][e] ?? e,
+    mountLocation: (l) => locationRules.reduce((s, [re, to]) => s.replace(re, to), l),
     condition: (v) =>
       v
         .split(', ')

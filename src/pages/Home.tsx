@@ -14,12 +14,12 @@ export default function Home() {
       <h2>{t.homeFeaturesTitle}</h2>
       <ul>
         <li><Link to="/personagens">{t.characters}</Link>: {t.homeCharacters}</li>
+        <li><Link to="/classes">{t.classes}</Link>: {t.homeClasses}</li>
         <li><Link to="/recrutamento">{t.recruitment}</Link>: {t.homeRecruitment}</li>
+        <li><Link to="/crescimento">{t.growth}</Link>: {t.homeGrowth}</li>
         <li><Link to="/paralogues">{t.paralogues}</Link>: {t.homeParalogues}</li>
         <li><Link to="/magias">{t.spells}</Link>: {t.homeSpells}</li>
         <li><Link to="/artes">{t.combatArts}</Link>: {t.homeArts}</li>
-        <li><Link to="/crescimento">{t.growth}</Link>: {t.homeGrowth}</li>
-        <li><Link to="/classes">{t.classes}</Link>: {t.homeClasses}</li>
       </ul>
     </div>
   )
