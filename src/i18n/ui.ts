@@ -30,6 +30,21 @@ type Ui = {
   masterAbility: string
   growthUnits: string
   growthClasses: string
+  growthMounts: string
+  growthBattalions: string
+  searchBattalion: string
+  mountType: string
+  mountTypes: Record<string, string>
+  statBonuses: string
+  growthRates: string
+  mountAbilities: string
+  location: string
+  battalion: string
+  category: string
+  battalionCategories: Record<string, string>
+  rank: string
+  gatherLimit: string
+  battalionAbility: string
   searchClass: string
   class: string
   tier: string
@@ -109,6 +124,21 @@ const ptBR: Ui = {
   masterAbility: 'Master Ability',
   growthUnits: 'Unidades',
   growthClasses: 'Classes',
+  growthMounts: 'Montarias',
+  growthBattalions: 'Batalhões',
+  searchBattalion: 'Buscar batalhão…',
+  mountType: 'Tipo',
+  mountTypes: { Horse: 'Cavalo', Ornius: 'Ornius', Pegasus: 'Pégaso', Bau: 'Bau', Elephant: 'Elefante' },
+  statBonuses: 'Bônus de status',
+  growthRates: 'Crescimento',
+  mountAbilities: 'Habilidades',
+  location: 'Local',
+  battalion: 'Batalhão',
+  category: 'Categoria',
+  battalionCategories: { Defense: 'Defesa', Magical: 'Mágico', Physical: 'Físico', Support: 'Apoio' },
+  rank: 'Rank',
+  gatherLimit: 'Limite de reunião',
+  battalionAbility: 'Habilidade',
   searchClass: 'Buscar classe…',
   class: 'Classe (Class)',
   tier: 'Tier',
@@ -154,7 +184,7 @@ const ptBR: Ui = {
   homeArts:
     'Sword, Lance, Axe, Bow, Brawl, Authority, Infantry, Riding, Armor e Flying, com o que cada personagem aprende por rank, busca por personagem e, nas armas, uma tabela com a descrição completa de cada arte de combate.',
   homeGrowth:
-    'Unidades e Classes, com as taxas de crescimento (%) de cada personagem e os modificadores de crescimento de cada classe, com busca por nome.',
+    'Unidades e Classes, com as taxas de crescimento (%) de cada personagem e os modificadores de crescimento de cada classe, com busca por nome; Montarias, com bônus de status, crescimento, habilidades e local de cada montaria; e Batalhões, com categoria, rank, habilidade, bônus de status e local de cada batalhão, com busca por nome.',
   disclaimerTitle: 'Aviso',
   disclaimer:
     "Este é um projeto de fãs, não oficial, e não é afiliado, patrocinado ou endossado pelos criadores de Fire Emblem: Fortune's Weave nem pelos detentores dos direitos da série Fire Emblem. Nomes, personagens, imagens e demais materiais do jogo pertencem aos seus respectivos donos.",
@@ -167,6 +197,7 @@ const ptPT: Ui = {
   ...ptBR,
   search: 'Procurar personagem…',
   searchClass: 'Procurar classe…',
+  searchBattalion: 'Procurar batalhão…',
   credit: 'Dados e imagens baseados em',
   negotiationLevels: { Easy: 'Fácil', Moderate: 'Moderada', Difficult: 'Difícil' },
 }

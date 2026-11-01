@@ -59,3 +59,24 @@ export type ClassInfo = {
   abilities: ClassAbility[]
   mastered: ClassAbility | null
 }
+
+export type Mount = {
+  id: string
+  type: string
+  name: string
+  stats: Growths
+  growths: Growths
+  abilities: { name: string; effect: string }[]
+  location: string
+}
+
+export type Battalion = {
+  id: string
+  name: string
+  category: string
+  rank: string
+  gatherLimit: number
+  ability: string
+  stats: Growths
+  location: string
+}

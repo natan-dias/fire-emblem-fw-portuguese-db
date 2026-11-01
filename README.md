@@ -10,11 +10,11 @@ O principal objetivo deste projeto é ser um guia para os jogadores terem uma ex
 
 - **Início:** página inicial com uma visão geral do site.
 - **Personagens:** todos os personagens, com suas habilidades pessoais e as habilidades únicas, base e "+" juntas (nomes originais em inglês, descrições em português).
+- **Classes:** um sub-menu por tier (Base, Beginner, Specialty, Advanced, Master, Divine), com uma caixa por classe (movimento, proficiências, crescimento, Class Abilities e Master Ability com descrições em português) e busca por nome.
 - **Recrutamento:** uma tabela mostrando como recrutar cada personagem em cada rota.
+- **Crescimento:** sub-menus *Unidades* (taxas de crescimento em % de cada personagem) e *Classes* (modificadores de crescimento de cada classe, incluindo as faixas por nível), ambos com busca por nome, *Montarias* (bônus de status, crescimento, habilidades e local de cada montaria) e *Batalhões* (categoria, rank, limite de reunião, habilidade, bônus de status e local, com busca por nome).
 - **Paralogues:** uma tabela com as datas em que cada paralogue fica disponível em cada rota (mês/dia do calendário do jogo).
 - **Magias:** *White Magic Spells* e *Black Magic Spells* , com as magias que cada personagem aprende por rank (D–S), busca por personagem e uma tabela com a descrição completa de cada magia.
-- **Crescimento:** sub-menus *Unidades* (taxas de crescimento em % de cada personagem) e *Classes* (modificadores de crescimento de cada classe, incluindo as faixas por nível), ambos com busca por nome.
-- **Classes:** um sub-menu por tier (Base, Beginner, Specialty, Advanced, Master, Divine), com uma caixa por classe (movimento, proficiências, crescimento, Class Abilities e Master Ability com descrições em português) e busca por nome.
 - **Artes de Combate:** sub-menus *Sword*, *Lance*, *Axe*, *Bow*, *Brawl*, *Authority*, *Infantry*, *Riding*, *Armor* e *Flying*, com o que cada personagem aprende por rank, busca por personagem e, nas cinco armas, uma tabela com a descrição completa de cada arte de combate. As tabelas de descrição de Authority, Infantry, Riding, Armor e Flying ainda serão adicionadas.
 
 Gostou do projeto? Siga o canal no YouTube: https://www.youtube.com/@velhotejogador

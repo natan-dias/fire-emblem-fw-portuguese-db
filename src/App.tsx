@@ -7,6 +7,8 @@ import Recruitment from './pages/Recruitment'
 import Paralogues from './pages/Paralogues'
 import Spells from './pages/Spells'
 import Growths from './pages/Growths'
+import Mounts from './pages/Mounts'
+import Battalions from './pages/Battalions'
 import Classes, { classTiers } from './pages/Classes'
 import CombatArts, { artProfs, weaponProfs } from './pages/CombatArts'
 
@@ -52,10 +54,14 @@ function GrowthTabs() {
       <nav className="subnav">
         <NavLink to="/crescimento/unidades">{t.growthUnits}</NavLink>
         <NavLink to="/crescimento/classes">{t.growthClasses}</NavLink>
+        <NavLink to="/crescimento/montarias">{t.growthMounts}</NavLink>
+        <NavLink to="/crescimento/batalhoes">{t.growthBattalions}</NavLink>
       </nav>
       <Routes>
         <Route path="unidades" element={<Growths kind="units" />} />
         <Route path="classes" element={<Growths kind="classes" />} />
+        <Route path="montarias" element={<Mounts />} />
+        <Route path="batalhoes" element={<Battalions />} />
       </Routes>
     </>
   )
@@ -107,12 +113,12 @@ export default function App() {
         <nav id="main-nav" className={menuOpen ? 'open' : ''} onClick={() => setMenuOpen(false)}>
           <NavLink to="/" end>{t.home}</NavLink>
           <NavLink to="/personagens">{t.characters}</NavLink>
+          <NavLink to="/classes">{t.classes}</NavLink>
           <NavLink to="/recrutamento">{t.recruitment}</NavLink>
+          <NavLink to="/crescimento">{t.growth}</NavLink>
           <NavLink to="/paralogues">{t.paralogues}</NavLink>
           <NavLink to="/magias">{t.spells}</NavLink>
           <NavLink to="/artes">{t.combatArts}</NavLink>
-          <NavLink to="/crescimento">{t.growth}</NavLink>
-          <NavLink to="/classes">{t.classes}</NavLink>
         </nav>
         <div className="controls">
           <select aria-label={t.language} value={lang} onChange={(e) => setLang(e.target.value as typeof lang)}>
