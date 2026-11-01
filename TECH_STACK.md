@@ -46,5 +46,5 @@ npm run data      # regenerate data and portraits from the reference site
 
 ## Notes
 
-- The base path `/fire-emblem-fw-portuguese-db/` is set in `vite.config.ts`.
+- The base path is `/` (site served from the custom domain `fefwdb.velhoblog.online`, set via `public/CNAME` and repo Pages settings); see `vite.config.ts`.
 - If `npm run build` fails with "Cannot find native binding" (npm bug with optional dependencies), install the binary for your platform, e.g. `npm i --no-save @rolldown/binding-darwin-arm64`.

@@ -19,7 +19,7 @@ O principal objetivo deste projeto é ser um guia para os jogadores terem uma ex
 
 Gostou do projeto? Siga o canal no YouTube: https://www.youtube.com/@velhotejogador
 
-O site está disponível em: https://natan-dias.github.io/fire-emblem-fw-portuguese-db/
+O site está disponível em: https://fefwdb.velhoblog.online/
 
 ## Como contribuir
 
