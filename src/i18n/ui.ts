@@ -83,6 +83,14 @@ type Ui = {
   homeSpells: string
   homeArts: string
   homeGrowth: string
+  simulator: string
+  homeSimulator: string
+  simNoClass: string
+  simClass: string
+  simBase: string
+  simMod: string
+  simFinal: string
+  simLevelNote: string
   disclaimerTitle: string
   disclaimer: string
   followMe: string
@@ -185,6 +193,15 @@ const ptBR: Ui = {
     'Sword, Lance, Axe, Bow, Brawl, Authority, Infantry, Riding, Armor e Flying, com o que cada personagem aprende por rank, busca por personagem e, nas armas, uma tabela com a descrição completa de cada arte de combate.',
   homeGrowth:
     'Unidades e Classes, com as taxas de crescimento (%) de cada personagem e os modificadores de crescimento de cada classe, com busca por nome; Montarias, com bônus de status, crescimento, habilidades e local de cada montaria; e Batalhões, com categoria, rank, habilidade, bônus de status e local de cada batalhão, com busca por nome.',
+  simulator: 'Simulador',
+  homeSimulator:
+    'escolha um personagem e uma classe (separadas por tier) e veja como ficam as taxas de crescimento: base do personagem + modificador da classe.',
+  simNoClass: 'Sem classe',
+  simClass: 'Classe',
+  simBase: 'Base do personagem',
+  simMod: 'Modificador da classe',
+  simFinal: 'Crescimento final',
+  simLevelNote: 'Esta classe tem crescimentos por nível (veja Crescimento/Classes); eles não entram na simulação.',
   disclaimerTitle: 'Aviso',
   disclaimer:
     "Este é um projeto de fãs, não oficial, e não é afiliado, patrocinado ou endossado pelos criadores de Fire Emblem: Fortune's Weave nem pelos detentores dos direitos da série Fire Emblem. Nomes, personagens, imagens e demais materiais do jogo pertencem aos seus respectivos donos.",
