@@ -29,20 +29,18 @@ export default function Simulator() {
   return (
     <>
       <h2>{t.simulator}</h2>
-      <p>
-        <label>
-          {t.character}{' '}
-          <select value={unitId} onChange={(e) => setUnitId(e.target.value)}>
-            {units.map((u) => (
-              <option key={u.id} value={u.id}>{u.name}</option>
-            ))}
-          </select>
-        </label>
-      </p>
+      <label className="sim-controls">
+        {t.character}
+        <select value={unitId} onChange={(e) => setUnitId(e.target.value)}>
+          {units.map((u) => (
+            <option key={u.id} value={u.id}>{u.name}</option>
+          ))}
+        </select>
+      </label>
       <h3>{t.simClass}</h3>
       <nav className="subnav">
         {classTiers.map((x) => (
-          <button key={x} type="button" className={x === tier ? 'active' : ''} onClick={() => { setTier(x); if (x === 'Base') setClassId('') }}>{x}</button>
+          <button key={x} type="button" aria-pressed={x === tier} className={x === tier ? 'active' : ''} onClick={() => { setTier(x); if (x === 'Base') setClassId('') }}>{x}</button>
         ))}
       </nav>
       <nav className="subnav">
@@ -50,9 +48,24 @@ export default function Simulator() {
           <button type="button" className={classId === '' ? 'active' : ''} onClick={() => setClassId('')}>{t.simNoClass}</button>
         )}
         {tierClasses.map((c) => (
-          <button key={c.id} type="button" className={c.id === classId ? 'active' : ''} onClick={() => setClassId(c.id)}>{c.name}</button>
+          <button key={c.id} type="button" aria-pressed={c.id === classId} className={c.id === classId ? 'active' : ''} onClick={() => setClassId(c.id)}>{c.name}</button>
         ))}
       </nav>
+      <h3>{cls ? `${unit?.name} + ${cls.name}` : unit?.name}</h3>
+      <div className="sim-result">
+        {stats.map((k) => (
+          <div key={k} className="sim-tile">
+            <span className="sim-stat">{t.stats[k]}</span>
+            <span className="sim-value">{final[k]}</span>
+            <span className={`sim-delta ${(mod[k] ?? 0) > 0 ? 'up' : (mod[k] ?? 0) < 0 ? 'down' : ''}`}>{signed(mod[k] ?? 0)}</span>
+          </div>
+        ))}
+        <div className="sim-tile total">
+          <span className="sim-stat">{t.total}</span>
+          <span className="sim-value">{total(final)}</span>
+          <span className="sim-delta">{signed(total(mod))}</span>
+        </div>
+      </div>
       <div className="table-wrap">
         <table>
           <thead>

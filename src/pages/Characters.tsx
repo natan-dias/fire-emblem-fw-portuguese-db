@@ -46,17 +46,20 @@ export default function Characters() {
   const list = characters.filter((c) => c.name.toLowerCase().includes(q.trim().toLowerCase()))
   return (
     <>
-      <input className="search" type="search" placeholder={t.search} value={q} onChange={(e) => setQ(e.target.value)} />
+      <input className="search" type="search" aria-label={t.search} placeholder={t.search} value={q} onChange={(e) => setQ(e.target.value)} />
       <div className="grid">
         {list.map((c) => (
           <article key={c.id} className="card">
-            <img className="portrait" src={portrait(c.portrait)} alt={c.name} loading="lazy" />
-            <h2>{c.name}</h2>
+            <div className="char-head">
+              <img className="portrait" src={portrait(c.portrait)} alt="" width={72} height={72} loading="lazy" />
+              <h2>{c.name}</h2>
+            </div>
             <Skill label={t.personal} id={c.personalSkill} />
             <UniqueSkills ids={c.uniqueSkills} />
           </article>
         ))}
       </div>
+      {list.length === 0 && <p className="empty">{t.noResults}</p>}
     </>
   )
 }
