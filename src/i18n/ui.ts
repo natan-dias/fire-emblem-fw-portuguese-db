@@ -60,6 +60,7 @@ type Ui = {
   uses: string
   effect: string
   search: string
+  noResults: string
   language: string
   menu: string
   personal: string
@@ -164,6 +165,7 @@ const ptBR: Ui = {
   uses: 'Usos (Uses)',
   effect: 'Efeito (Effect)',
   search: 'Buscar personagem…',
+  noResults: 'Nenhum resultado. Tente outro nome.',
   language: 'Idioma',
   menu: 'Menu',
   personal: 'Habilidade pessoal',
