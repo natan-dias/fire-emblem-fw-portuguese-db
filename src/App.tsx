@@ -7,6 +7,7 @@ import Recruitment from './pages/Recruitment'
 import Paralogues from './pages/Paralogues'
 import Spells from './pages/Spells'
 import Growths from './pages/Growths'
+import Simulator from './pages/Simulator'
 import Mounts from './pages/Mounts'
 import Battalions from './pages/Battalions'
 import Classes, { classTiers } from './pages/Classes'
@@ -116,6 +117,7 @@ export default function App() {
           <NavLink to="/classes">{t.classes}</NavLink>
           <NavLink to="/recrutamento">{t.recruitment}</NavLink>
           <NavLink to="/crescimento">{t.growth}</NavLink>
+          <NavLink to="/simulador">{t.simulator}</NavLink>
           <NavLink to="/paralogues">{t.paralogues}</NavLink>
           <NavLink to="/magias">{t.spells}</NavLink>
           <NavLink to="/artes">{t.combatArts}</NavLink>
@@ -132,6 +134,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/personagens" element={<Characters />} />
           <Route path="/recrutamento" element={<Recruitment />} />
+          <Route path="/simulador" element={<Simulator />} />
           <Route path="/paralogues" element={<Paralogues />} />
           <Route path="/magias" element={<Navigate to="/magias/white-magic" replace />} />
           <Route path="/magias/*" element={<SpellsTabs />} />
