@@ -8,6 +8,7 @@ import Paralogues from './pages/Paralogues'
 import Spells from './pages/Spells'
 import Growths from './pages/Growths'
 import Simulator from './pages/Simulator'
+import BaseStatsSimulator from './pages/BaseStatsSimulator'
 import Mounts from './pages/Mounts'
 import Battalions from './pages/Battalions'
 import Classes, { classTiers } from './pages/Classes'
@@ -63,6 +64,23 @@ function GrowthTabs() {
         <Route path="classes" element={<Growths kind="classes" />} />
         <Route path="montarias" element={<Mounts />} />
         <Route path="batalhoes" element={<Battalions />} />
+      </Routes>
+    </>
+  )
+}
+
+function SimulatorTabs() {
+  const { t } = useI18n()
+  return (
+    <>
+      <h2>{t.simulator}</h2>
+      <nav className="subnav">
+        <NavLink to="/simulador/crescimento">{t.simGrowthTab}</NavLink>
+        <NavLink to="/simulador/atributos-base">{t.simBaseTab}</NavLink>
+      </nav>
+      <Routes>
+        <Route path="crescimento" element={<Simulator />} />
+        <Route path="atributos-base" element={<BaseStatsSimulator />} />
       </Routes>
     </>
   )
@@ -134,7 +152,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/personagens" element={<Characters />} />
           <Route path="/recrutamento" element={<Recruitment />} />
-          <Route path="/simulador" element={<Simulator />} />
+          <Route path="/simulador" element={<Navigate to="/simulador/crescimento" replace />} />
+          <Route path="/simulador/*" element={<SimulatorTabs />} />
           <Route path="/paralogues" element={<Paralogues />} />
           <Route path="/magias" element={<Navigate to="/magias/white-magic" replace />} />
           <Route path="/magias/*" element={<SpellsTabs />} />

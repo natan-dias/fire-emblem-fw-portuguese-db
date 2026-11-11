@@ -107,6 +107,11 @@ tbody th:first-child { box-shadow:1px 0 0 var(--line); }
 /* Simulator result */
 .sim-controls { display:grid; gap:6px; max-width:420px; margin-bottom:8px; }
 .sim-controls select { width:100%; }
+.sim-levels { display:flex; flex-wrap:wrap; gap:16px; }
+.sim-levels .sim-controls { flex:1 1 200px; }
+input[type=number] { min-height:44px; background:var(--card); color:var(--text); border:1px solid var(--line-strong); border-radius:var(--radius-s); padding:8px 12px; font:inherit; font-size:16px; width:100%; }
+input[type=range] { width:100%; min-height:44px; accent-color:var(--gold); }
+.subnav button:disabled { opacity:.4; cursor:not-allowed; }
 .sim-result { display:grid; grid-template-columns:repeat(auto-fit,minmax(84px,1fr)); gap:8px; margin:8px 0 20px; }
 .sim-tile { background:var(--card); border:1px solid var(--line); border-radius:var(--radius-m); padding:10px 12px; font-variant-numeric:tabular-nums; }
 .sim-tile.total { border-color:var(--gold); background:var(--card-hi); }
