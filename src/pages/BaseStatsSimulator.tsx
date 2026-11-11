@@ -93,7 +93,8 @@ export default function BaseStatsSimulator() {
       </label>
       <div className="sim-levels">
         <label className="sim-controls">
-          {t.simEntryLevel}
+          {t.simEntryLevel}: {entry}
+          <input type="range" min={1} max={MAX_LEVEL} value={entry} onChange={(e) => setEntryLevel(Number(e.target.value))} />
           <input type="number" inputMode="numeric" min={1} max={MAX_LEVEL} value={entry} onChange={(e) => setEntryLevel(Number(e.target.value))} />
         </label>
         <label className="sim-controls">
