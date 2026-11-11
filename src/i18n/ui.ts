@@ -92,6 +92,19 @@ type Ui = {
   simMod: string
   simFinal: string
   simLevelNote: string
+  simGrowthTab: string
+  simBaseTab: string
+  simEntryLevel: string
+  simEntryShort: string
+  simTargetLevel: string
+  simEntryHint: string
+  simDefault: string
+  simBeginner: string
+  simSpecialty: string
+  simAdvanced: string
+  simMaster: string
+  simFromLevel: string
+  simLevel: string
   disclaimerTitle: string
   disclaimer: string
   followMe: string
@@ -197,12 +210,25 @@ const ptBR: Ui = {
     'Unidades e Classes, com as taxas de crescimento (%) de cada personagem e os modificadores de crescimento de cada classe, com busca por nome; Montarias, com bônus de status, crescimento, habilidades e local de cada montaria; e Batalhões, com categoria, rank, habilidade, bônus de status e local de cada batalhão, com busca por nome.',
   simulator: 'Simulador',
   homeSimulator:
-    'escolha um personagem e uma classe (separadas por tier) e veja como ficam as taxas de crescimento: base do personagem + modificador da classe.',
+    'Taxa de Crescimento: escolha um personagem e uma classe e veja o crescimento final (base + classe). Atributos Base: simule os atributos de um personagem até o nível 99, com autolevel e as classes de cada faixa de nível.',
   simNoClass: 'Sem classe',
   simClass: 'Classe',
   simBase: 'Base do personagem',
   simMod: 'Modificador da classe',
   simFinal: 'Crescimento final',
+  simGrowthTab: 'Taxa de Crescimento',
+  simBaseTab: 'Atributos Base',
+  simEntryLevel: 'Nível de entrada',
+  simEntryShort: 'entrada',
+  simTargetLevel: 'Nível a simular',
+  simEntryHint: 'Nível 1 por padrão. Se o personagem entra na equipe em nível mais alto (varia por rota), informe-o: os níveis até lá usam a fórmula de autolevel (valores inteiros). Acima do nível de entrada, usa-se o crescimento médio (taxa ÷ 100 por nível), com o resultado arredondado (0,5 ou mais sobe, 0,4 ou menos desce); no jogo real, varia com a sorte.',
+  simDefault: 'padrão',
+  simBeginner: 'Beginner',
+  simSpecialty: 'Specialty',
+  simAdvanced: 'Advanced',
+  simMaster: 'Master',
+  simFromLevel: 'a partir do nível',
+  simLevel: 'Nível',
   simLevelNote: 'Esta classe tem crescimentos por nível (veja Crescimento/Classes); eles não entram na simulação.',
   disclaimerTitle: 'Aviso',
   disclaimer:

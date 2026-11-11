@@ -107,6 +107,43 @@ const growthClasses = db.classes
     ...(c.growthTiers?.length && { tiers: c.growthTiers.map((t) => ({ level: t.level, growths: t.growths })) }),
   }))
 await writeFile('src/data/growths.json', JSON.stringify({ units: growthUnits, classes: growthClasses }, null, 2) + '\n')
+// Level-1 base stats + Beginner/Specialty classes from the community sheet (tab "Base Stats").
+const SHEET = 'https://docs.google.com/spreadsheets/d/12Lrk_M4_cgy6P0_WB9QXknDLDjyKtbeUkhWk32pTGqo/export?format=csv&gid=0'
+const parseCsv = (text) => {
+  const rows = []
+  let row = [], cell = '', q = false
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i]
+    if (q) {
+      if (ch === '"' && text[i + 1] === '"') { cell += '"'; i++ }
+      else if (ch === '"') q = false
+      else cell += ch
+    } else if (ch === '"') q = true
+    else if (ch === ',') { row.push(cell); cell = '' }
+    else if (ch === '\n' || ch === '\r') {
+      if (ch === '\r' && text[i + 1] === '\n') i++
+      row.push(cell); rows.push(row); row = []; cell = ''
+    } else cell += ch
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row) }
+  return rows.filter((r) => r.some(Boolean))
+}
+const [header, ...sheetRows] = parseCsv(await (await fetch(SHEET)).text())
+const col = (r, name) => r[header.indexOf(name)]
+const STAT_KEYS = ['hp', 'str', 'mag', 'spd', 'dex', 'def', 'res', 'lck', 'cha']
+const baseStats = sheetRows.map((r) => ({
+  id: slug(col(r, 'Character')),
+  level1: Object.fromEntries(STAT_KEYS.map((k) => [k, Number(col(r, k === 'hp' ? 'HP' : k.charAt(0).toUpperCase() + k.slice(1)))])),
+  beginner: col(r, 'Beginner'),
+  specialty: col(r, 'Specialty'),
+}))
+const knownIds = new Set(characters.map((c) => c.id))
+const unmatched = baseStats.filter((b) => !knownIds.has(b.id)).map((b) => b.id)
+if (unmatched.length) console.warn('base stats: unmatched characters:', unmatched.join(', '))
+const classNames = new Set(db.classes.map((c) => c.name))
+const badClasses = baseStats.flatMap((b) => [b.beginner, b.specialty]).filter((n) => !classNames.has(n))
+if (badClasses.length) console.warn('base stats: unknown classes:', [...new Set(badClasses)].join(', '))
+await writeFile('src/data/base-stats.json', JSON.stringify(baseStats, null, 2) + '\n')
 // Mounts and battalions: kept as in the reference (effects/locations are translated in src/i18n).
 const mounts = db.mounts.map((m) => ({ id: m.id, type: m.type, name: m.name, stats: m.stats, growths: m.growths, abilities: m.abilities, location: m.location }))
 await writeFile('src/data/mounts.json', JSON.stringify(mounts, null, 2) + '\n')
@@ -138,5 +175,5 @@ for (const c of db.classes) {
 }
 await writeFile('src/data/classes.json', JSON.stringify(classes, null, 2) + '\n')
 console.log(
-  `${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells, ${paralogues.length} paralogues, ${growthClasses.length} classes with growths, ${classes.length} classes, ${mounts.length} mounts, ${battalions.length} battalions`,
+  `${characters.length} characters, ${Object.keys(skills).length} skills, ${Object.keys(spells).length} spells, ${paralogues.length} paralogues, ${growthClasses.length} classes with growths, ${classes.length} classes, ${mounts.length} mounts, ${battalions.length} battalions, ${baseStats.length} base stats`,
 )

@@ -28,7 +28,6 @@ export default function Simulator() {
 
   return (
     <>
-      <h2>{t.simulator}</h2>
       <label className="sim-controls">
         {t.character}
         <select value={unitId} onChange={(e) => setUnitId(e.target.value)}>
