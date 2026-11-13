@@ -120,6 +120,13 @@ input[type=range] { width:100%; min-height:44px; accent-color:var(--gold); }
 .sim-delta { display:block; font-size:14px; color:var(--muted); }
 .sim-delta.up { color:#9bcf8a; }
 .sim-delta.down { color:#e29a8a; }
+.sim-bonus-label { margin:-8px 0 6px; font-size:14px; color:var(--muted); }
+.sim-bonus-label small { font-size:13px; }
+.sim-bonus { display:grid; grid-template-columns:repeat(auto-fit,minmax(84px,1fr)); gap:8px; margin-bottom:20px; font-variant-numeric:tabular-nums; }
+.sim-bonus span { padding:4px 12px; font-size:15px; color:var(--muted); border-left:2px solid var(--line); }
+.sim-bonus .up { color:#9bcf8a; border-left-color:#9bcf8a; font-weight:700; }
+.sim-bonus .down { color:#e29a8a; border-left-color:#e29a8a; font-weight:700; }
+.sim-bonus .total { border-left-color:var(--gold); }
 
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior:auto !important; transition:none !important; } }
 .home-tiles span { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { autolevel, tierAt } from '../autolevel'
 import { baseStats, fixedLevelJoiners } from '../baseStats'
 import { characters } from '../characters'
+import { classBonuses } from '../classBonuses'
 import { classGrowths, unitGrowths } from '../growths'
 import { useI18n } from '../i18n'
 import type { Growths, StatKey } from '../types'
@@ -12,6 +13,8 @@ const signed = (n: number) => (n > 0 ? `+${n}` : n < 0 ? `−${-n}` : '0')
 // Rounded once at display time (.5 and above rounds up).
 const round = (s: Record<StatKey, number>) => Object.fromEntries(stats.map((k) => [k, Math.round(s[k])])) as Record<StatKey, number>
 const MAX_LEVEL = 99
+const tiers = ['beginner', 'specialty', 'advanced', 'master'] as const
+const tierLevels = [5, 20, 35, 45]
 const clamp = (n: number, min: number, max: number) => Math.min(max, Math.max(min, Math.round(n) || min))
 
 const units = baseStats
@@ -37,11 +40,17 @@ export default function BaseStatsSimulator() {
   if (!unit) return null
   const personal = unitGrowths.find((u) => u.id === unit.id)?.growths ?? {}
   const level = Math.max(target, entry)
+  const picked = {
+    beginner: classGrowths.find((c) => c.id === beginnerId) ?? byName(unit.beginner),
+    specialty: classGrowths.find((c) => c.id === specialtyId) ?? byName(unit.specialty),
+    advanced: classGrowths.find((c) => c.id === advancedId),
+    master: classGrowths.find((c) => c.id === masterId),
+  }
   const mods = {
-    beginner: classGrowths.find((c) => c.id === beginnerId)?.growths ?? byName(unit.beginner)?.growths ?? {},
-    specialty: classGrowths.find((c) => c.id === specialtyId)?.growths ?? byName(unit.specialty)?.growths ?? {},
-    advanced: classGrowths.find((c) => c.id === advancedId)?.growths ?? {},
-    master: classGrowths.find((c) => c.id === masterId)?.growths ?? {},
+    beginner: picked.beginner?.growths ?? {},
+    specialty: picked.specialty?.growths ?? {},
+    advanced: picked.advanced?.growths ?? {},
+    master: picked.master?.growths ?? {},
   }
   const rates = (lv: number) => {
     const tier = tierAt(lv)
@@ -49,9 +58,22 @@ export default function BaseStatsSimulator() {
     return Object.fromEntries(stats.map((k) => [k, Math.max(0, (personal[k] ?? 0) + (mod[k] ?? 0))])) as Record<StatKey, number>
   }
   const path = autolevel(unit.level1, rates, level, entry, fixedLevelJoiners.includes(unit.id))
-  const start = round(path[1])
-  const atEntry = round(path[entry])
-  const final = round(path[level])
+  // Fixed class-change bonuses: each selected class adds its points once the level reaches its tier.
+  const bonusAt = (lv: number) => {
+    const sum = Object.fromEntries(stats.map((k) => [k, 0])) as Record<StatKey, number>
+    tiers.forEach((tier, i) => {
+      if (lv >= tierLevels[i]) stats.forEach((k) => { sum[k] += classBonuses[picked[tier]?.name ?? '']?.[k] ?? 0 })
+    })
+    return sum
+  }
+  const withBonus = (lv: number) => {
+    const bonus = bonusAt(lv)
+    return Object.fromEntries(stats.map((k) => [k, path[lv][k] + bonus[k]])) as Record<StatKey, number>
+  }
+  const start = round(withBonus(1))
+  const atEntry = round(withBonus(entry))
+  const final = round(withBonus(level))
+  const bonus = bonusAt(level)
 
   const setEntryLevel = (n: number) => {
     const e = clamp(n, 1, MAX_LEVEL)
@@ -123,6 +145,17 @@ export default function BaseStatsSimulator() {
           <span className="sim-delta">{signed(total(final) - total(start))}</span>
         </div>
       </div>
+      {total(bonus) !== 0 && (
+        <>
+          <p className="sim-bonus-label">{t.simClassBonus} <small>({t.simClassBonusNote})</small></p>
+          <div className="sim-bonus" aria-label={t.simClassBonus}>
+            {stats.map((k) => (
+              <span key={k} className={bonus[k] > 0 ? 'up' : bonus[k] < 0 ? 'down' : ''}>{bonus[k] === 0 ? '·' : signed(bonus[k])}</span>
+            ))}
+            <span className="total">{signed(total(bonus))}</span>
+          </div>
+        </>
+      )}
       <div className="table-wrap">
         <table>
           <thead>
