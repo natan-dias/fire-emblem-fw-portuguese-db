@@ -98,6 +98,8 @@ type Ui = {
   simEntryShort: string
   simTargetLevel: string
   simEntryHint: string
+  simClassBonus: string
+  simClassBonusNote: string
   simDefault: string
   simBeginner: string
   simSpecialty: string
@@ -210,7 +212,7 @@ const ptBR: Ui = {
     'Unidades e Classes, com as taxas de crescimento (%) de cada personagem e os modificadores de crescimento de cada classe, com busca por nome; Montarias, com bônus de status, crescimento, habilidades e local de cada montaria; e Batalhões, com categoria, rank, habilidade, bônus de status e local de cada batalhão, com busca por nome.',
   simulator: 'Simulador',
   homeSimulator:
-    'Taxa de Crescimento: escolha um personagem e uma classe e veja o crescimento final (base + classe). Atributos Base: simule os atributos de um personagem até o nível 99, com autolevel e as classes de cada faixa de nível.',
+    'Taxa de Crescimento: escolha um personagem e uma classe e veja o crescimento final (base + classe). Atributos Base: simule os atributos de um personagem até o nível 99, com autolevel, as classes de cada faixa de nível e os bônus de atributo das classes.',
   simNoClass: 'Sem classe',
   simClass: 'Classe',
   simBase: 'Base do personagem',
@@ -222,6 +224,8 @@ const ptBR: Ui = {
   simEntryShort: 'entrada',
   simTargetLevel: 'Nível a simular',
   simEntryHint: 'Nível 1 por padrão. Se o personagem entra na equipe em nível mais alto (varia por rota), informe-o: os níveis até lá usam a fórmula de autolevel (valores inteiros). Acima do nível de entrada, usa-se o crescimento médio (taxa ÷ 100 por nível), com o resultado arredondado (0,5 ou mais sobe, 0,4 ou menos desce); no jogo real, varia com a sorte.',
+  simClassBonus: 'Bônus de Classe',
+  simClassBonusNote: 'já incluído nos valores acima',
   simDefault: 'padrão',
   simBeginner: 'Beginner',
   simSpecialty: 'Specialty',

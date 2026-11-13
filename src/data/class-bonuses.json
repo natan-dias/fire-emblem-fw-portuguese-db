@@ -1,0 +1,404 @@
+{
+ "Gladiator": {
+  "hp": 1,
+  "str": 1
+ },
+ "Hunter": {
+  "spd": 1,
+  "dex": 1
+ },
+ "Soldier": {
+  "str": 1,
+  "def": 1
+ },
+ "Diviner": {
+  "mag": 1,
+  "res": 1
+ },
+ "Ornius Rider": {
+  "spd": 3,
+  "dex": 2,
+  "lck": 1
+ },
+ "Myrmidon": {
+  "hp": 1,
+  "spd": 2,
+  "res": -1
+ },
+ "Brigand": {
+  "hp": 3,
+  "str": 2,
+  "def": 1,
+  "res": -1
+ },
+ "Pugilist": {
+  "hp": 2,
+  "str": 1,
+  "spd": 1,
+  "def": 2,
+  "res": -1
+ },
+ "Archer": {
+  "spd": 2,
+  "dex": 2,
+  "def": 1
+ },
+ "Rogue": {
+  "spd": 3,
+  "dex": 1,
+  "res": 1,
+  "lck": 1,
+  "cha": -1
+ },
+ "Armored Knight": {
+  "hp": 2,
+  "str": 1,
+  "spd": -2,
+  "def": 4
+ },
+ "Light Cavalry": {
+  "hp": 1,
+  "str": 1,
+  "spd": 1,
+  "def": 2,
+  "cha": 1
+ },
+ "Charioteer": {
+  "hp": 3,
+  "str": 1,
+  "spd": -2,
+  "dex": 3,
+  "def": 3,
+  "cha": 1
+ },
+ "Armored Ornius Rider": {
+  "hp": 1,
+  "spd": 2,
+  "def": 2
+ },
+ "Wing Soldier": {
+  "spd": 4,
+  "dex": 1,
+  "def": 1,
+  "res": 2,
+  "cha": 1
+ },
+ "Priest": {
+  "mag": 1,
+  "res": 3,
+  "lck": 2,
+  "cha": 1
+ },
+ "Shaman": {
+  "mag": 2,
+  "spd": 1,
+  "dex": 1,
+  "res": 2,
+  "cha": -1
+ },
+ "Warrior": {
+  "hp": 4,
+  "str": 4,
+  "spd": 1
+ },
+ "Shido": {
+  "hp": 3,
+  "spd": 7,
+  "dex": 3
+ },
+ "Dancer": {
+  "hp": 4,
+  "spd": 9,
+  "dex": 5,
+  "cha": 5
+ },
+ "Blacksmith": {
+  "hp": 5,
+  "str": 1,
+  "mag": 1,
+  "spd": 1,
+  "def": 3,
+  "res": 1
+ },
+ "Sniper": {
+  "hp": 1,
+  "spd": 5,
+  "dex": 5
+ },
+ "Forest Knight": {
+  "hp": 1,
+  "spd": 5,
+  "dex": 2,
+  "def": 1
+ },
+ "Ranger": {
+  "hp": 1,
+  "spd": 7,
+  "dex": 4,
+  "res": 1,
+  "lck": 1,
+  "cha": -1
+ },
+ "Cataphract": {
+  "hp": 5,
+  "str": 2,
+  "spd": -1,
+  "def": 5
+ },
+ "Guardian": {
+  "hp": 3,
+  "str": 1,
+  "spd": 1,
+  "def": 3,
+  "res": 4
+ },
+ "Elephant Rider": {
+  "hp": 10,
+  "str": 2,
+  "spd": -5,
+  "dex": 3,
+  "def": 7,
+  "cha": 3
+ },
+ "Dreadnought": {
+  "hp": 5,
+  "str": 3,
+  "spd": -5,
+  "def": 9,
+  "res": -1
+ },
+ "Bardinger": {
+  "hp": 3,
+  "spd": 1,
+  "def": 1,
+  "cha": 3
+ },
+ "Dragoon": {
+  "hp": 2,
+  "str": 1,
+  "spd": 3,
+  "dex": 1,
+  "def": 1
+ },
+ "Caladrius": {
+  "hp": 2,
+  "mag": 1,
+  "spd": 3,
+  "def": 1,
+  "res": 2
+ },
+ "Ovate": {
+  "hp": 1,
+  "mag": 4,
+  "spd": 3,
+  "dex": 4,
+  "res": 4,
+  "cha": -1
+ },
+ "Bishop": {
+  "hp": 1,
+  "mag": 3,
+  "spd": 1,
+  "res": 5,
+  "lck": 3,
+  "cha": 3
+ },
+ "Troubadour": {
+  "mag": 1,
+  "spd": 1,
+  "dex": 1,
+  "def": 1,
+  "res": 2,
+  "cha": 3
+ },
+ "Swordmaster": {
+  "hp": 5,
+  "str": 2,
+  "spd": 7,
+  "dex": 7
+ },
+ "High Savant": {
+  "hp": 5,
+  "str": 2,
+  "mag": 2,
+  "spd": 3,
+  "dex": 3,
+  "def": 2
+ },
+ "Battlemaster": {
+  "hp": 13,
+  "str": 6,
+  "spd": 2,
+  "def": 4
+ },
+ "War Monk": {
+  "hp": 5,
+  "str": 2,
+  "spd": 5,
+  "dex": 2,
+  "def": 2,
+  "res": 4
+ },
+ "Bow Adept": {
+  "hp": 4,
+  "str": 2,
+  "spd": 5,
+  "dex": 9
+ },
+ "Bow Knight": {
+  "hp": 3,
+  "str": 2,
+  "spd": 7,
+  "dex": 5,
+  "def": 2
+ },
+ "Shadow Seeker": {
+  "hp": 4,
+  "spd": 9,
+  "dex": 7,
+  "lck": 2,
+  "cha": -2
+ },
+ "Sentinel": {
+  "hp": 5,
+  "str": 4,
+  "spd": 2,
+  "dex": 4,
+  "def": 4,
+  "res": 5
+ },
+ "Castle Knight": {
+  "hp": 9,
+  "str": 6,
+  "spd": -6,
+  "dex": 4,
+  "def": 13,
+  "res": -2
+ },
+ "Orichaldia": {
+  "hp": 7,
+  "str": 3,
+  "spd": 2,
+  "dex": 3,
+  "def": 2,
+  "cha": 2
+ },
+ "Great Knight": {
+  "hp": 12,
+  "str": 5,
+  "spd": -4,
+  "dex": 2,
+  "def": 5
+ },
+ "Celestial Trooper": {
+  "hp": 3,
+  "spd": 5,
+  "dex": 3,
+  "res": 5,
+  "cha": 2
+ },
+ "Bau Lord": {
+  "hp": 5,
+  "str": 2,
+  "spd": 3,
+  "dex": 3,
+  "def": 3
+ },
+ "Druid": {
+  "hp": 4,
+  "mag": 7,
+  "spd": 4,
+  "dex": 7,
+  "res": 5,
+  "cha": -2
+ },
+ "Wiseman": {
+  "hp": 4,
+  "mag": 5,
+  "spd": 2,
+  "dex": 2,
+  "res": 9,
+  "lck": 4,
+  "cha": 2
+ },
+ "Valkyrium": {
+  "hp": 2,
+  "mag": 2,
+  "spd": 2,
+  "dex": 3,
+  "def": 2,
+  "res": 3,
+  "cha": 2
+ },
+ "The Avatar": {
+  "hp": 5,
+  "mag": 9,
+  "spd": 2,
+  "dex": 2,
+  "res": 9,
+  "lck": 5,
+  "cha": 2
+ },
+ "The Cavalier": {
+  "hp": 11,
+  "str": 3,
+  "spd": 4,
+  "dex": 5,
+  "def": 5,
+  "res": 1,
+  "cha": 2
+ },
+ "The Trident": {
+  "hp": 7,
+  "str": 4,
+  "mag": 4,
+  "spd": 2,
+  "dex": 4,
+  "def": 5,
+  "res": 5,
+  "cha": 2
+ },
+ "The Calamity": {
+  "hp": 5,
+  "str": 2,
+  "mag": 4,
+  "spd": 7,
+  "dex": 5,
+  "res": 4,
+  "lck": 4
+ },
+ "The Godhand": {
+  "hp": 7,
+  "str": 4,
+  "mag": 4,
+  "spd": 5,
+  "dex": 2,
+  "def": 4,
+  "res": 5,
+  "cha": 2
+ },
+ "The Eternal": {
+  "hp": 12,
+  "str": 6,
+  "spd": 2,
+  "dex": 1,
+  "def": 5,
+  "cha": 2
+ },
+ "The Apsara": {
+  "hp": 5,
+  "str": 2,
+  "mag": 4,
+  "spd": 7,
+  "dex": 5,
+  "cha": 9
+ },
+ "The Blade": {
+  "hp": 7,
+  "str": 4,
+  "mag": 4,
+  "spd": 7,
+  "dex": 7,
+  "cha": 2
+ }
+}
