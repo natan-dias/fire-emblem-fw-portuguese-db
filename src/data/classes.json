@@ -21,8 +21,8 @@
     "growths": {},
     "abilities": [],
     "mastered": {
-      "name": "HP +5?",
-      "description": ""
+      "name": "Combat Basics",
+      "description": "Grants Hit/Avo+3."
     }
   },
   {
@@ -47,8 +47,8 @@
     "growths": {},
     "abilities": [],
     "mastered": {
-      "name": "HP +5?",
-      "description": ""
+      "name": "Combat Basics",
+      "description": "Grants Hit/Avo+3."
     }
   },
   {
@@ -2069,8 +2069,8 @@
         "description": "Allows use of Mount and Dismount commands."
       },
       {
-        "name": "Combat Arts +1",
-        "description": "Unit can equip +1 combat arts."
+        "name": "Combat Arts +2",
+        "description": "Unit can equip +2 combat arts."
       },
       {
         "name": "Flying Avo +7",
@@ -2475,6 +2475,10 @@
       {
         "name": "Mount/Dismount",
         "description": "Allows use of Mount and Dismount commands."
+      },
+      {
+        "name": "Strike-Last Def +5",
+        "description": "If foe attacks first, grants Prt+5 to unit during combat."
       }
     ],
     "mastered": {
@@ -2527,6 +2531,10 @@
       {
         "name": "Magic Heal +10",
         "description": "When healing an ally with magic, restores +10 HP."
+      },
+      {
+        "name": "Magic Hit +5",
+        "description": "When equipped with magic, grants Hit+5."
       }
     ],
     "mastered": {
