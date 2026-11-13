@@ -94,6 +94,26 @@ type Ui = {
   simLevelNote: string
   simGrowthTab: string
   simBaseTab: string
+  buildSkills: string
+  buildSkill: string
+  buildDescription: string
+  buildUnlock: string
+  buildPersonalTitle: string
+  buildClassTitle: string
+  buildEquipTitle: string
+  buildLevelShort: string
+  buildClassUnlock: string
+  buildNoClassYet: string
+  buildClassNote: string
+  buildEquipNote: string
+  buildEquipped: string
+  buildSearch: string
+  buildMastery: string
+  buildRankSkill: string
+  buildRemove: string
+  buildNone: string
+  buildCombatArt: string
+  wikiCredit: string
   simEntryLevel: string
   simEntryShort: string
   simTargetLevel: string
@@ -212,14 +232,34 @@ const ptBR: Ui = {
     'Unidades e Classes, com as taxas de crescimento (%) de cada personagem e os modificadores de crescimento de cada classe, com busca por nome; Montarias, com bônus de status, crescimento, habilidades e local de cada montaria; e Batalhões, com categoria, rank, habilidade, bônus de status e local de cada batalhão, com busca por nome.',
   simulator: 'Simulador',
   homeSimulator:
-    'Taxa de Crescimento: escolha um personagem e uma classe e veja o crescimento final (base + classe). Atributos Base: simule os atributos de um personagem até o nível 99, com autolevel, as classes de cada faixa de nível e os bônus de atributo das classes.',
+    'Taxa de Crescimento: escolha um personagem e uma classe e veja o crescimento final (base + classe). Build: simule os atributos de um personagem até o nível 99 (autolevel, classes de cada faixa de nível e bônus de classe) e monte as habilidades: pessoal, de classe e até 5 equipáveis.',
   simNoClass: 'Sem classe',
   simClass: 'Classe',
   simBase: 'Base do personagem',
   simMod: 'Modificador da classe',
   simFinal: 'Crescimento final',
   simGrowthTab: 'Taxa de Crescimento',
-  simBaseTab: 'Atributos Base',
+  simBaseTab: 'Build',
+  buildSkills: 'Habilidades',
+  buildSkill: 'Habilidade',
+  buildDescription: 'Descrição',
+  buildUnlock: 'Desbloqueio',
+  buildPersonalTitle: 'Habilidade Pessoal',
+  buildClassTitle: 'Habilidades de Classe',
+  buildEquipTitle: 'Habilidades Equipáveis',
+  buildLevelShort: 'Nv.',
+  buildClassUnlock: 'Classe',
+  buildNoClassYet: 'Sem classe neste nível: as habilidades de classe começam no nível 5.',
+  buildClassNote: 'Vale só a classe do último tier atingido; não acumula.',
+  buildEquipNote: 'Escolha até 5 habilidades (Skill e Class Mastery). As habilidades pessoais e de classe já estão incluídas.',
+  buildEquipped: 'Equipadas',
+  buildSearch: 'Buscar habilidade…',
+  buildMastery: 'Class Mastery',
+  buildRankSkill: 'Skill',
+  buildRemove: 'Remover',
+  buildNone: 'Vaga livre',
+  buildCombatArt: 'Arte de Combate',
+  wikiCredit: 'Habilidades equipáveis:',
   simEntryLevel: 'Nível de entrada',
   simEntryShort: 'entrada',
   simTargetLevel: 'Nível a simular',

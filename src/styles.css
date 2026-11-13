@@ -53,6 +53,7 @@ select, input[type=search] { min-height:44px; background:var(--card); color:var(
 select { max-width:100%; }
 main { max-width:1200px; margin:0 auto; padding:24px 16px 32px; }
 .search { width:100%; max-width:360px; margin-bottom:16px; }
+.table-wrap + .search { margin-top:20px; }
 .empty { padding:24px 0; color:var(--muted); }
 
 /* Cards */
@@ -130,3 +131,8 @@ input[type=range] { width:100%; min-height:44px; accent-color:var(--gold); }
 
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior:auto !important; transition:none !important; } }
 .home-tiles span { display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+h4 { margin:20px 0 8px; }
+.tag { display:inline-block; margin-left:6px; padding:1px 8px; border:1px solid var(--gold-dim); border-radius:999px; color:var(--gold); font-size:12px; font-weight:400; vertical-align:middle; }
+.chip { min-width:36px; min-height:36px; padding:0 12px; background:var(--gold); border:1px solid var(--gold); border-radius:999px; color:var(--bg); font:inherit; font-weight:700; cursor:pointer; }
+tr.selected td, tr.selected th { background:rgba(255,255,255,.06); }
+td input[type=checkbox] { width:20px; height:20px; accent-color:var(--gold); }

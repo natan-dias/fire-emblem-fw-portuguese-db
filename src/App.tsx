@@ -8,7 +8,7 @@ import Paralogues from './pages/Paralogues'
 import Spells from './pages/Spells'
 import Growths from './pages/Growths'
 import Simulator from './pages/Simulator'
-import BaseStatsSimulator from './pages/BaseStatsSimulator'
+import BuildSimulator from './pages/BuildSimulator'
 import Mounts from './pages/Mounts'
 import Battalions from './pages/Battalions'
 import Classes, { classTiers } from './pages/Classes'
@@ -76,11 +76,12 @@ function SimulatorTabs() {
       <h2>{t.simulator}</h2>
       <nav className="subnav">
         <NavLink to="/simulador/crescimento">{t.simGrowthTab}</NavLink>
-        <NavLink to="/simulador/atributos-base">{t.simBaseTab}</NavLink>
+        <NavLink to="/simulador/build">{t.simBaseTab}</NavLink>
       </nav>
       <Routes>
         <Route path="crescimento" element={<Simulator />} />
-        <Route path="atributos-base" element={<BaseStatsSimulator />} />
+        <Route path="build" element={<BuildSimulator />} />
+        <Route path="atributos-base" element={<Navigate to="/simulador/build" replace />} />
       </Routes>
     </>
   )
@@ -168,6 +169,10 @@ export default function App() {
       <footer className="footer">
         {t.credit}{' '}
         <a href="https://fefw-planner-server.vercel.app" target="_blank" rel="noreferrer">Fortune Weaver</a>
+        <div>
+          {t.wikiCredit}{' '}
+          <a href="https://fireemblemwiki.org/wiki/List_of_abilities_in_Fire_Emblem:_Fortune%27s_Weave" target="_blank" rel="noreferrer">Fire Emblem Wiki</a> (CC BY-SA)
+        </div>
         <div>
           {t.followMe}{' '}
           <a href="https://www.youtube.com/@velhotejogador" target="_blank" rel="noreferrer">YouTube @velhotejogador</a>

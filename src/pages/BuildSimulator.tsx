@@ -5,6 +5,7 @@ import { characters } from '../characters'
 import { classBonuses } from '../classBonuses'
 import { classGrowths, unitGrowths } from '../growths'
 import { useI18n } from '../i18n'
+import BuildSkills from './BuildSkills'
 import type { Growths, StatKey } from '../types'
 
 const stats: StatKey[] = ['hp', 'str', 'mag', 'spd', 'dex', 'def', 'res', 'lck', 'cha']
@@ -26,7 +27,7 @@ const specialtyClasses = classGrowths.filter((c) => c.tier === 'Specialty')
 const advancedClasses = classGrowths.filter((c) => c.tier === 'Advanced')
 const masterClasses = classGrowths.filter((c) => c.tier === 'Master')
 
-export default function BaseStatsSimulator() {
+export default function BuildSimulator() {
   const { t } = useI18n()
   const [unitId, setUnitId] = useState(units[0]?.id ?? '')
   const [entry, setEntry] = useState(1)
@@ -46,6 +47,8 @@ export default function BaseStatsSimulator() {
     advanced: classGrowths.find((c) => c.id === advancedId),
     master: classGrowths.find((c) => c.id === masterId),
   }
+  // Class abilities come from the highest tier already reached with a class picked (not cumulative).
+  const activeClass = tiers.map((tier, i) => (level >= tierLevels[i] ? picked[tier] : undefined)).filter(Boolean).pop()
   const mods = {
     beginner: picked.beginner?.growths ?? {},
     specialty: picked.specialty?.growths ?? {},
@@ -184,6 +187,7 @@ export default function BaseStatsSimulator() {
           </tbody>
         </table>
       </div>
+      <BuildSkills unitId={unit.id} level={level} classId={activeClass?.id} />
     </>
   )
 }

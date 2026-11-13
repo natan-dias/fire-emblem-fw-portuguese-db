@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Swords",
+    "description": "When equipped with a sword, grant Hit+3/Hit+5/Hit/Avo+5/Hit/Avo+7/Hit/Avo+10.",
+    "unlock": "Sword D+/C+/B+/A+/S"
+  },
+  {
+    "name": "Swordfaire",
+    "description": "When equipped with a sword, grants Hit/Avo+10, Atk+3.",
+    "unlock": "Sword S+"
+  },
+  {
+    "name": "Spears",
+    "description": "When equipped with a spear, grant Hit+3/Hit+5/Hit/Avo+5/Hit/Avo+7/Hit/Avo+10.",
+    "unlock": "Spear D+/C+/B+/A+/S"
+  },
+  {
+    "name": "Spearfaire",
+    "description": "When equipped with a spear, grants Hit/Avo+10, Atk+3.",
+    "unlock": "Spear S+"
+  },
+  {
+    "name": "Axes",
+    "description": "When equipped with an axe, grant Hit+3/Hit+5/Hit/Avo+5/Hit/Avo+7/Hit/Avo+10.",
+    "unlock": "Axe D+/C+/B+/A+/S"
+  },
+  {
+    "name": "Axefaire",
+    "description": "When equipped with an axe, grants Hit/Avo+10, Atk+3.",
+    "unlock": "Axe S+"
+  },
+  {
+    "name": "Bows",
+    "description": "When equipped with a bow, grant Hit+3/Hit+5/Hit/Avo+5/Hit/Avo+7/Hit/Avo+10.",
+    "unlock": "Bow D+/C+/B+/A+/S"
+  },
+  {
+    "name": "Bowfaire",
+    "description": "When equipped with a bow, grants Hit/Avo+10, Atk+3.",
+    "unlock": "Bow S+"
+  },
+  {
+    "name": "Fists",
+    "description": "When equipped with a gauntlet, grant Hit+3/Hit+5/Hit/Avo+5/Hit/Avo+7/Hit/Avo+10.",
+    "unlock": "Gauntlets D+/C+/B+/A+/S"
+  },
+  {
+    "name": "Fistfaire",
+    "description": "When equipped with a gauntlet, grants Hit/Avo+10, Atk+3.",
+    "unlock": "Gauntlets S+"
+  },
+  {
+    "name": "Black Magic",
+    "description": "When equipped with black magic, grant Hit+3/Hit+5/Hit/Avo+5/Hit/Avo+7/Hit/Avo+10.",
+    "unlock": "Black Magic D+/C+/B+/A+/S"
+  },
+  {
+    "name": "Black-Magic Mastery",
+    "description": "When equipped with black magic, grants Hit/Avo+10, Atk+3.",
+    "unlock": "Black Magic S+"
+  },
+  {
+    "name": "White Magic",
+    "description": "When equipped with white magic, grant Hit+3/Hit+5/Hit/Avo+5/Hit/Avo+7/Hit/Avo+10.",
+    "unlock": "White Magic D+/C+/B+/A+/S"
+  },
+  {
+    "name": "White-Magic Mastery",
+    "description": "When equipped with white magic, grants Hit/Avo+10, Atk+3.",
+    "unlock": "White Magic S+"
+  },
+  {
+    "name": "Attack Formation",
+    "description": "Grants Atk+1 to adjacent allies.",
+    "unlock": "Authority D/C"
+  },
+  {
+    "name": "Attack Formation+",
+    "description": "Grants Atk+2 to adjacent allies.",
+    "unlock": "Authority B/A"
+  },
+  {
+    "name": "Defense Formation",
+    "description": "Grants Shld+1 to adjacent allies.",
+    "unlock": "Authority D/C/B"
+  },
+  {
+    "name": "Defense Formation+",
+    "description": "Grants Shld+2 to adjacent allies.",
+    "unlock": "Authority B/A"
+  },
+  {
+    "name": "Rein",
+    "description": "Inflicts Avo-3 on adjacent foes.",
+    "unlock": "Authority D/C"
+  },
+  {
+    "name": "Rein+",
+    "description": "Inflicts Avo-5 on adjacent foes.",
+    "unlock": "Authority B/A"
+  },
+  {
+    "name": "Distraction",
+    "description": "Inflicts Hit-3 on adjacent foes.",
+    "unlock": "Authority D/C"
+  },
+  {
+    "name": "Distraction+",
+    "description": "Inflicts Hit-5 on adjacent foes.",
+    "unlock": "Authority B/A"
+  },
+  {
+    "name": "Threaten",
+    "description": "Inflicts Crit-5 on adjacent foes.",
+    "unlock": "Authority D/C"
+  },
+  {
+    "name": "Threaten+",
+    "description": "Inflicts Crit-10 on adjacent foes.",
+    "unlock": "Authority B/A"
+  },
+  {
+    "name": "Counter Cavalry",
+    "description": "Inflicts Hit/Avo-5 on cavalry foes within 2 spaces.",
+    "unlock": "Authority C/B/A"
+  },
+  {
+    "name": "Counter Mages",
+    "description": "Inflicts Hit/Avo-5 on magic foes within 2 spaces.",
+    "unlock": "Authority B"
+  },
+  {
+    "name": "Counter Snipers",
+    "description": "Inflicts Hit/Avo-5 on bow foes within 2 spaces.",
+    "unlock": "Authority C/B"
+  },
+  {
+    "name": "Frontline Gambit",
+    "description": "After using an offensive gambit, grants Atk+5 until unit's next phase.",
+    "unlock": "Authority S"
+  },
+  {
+    "name": "Gambit Mastery",
+    "description": "Grants +1 use to gambits.",
+    "unlock": "Authority S+"
+  },
+  {
+    "name": "Evasion",
+    "description": "[Infantry] Grants Avo+100 when attacked. Trigger % = 3.",
+    "unlock": "Infantry D/C"
+  },
+  {
+    "name": "Evasion+",
+    "description": "[Infantry] Grants Avo+100 when attacked. Trigger % = 5.",
+    "unlock": "Infantry B/A/S"
+  },
+  {
+    "name": "Dodge",
+    "description": "[Infantry] If foe uses a bow or magic, grants Avo+5 to unit during combat.",
+    "unlock": "Infantry D/C/B"
+  },
+  {
+    "name": "Dodge+",
+    "description": "[Infantry] If foe uses a bow or magic, grants Avo+10 to unit during combat.",
+    "unlock": "Infantry B/A/S"
+  },
+  {
+    "name": "Avoid Fatality",
+    "description": "[Infantry] Grants Ddg+10 when attacked. Trigger % = 10.",
+    "unlock": "Infantry D/C"
+  },
+  {
+    "name": "Avoid Fatality+",
+    "description": "[Infantry] Grants Ddg+10 when attacked. Trigger % = 20.",
+    "unlock": "Infantry B/A/S"
+  },
+  {
+    "name": "Close Quarters",
+    "description": "[Infantry] Inflicts Mov-1 on adjacent foes.",
+    "unlock": "Infantry D/C"
+  },
+  {
+    "name": "Close Quarters+",
+    "description": "[Infantry] Inflicts Mov-2 on adjacent foes.",
+    "unlock": "Infantry B/A/S"
+  },
+  {
+    "name": "Steady Shot",
+    "description": "[Infantry] When unit is equipped with a bow or magic, grants Hit+5.",
+    "unlock": "Infantry D/C"
+  },
+  {
+    "name": "Steady Shot+",
+    "description": "[Infantry] When unit is equipped with a bow or magic, grants Hit+10.",
+    "unlock": "Infantry B/A/S"
+  },
+  {
+    "name": "Positioning",
+    "description": "[Infantry] If unit is on favorable terrain, grants Avo+10 during combat.",
+    "unlock": "Infantry D/C"
+  },
+  {
+    "name": "Positioning+",
+    "description": "[Infantry] If unit is on favorable terrain, grants Avo+15, Shld+3 during combat.",
+    "unlock": "Infantry B/S"
+  },
+  {
+    "name": "Sniper Evasion",
+    "description": "[Infantry] Grants Avo+10 during combat against a foe 3+ spaces away.",
+    "unlock": "Infantry C/B"
+  },
+  {
+    "name": "Sniper Evasion+",
+    "description": "[Infantry] Grants Avo+20 during combat against a foe 3+ spaces away.",
+    "unlock": "Infantry B/A/S"
+  },
+  {
+    "name": "Surprise Attack",
+    "description": "[Infantry] If unit is on favorable terrain, grants Hit+15 during combat.",
+    "unlock": "Infantry C/B"
+  },
+  {
+    "name": "Close-Call Evasion",
+    "description": "[Infantry] If unit HP ≤ 50%, grants Avo+20 during combat.",
+    "unlock": "Infantry C/B"
+  },
+  {
+    "name": "Pass",
+    "description": "[Infantry] Unit can move through foe's space.",
+    "unlock": "Infantry B/S"
+  },
+  {
+    "name": "Infantry Move",
+    "description": "[Infantry] Applies -1 to movement cost for terrain (cannot be reduced below 1).",
+    "unlock": "Infantry A"
+  },
+  {
+    "name": "Infantry Move+",
+    "description": "[Infantry] Applies -2 to movement cost for terrain (cannot be reduced below 1).",
+    "unlock": "Infantry S+"
+  },
+  {
+    "name": "Combat Advantage",
+    "description": "[Infantry] If unit is on favorable terrain, grants Atk+5 during combat.",
+    "unlock": "Infantry S"
+  },
+  {
+    "name": "Infantry Canto",
+    "description": "[Infantry] After combat, unit can move up to 1 space.",
+    "unlock": "Infantry S"
+  },
+  {
+    "name": "Knightly Senses",
+    "description": "If foe uses a spear, grants Avo+10 to unit during combat.",
+    "unlock": "Riding D"
+  },
+  {
+    "name": "Vanguard",
+    "description": "[Cavalry] If unit attacks first, grants Shld+2 during combat.",
+    "unlock": "Riding C+"
+  },
+  {
+    "name": "Vanguard+",
+    "description": "[Cavalry] If unit attacks first, grants Shld+4 during combat.",
+    "unlock": "Riding S"
+  },
+  {
+    "name": "Cavalry Move",
+    "description": "[Cavalry] Applies -1 to movement cost for terrain (cannot be reduced below 1).",
+    "unlock": "Riding A"
+  },
+  {
+    "name": "Cavalry Move+",
+    "description": "[Cavalry] Applies -2 to movement cost for terrain (cannot be reduced below 1).",
+    "unlock": "Riding S+"
+  },
+  {
+    "name": "Crit Defense",
+    "description": "Unit takes half damage when attacked with a critical. Trigger % = 30.",
+    "unlock": "Heavy Armor D"
+  },
+  {
+    "name": "Narrow Defense",
+    "description": "Grants Shld+3 when attacked. Trigger % = 25.",
+    "unlock": "Heavy Armor D"
+  },
+  {
+    "name": "Spearblock",
+    "description": "[Armored] If foe uses a spear, grants Shld+5 to unit during combat.",
+    "unlock": "Heavy Armor D/C/B"
+  },
+  {
+    "name": "Bowblock",
+    "description": "[Armored] If foe uses a bow, grants Shld+5 to unit during combat.",
+    "unlock": "Heavy Armor D/C"
+  },
+  {
+    "name": "Armored Move",
+    "description": "[Armored] Grants Mov+1.",
+    "unlock": "Heavy Armor D/C/B"
+  },
+  {
+    "name": "Armored Move+",
+    "description": "[Armored] Grants Mov+2.",
+    "unlock": "Heavy Armor C/B/S"
+  },
+  {
+    "name": "Armored Leap",
+    "description": "[Armored] Grants Avo+10.",
+    "unlock": "Heavy Armor D/C/B"
+  },
+  {
+    "name": "Armored Leap+",
+    "description": "[Armored] Grants Avo+20.",
+    "unlock": "Heavy Armor B/S"
+  },
+  {
+    "name": "Resistant Armor",
+    "description": "[Armored] Grants Res+5.",
+    "unlock": "Heavy Armor C/B"
+  },
+  {
+    "name": "Resistant Armor+",
+    "description": "[Armored] Grants Res+10.",
+    "unlock": "Heavy Armor B"
+  },
+  {
+    "name": "Armored Combat",
+    "description": "[Armored] Grants Dex+5.",
+    "unlock": "Heavy Armor D/C/B"
+  },
+  {
+    "name": "Armored Combat+",
+    "description": "[Armored] Grants Dex+10.",
+    "unlock": "Heavy Armor B"
+  },
+  {
+    "name": "Heavy Break",
+    "description": "[Armored] Multiplies damage by 1.5 when attacking. Trigger % = Def ÷ 2.",
+    "unlock": "Heavy Armor C/B"
+  },
+  {
+    "name": "Heavy Break+",
+    "description": "[Armored] Multiplies damage by 2 when attacking. Trigger % = Def ÷ 2.",
+    "unlock": "Heavy Armor B"
+  },
+  {
+    "name": "Build",
+    "description": "Grants Bld+5.",
+    "unlock": "Heavy Armor A"
+  },
+  {
+    "name": "Build+",
+    "description": "Grants Bld+10.",
+    "unlock": "Heavy Armor S+"
+  },
+  {
+    "name": "Healing Armor",
+    "description": "[Armored] Unit recovers HP equal to half the damage they deal when attacking. Trigger % = Mag.",
+    "unlock": "Heavy Armor B/S"
+  },
+  {
+    "name": "Counterflurry",
+    "description": "If foe attacks first, unit makes a follow-up regardless of AS during combat. Trigger % = 20.",
+    "unlock": "Heavy Armor S"
+  },
+  {
+    "name": "Pursuit Defense",
+    "description": "Unit takes half damage when attacked by a follow-up. Trigger % = 50.",
+    "unlock": "Heavy Armor B/S"
+  },
+  {
+    "name": "Absolute Defense",
+    "description": "[Armored] Grants Shld+10 when attacked. Trigger % = 10.",
+    "unlock": "Heavy Armor C/B"
+  },
+  {
+    "name": "Absolute Defense+",
+    "description": "[Armored] Grants Shld+10 when attacked. Trigger % = 20.",
+    "unlock": "Heavy Armor B/S"
+  },
+  {
+    "name": "Strength Fend",
+    "description": "Unit takes half damage when attacked. Trigger % = Str ÷ 2.",
+    "unlock": "Heavy Armor B/S"
+  },
+  {
+    "name": "Magic Fend",
+    "description": "Unit takes half damage when attacked. Trigger % = Mag ÷ 2.",
+    "unlock": "Heavy Armor B/S"
+  },
+  {
+    "name": "Dexterity Fend",
+    "description": "Unit takes half damage when attacked. Trigger % = Dex ÷ 2.",
+    "unlock": "Heavy Armor A/S"
+  },
+  {
+    "name": "Defense Fend",
+    "description": "Unit takes half damage when attacked. Trigger % = Def ÷ 2.",
+    "unlock": "Heavy Armor S"
+  },
+  {
+    "name": "Luck Fend",
+    "description": "Unit takes half damage when attacked. Trigger % = Lck ÷ 2.",
+    "unlock": "Heavy Armor S"
+  },
+  {
+    "name": "Read the Winds",
+    "description": "If foe uses a bow, grants Avo+10 to unit during combat.",
+    "unlock": "Flying D"
+  },
+  {
+    "name": "Flitting Flier",
+    "description": "[Flying] If unit attacks first, grants AS+2 during combat.",
+    "unlock": "Flying C+"
+  },
+  {
+    "name": "Flitting Flier+",
+    "description": "[Flying] If unit attacks first, grants AS+4 during combat.",
+    "unlock": "Flying S"
+  },
+  {
+    "name": "Airfighter",
+    "description": "[Flying] If unit attacks first, grants Hit+5 during combat.",
+    "unlock": "Flying A"
+  },
+  {
+    "name": "Airfighter+",
+    "description": "[Flying] If unit attacks first, grants Hit+10 during combat.",
+    "unlock": "Flying S+"
+  }
+]

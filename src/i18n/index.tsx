@@ -12,6 +12,8 @@ import artsBR from './arts.pt-BR.json'
 import artsPT from './arts.pt-PT.json'
 import abilitiesBR from './class-abilities.pt-BR.json'
 import abilitiesPT from './class-abilities.pt-PT.json'
+import skillAbilitiesBR from './skill-abilities.pt-BR.json'
+import skillAbilitiesPT from './skill-abilities.pt-PT.json'
 import mountEffectsBR from './mount-effects.pt-BR.json'
 import mountEffectsPT from './mount-effects.pt-PT.json'
 
@@ -31,8 +33,8 @@ const artText: Record<Lang, Record<string, string>> = {
 }
 
 const abilityText: Record<Lang, Record<string, string>> = {
-  'pt-BR': abilitiesBR,
-  'pt-PT': { ...abilitiesBR, ...abilitiesPT },
+  'pt-BR': { ...abilitiesBR, ...skillAbilitiesBR },
+  'pt-PT': { ...abilitiesBR, ...skillAbilitiesBR, ...abilitiesPT, ...skillAbilitiesPT },
 }
 
 const mountEffectText: Record<Lang, Record<string, string>> = {

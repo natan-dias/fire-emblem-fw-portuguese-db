@@ -152,6 +152,61 @@ await writeFile('src/data/battalions.json', JSON.stringify(battalions, null, 2) 
 // Classes: full info + portraits. Ability descriptions are translated in src/i18n (keyed by the English text).
 await mkdir('public/portraits/classes', { recursive: true })
 const ability = (a) => (a?.name ? { name: a.name, description: a.description ?? '' } : null)
+// Skill Rank abilities (equippable) + mastery descriptions come from the Fire Emblem Wiki (CC BY-SA) list page.
+// If the wiki is unreachable, the existing src/data/skill-abilities.json is kept.
+const WIKI = 'https://fireemblemwiki.org/wiki/List_of_abilities_in_Fire_Emblem:_Fortune%27s_Weave'
+const wikiText = (h) =>
+  h
+    .replace(/<img[^>]*alt="([^"]*)"[^>]*>/g, ' $1 ')
+    .replace(/<br\s*\/?>/g, ' ')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&').replace(/&#160;|&nbsp;/g, ' ').replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/\s+/g, ' ')
+    .trim()
+const wikiRows = (html, id) => {
+  const start = html.indexOf(`id="${id}"`)
+  const end = html.indexOf('<h2', start + 10)
+  const table = html.slice(html.indexOf('<table', start), end < 0 ? undefined : end)
+  return [...table.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)]
+    .map((m) => [...m[1].matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/g)].map((c) => wikiText(c[1])))
+    .filter((r) => r.length === 4 && r[1] !== 'Ability')
+    .map(([, name, description, unlock]) => ({ name, description, unlock }))
+}
+let masteryWiki = {}
+let classWiki = {} // class name -> [{ name, description }] from the wiki's Class abilities table
+try {
+  const res = await fetch(WIKI, { headers: { 'User-Agent': 'fefw-pt-db-build-script' } })
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  const html = await res.text()
+  const skillAbilities = wikiRows(html, 'Skill_abilities')
+  if (skillAbilities.length < 50) throw new Error(`only ${skillAbilities.length} skill abilities parsed`)
+  await writeFile('src/data/skill-abilities.json', JSON.stringify(skillAbilities, null, 2) + '\n')
+  masteryWiki = Object.fromEntries(wikiRows(html, 'Class_mastery_abilities').flatMap((r) => r.unlock.split(', ').map((cls) => [cls, { name: r.name, description: r.description }])))
+  for (const r of wikiRows(html, 'Class_abilities')) {
+    for (const cls of r.unlock.split(', ')) (classWiki[cls] ??= []).push({ name: r.name, description: r.description })
+  }
+  console.log(`${skillAbilities.length} skill abilities from the wiki`)
+} catch (e) {
+  console.warn('wiki abilities skipped (kept existing file):', e.message)
+}
+// Mastery abilities the source lacks a description for (e.g. "HP +5?") fall back to the wiki entry for that class.
+const withMastery = (a, className) => (a && !a.description && masteryWiki[className] ? masteryWiki[className] : a)
+// The source misses or mis-values a few class abilities; these classes are corrected from the wiki
+// (everything else is kept as in the source). Matching ignores the "[CA] " tag and trailing numbers.
+const WIKI_FIXED_CLASSES = ['Celestial Trooper', 'Great Knight', 'Valkyrium']
+const stem = (n) => n.replace(/^\[CA\] /, '').replace(/ [+-]?\d+$/, '')
+const mergeClassAbilities = (list, className) => {
+  if (!WIKI_FIXED_CLASSES.includes(className)) return list
+  const out = [...list]
+  for (const w of classWiki[className] ?? []) {
+    if (out.some((a) => a.name === w.name)) continue
+    const i = out.findIndex((a) => stem(a.name) === stem(w.name))
+    if (i < 0) out.push(w)
+    else out[i] = w
+  }
+  return out
+}
 const classes = []
 for (const c of db.classes) {
   const file = `${slug(c.name)}${c.portrait.slice(c.portrait.lastIndexOf('.'))}`
@@ -169,8 +224,8 @@ for (const c of db.classes) {
     skills: [...(c.primarySkills ?? []), ...(c.secondarySkills ?? [])].map((s) => ({ type: s.skillTypeId, grade: s.grade })),
     bonusExp: c.bonusExp ?? [],
     growths: c.growthMods ?? {},
-    abilities: (c.classAbilities ?? []).map(ability).filter(Boolean),
-    mastered: ability(c.masteredAbility),
+    abilities: mergeClassAbilities((c.classAbilities ?? []).map(ability).filter(Boolean), c.name),
+    mastered: withMastery(ability(c.masteredAbility), c.name),
   })
 }
 await writeFile('src/data/classes.json', JSON.stringify(classes, null, 2) + '\n')
